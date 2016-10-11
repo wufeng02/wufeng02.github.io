@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+       
+        <meta name="robots" content="NOODP"/>
+        <meta name="msvalidate.01" content="7662302B2EE2DF855D33DA34FD827164"/>
+        <meta name="google-site-verification" content="Nj_dp8eZCY7mCHa7wHJz4MXpILpTh7vii2xAujBW5Zg"/>
+
+        <meta name="author" content="Feng Wu (吴锋)"/>
+        <meta name="keywords" content="Feng Wu, 吴锋, USTC, 中科大, CS, 计算机, Robots, 机器人, Agents, 智能体, MDP, POMDP, DEC-POMDP, DCOP"/>
+        <meta name="description" content="Dr. Feng Wu is an Associate Researcher of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
+                
+        <title>Feng Wu (吴锋) | Publication</title>
+
+        <link rel="canonical" href="/publication.html"/>
+        <link rel="alternate" hreflang="x-default" href="/publication.html"/>
+        <link rel="alternate" hreflang="en" href="/publication.html?lang=en"/>
+        <link rel="alternate" hreflang="zh" href="/publication.html?lang=zh"/>
+
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+
+        <!-- Bootstrap core CSS -->
+        <link href="/lib/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom styles for this template -->
+        <style type="text/css">
+            :lang(zh) { display: none; }
+            
+            .publication { margin-bottom: 30px; }
+            .paper { margin-bottom: 15px; }
+            .note { color: green; font-weight: bold; }
+            .abstract { margin-top: 10px; }
+            .bibtex { margin-top: 10px; white-space:pre-wrap; }
+            .well:hover { box-shadow: 2px 2px 5px rgba(0,0,0,.2); }
+            .toggle { border: 0; }
+        </style>
+        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    	<![endif]-->
+    </head>
+    <body>
+
+        <header style="margin-top: 20px;">
+            <div class="container">
+                <div class="pull-right hidden-print">
+                    <button type="button" onclick="$.translate('en');" class="btn btn-default btn-raised" lang="zh">ENGLISH</button> 
+                    <button type="button" onclick="$.translate('zh');" class="btn btn-default btn-raised" lang="en">&#20013;&#25991;&#29256;</button>
+                </div> <br/> <br/>
+            
+                <div class="carousel slide pull-right" style="margin-top: 20px; margin-bottom: 10px;">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/img/fengwu.jpg" class="img-rounded img-responsive" 
+                                style="max-width: 320px; width: 95%; float: right;" alt="Photo of Feng Wu (吴锋)"/>
+                            <div class="carousel-caption hidden-print" style="top: 0px;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2 class="text-left text-primary">
+                    <span onmouseover="new Audio('/img/fengwu.mp3').play();">
+                        <span lang="en">Feng Wu</span> <span lang="zh">吴锋</span> 
+                    </span>
+                </h2>
+                <address style="display: block;"> <br>
+                    <strong><span lang="en">Associate Researcher</span> <span lang="zh">副研究员</span> </strong> <br/>
+                    <a href="http://ai.ustc.edu.cn">
+                        <span lang="en">Multi-Agent Systems Laboratory</span> <span lang="zh">多智能体系统实验室</span> 
+                    </a> <br/>
+                    <a href="http://cs.ustc.edu.cn/">
+                        <span lang="en">School of Computer Science and Technology</span> <span lang="zh">计算机科学与技术学院</span> 
+                    </a> <br/>
+                    <a href="http://www.ustc.edu.cn/">
+                        <span lang="en">University of Science and Technology of China</span> <span lang="zh">中国科学技术大学</span> 
+                    </a>
+                </address>
+                <address style="display: block;"> 
+                    <b><span lang="en">Address</span> <span lang="zh">地址</span> : </b> <br/> 
+                    <span lang="en">443 Huangshan Road, USTC, <br/> Hefei, Anhui, 230027, China.</span> <span lang="zh">安徽省合肥市黄山路443号 <br/> 中国科学技术大学西校区</span> 
+                    <span class="hidden-print">[
+                        <a href="/map.html?center=117.258231,31.841158&zoom=16&markers=117.258231,31.841158" target="_blank">
+                            <span lang="en">Map</span> <span lang="zh">地图</span> 
+                        </a>
+                    ]</span>
+                </address>
+                <address style="display: block;"> 
+                    <strong><span lang="en">Email</span> <span lang="zh">电子邮件</span> : </strong> <br/> 
+                    <script type="text/javascript">
+                        var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
+                        document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
+                    </script>
+                    <noscript>
+                        <img src="/img/email.png" alt="Email"/>
+                    </noscript>
+                </address>
+                <br/>
+                
+                <nav class="navbar hidden-print">
+                    <ul class="nav nav-tabs">
+                        <li class="">
+                            <a href="/index.html"><span lang="en">Home</span> <span lang="zh">首页</span> </a>
+                        </li>
+                        <li class="">
+                            <a href="/cv.html"><span lang="en">CV</span> <span lang="zh">简历</span> </a>
+                        </li>
+                        <li class="active">
+                            <a href="/publication.html"><span lang="en">Publication</span> <span lang="zh">论文</span> </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="container">
+            <div class="dropdown">
+                <h4 class="text-left text-primary page-header dropdown-toggle"
+                    data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span lang="en">Publications</span> <span lang="zh">发表论文</span>  
+                    <span class="caret hidden-print"></span>
+                </h4>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header"><span lang="en">Year</span> <span lang="zh">年份</span> </li>
+                    <li><a class="page-scroll" href="#2015">2015</a></li>
+                    <li><a class="page-scroll" href="#2014">2014</a></li>
+                    <li><a class="page-scroll" href="#2013">2013</a></li>
+                    <li><a class="page-scroll" href="#2012">2012</a></li>
+                    <li><a class="page-scroll" href="#2011">2011</a></li>
+                    <li><a class="page-scroll" href="#2010">2010</a></li>
+                    <li><a class="page-scroll" href="#2009">2009</a></li>
+                    <li><a class="page-scroll" href="#2007">2007</a></li>
+                    <li><a class="page-scroll" href="#2005">2005</a></li>
+                </ul>
+            </div>
+        
+            <div class="container">
+                <h4 id="2015" class="year">2015</h4>
+                <ul class="publication">
+                    <li id="BWCtist15" class="paper article">
+                        <a class="title" href="/doc/pdf/BWCtist15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Online Planning for Large Markov Decision Processes with Hierarchical Decomposition
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Aijun Bai, <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        <i>ACM Transactions on Intelligent Systems and Technology (<b>ACM TIST</b>)</i>,
+                        
+                        
+                        
+                        
+        Volume 6(4), Number 45, August, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BWCtist15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCtist15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/BWCtist15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCtist15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="BWCtist15-abs">
+                            <span class="close">&times;</span>
+                            <detail>Markov decision processes (MDPs) provide a rich framework for planning under uncertainty. However, exactly solving a large MDP is usually intractable due to the ''curse of dimensionality'' - the state space grows exponentially with the number of state variables. Online algorithms tackle this problem by avoiding computing a policy for the entire state space. On the other hand, since online algorithm has to find a near-optimal action online in almost real time, the computation time is often very limited. In the context of reinforcement learning, MAXQ is a value function decomposition method that exploits the underlying structure of the original MDP and decomposes it into a combination of smaller subproblems arranged over a task hierarchy. In this article, we present MAXQ-OP—a novel online planning algorithm for large MDPs that utilizes MAXQ hierarchical decomposition in online settings. Compared to traditional online planning algorithms, MAXQ-OP is able to reach much more deeper states in the search tree with relatively less computation time by exploiting MAXQ hierarchical decomposition online. We empirically evaluate our algorithm in the standard Taxi domain—a common benchmark for MDPs—to show the effectiveness of our approach. We have also conducted a long-term case study in a highly complex simulated soccer domain and developed a team named WrightEagle that has won five world champions and five runners-up in the recent 10 years of RoboCup Soccer Simulation 2D annual competitions. The results in the RoboCup domain confirm the scalability of MAXQ-OP to very large domains.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="BWCtist15-bib"><span class="close">&times;</span><code>@article{BWCtist15,
+         author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+         journal = {ACM Transactions on Intelligent Systems and Technology (ACM TIST)},
+         month = {August},
+         number = {45},
+         title = {Online Planning for Large Markov Decision Processes with Hierarchical Decomposition},
+         volume = {6(4)},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="CCTrobocup15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/CCTrobocup15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Synthetical Benchmarking of Service Robots: A First Effort on Domestic Mobile Platforms
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Min Cheng, Xiaoping Chen, Keke Tang, <u>Feng Wu</u>, Andras Kupcsik, Luca Iocchi, Yingfeng Chen, David Hsu
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the Robot World Cup XIX Symposium (<b>RoboCup</b>)</i>,
+                        
+                        
+                        
+        Volume 9513, Page 377-388, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/CCTrobocup15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CCTrobocup15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/CCTrobocup15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CCTrobocup15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="CCTrobocup15-abs">
+                            <span class="close">&times;</span>
+                            <detail>Most of existing benchmarking tools for service robots are basically qualitative, in which a robot's performance on a task is evaluated based on completion/incompletion of actions contained in the task. In the effort reported in this paper, we tried to implement a synthetical benchmarking system on domestic mobile platforms. Synthetical bench- marking consists of both qualitative and quantitative aspects, such as task completion, accuracy of task completions and efficiency of task completions, about performance of a robot. The system includes a set of algorithms for collecting, recording and analyzing measurement data from a MoCap system. It was used as the evaluator in a competition called the BSR challenge, in which 10 teams participated, at RoboCup 2015. The paper presents our motivations behind synthetical benchmarking, the design considerations on the synthetical benchmarking system, the realization of the competition as a comparative study on performance evaluation of domestic mobile platforms, and an analysis of the teams' performance.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="CCTrobocup15-bib"><span class="close">&times;</span><code>@inproceedings{CCTrobocup15,
+         author = {Min Cheng and Xiaoping Chen and Keke Tang and Feng Wu and Andras Kupcsik and Luca Iocchi and Yingfeng Chen and David Hsu},
+         booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
+         pages = {377-388},
+         title = {Synthetical Benchmarking of Service Robots: A First Effort on Domestic Mobile Platforms},
+         volume = {9513},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="CWSicsr15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/CWSicsr15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            KeJia Robot - an Attractive Shopping Mall Guider
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Yingfeng Chen, <u>Feng Wu</u>, Wei Shuai, Ningyang Wang, Rongya Chen, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 7th International Conference on Social Robotics (<b>ICSR</b>)</i>,
+                        
+                        
+                        
+        Page 145-154, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/CWSicsr15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSicsr15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/CWSicsr15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSicsr15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="CWSicsr15-abs">
+                            <span class="close">&times;</span>
+                            <detail>This paper reports the project of a shopping mall guide robot, named KeJia, which is designed for customer navigation, informa- tion providing and entertainment in a real environment. Our introduction focuses on the designs of robot's hardware and software, faced challenges and the multimodal interaction methods including using a mobile phone app. In order to adapt the current localization and navigation techniques to such large and complex shopping mall environment, a series of related improvements and new methods are proposed. The robot is deployed in a large shopping mall for field test and stable operation for a fairly long time. The result demonstrates the stability, validity and feasibility of this robot system, and gives a positive reward to our original design motivation.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="CWSicsr15-bib"><span class="close">&times;</span><code>@inproceedings{CWSicsr15,
+         author = {Yingfeng Chen and Feng Wu and Wei Shuai and Ningyang Wang and Rongya Chen and Xiaoping Chen},
+         booktitle = {Proceedings of the 7th International Conference on Social Robotics (ICSR)},
+         pages = {145-154},
+         title = {KeJia Robot - an Attractive Shopping Mall Guider},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="CWSieee15" class="paper article">
+                        <a class="title" href="/doc/pdf/CWSieee15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Decentralized Patrolling Under Constraints in Dynamic Environments
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Shaofei Chen, <u>Feng Wu</u>, Lincheng Shen, Jing Chen, Sarvapali D Ramchurn
+                        </span> <br/>
+        
+                        <i>IEEE Transactions on Cybernetics (<b>IEEE SMC</b>)</i>,
+                        
+                        
+                        
+                        
+        Page 1-13, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/CWSieee15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSieee15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/CWSieee15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSieee15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="CWSieee15-abs">
+                            <span class="close">&times;</span>
+                            <detail>We investigate a decentralized patrolling problem for dynamic environments where information is distributed alongside threats. In this problem, agents obtain information at a location, but may suffer attacks from the threat at that location. In a decentralized fashion, each agent patrols in a designated area of the environment and interacts with a limited number of agents. Therefore, the goal of these agents is to coordinate to gather as much information as possible while limiting the damage incurred. Hence, we model this class of problem as a transition-decoupled partially observable Markov decision process with health con- straints. Furthermore, we propose scalable decentralized online algorithms based on Monte Carlo tree search and a factored belief vector. We empirically evaluate our algorithms on decen- tralized patrolling problems and benchmark them against the state-of-the-art online planning solver. The results show that our approach outperforms the state-of-the-art by more than 56% for six agents patrolling problems and can scale up to 24 agents in reasonable time.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="CWSieee15-bib"><span class="close">&times;</span><code>@article{CWSieee15,
+         author = {Shaofei Chen and Feng Wu and Lincheng Shen and Jing Chen and Sarvapali D Ramchurn},
+         journal = {IEEE Transactions on Cybernetics (IEEE SMC)},
+         pages = {1-13},
+         title = {Decentralized Patrolling Under Constraints in Dynamic Environments},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="CWSplosone15" class="paper article">
+                        <a class="title" href="/doc/pdf/CWSplosone15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Multi-Agent Patrolling under Uncertainty and Threats
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Shaofei Chen, <u>Feng Wu</u>, Lincheng Shen, Jing Chen, Sarvapali D. Ramchurn
+                        </span> <br/>
+        
+                        <i>Public Library of Science (<b>PLOS ONE</b>)</i>,
+                        
+                        
+                        
+                        
+        Volume 10(6), Page e0130154, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/CWSplosone15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSplosone15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/CWSplosone15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWSplosone15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="CWSplosone15-abs">
+                            <span class="close">&times;</span>
+                            <detail>We investigate a multi-agent patrolling problem where information is distributed alongside threats in environments with uncertainties. Specifically, the information and threat at each location are independently modelled as multi-state Markov chains, whose states are not observed until the location is visited by an agent. While agents will obtain information at a location, they may also suffer damage from the threat at that location. Therefore, the goal of the agents is to gather as much information as possible while mitigating the damage incurred. To address this challenge, we formulate the single-agent patrolling problem as a Partially Observable Markov Decision Process (POMDP) and propose a computationally efficient algorithm to solve this model. Building upon this, to compute patrols for multiple agents, the single-agent algorithm is extended for each agent with the aim of maximising its marginal contribution to the team. We empirically evaluate our algorithm on problems of multi-agent patrolling and show that it outperforms a baseline algorithm up to 44% for 10 agents and by 21% for 15 agents in large domains.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="CWSplosone15-bib"><span class="close">&times;</span><code>@article{CWSplosone15,
+         author = {Shaofei Chen and Feng Wu and Lincheng Shen and Jing Chen and Sarvapali D. Ramchurn},
+         journal = {Public Library of Science (PLOS ONE)},
+         pages = {e0130154},
+         title = {Multi-Agent Patrolling under Uncertainty and Threats},
+         volume = {10(6)},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="CWWrobocup15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/CWWrobocup15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            KeJia-LC: A Low-Cost Mobile Robot Platform - Champion of Demo Challenge on Benchmarking Service Robots at RoboCup 2015.
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Yingfeng Chen, <u>Feng Wu</u>, Ningyang Wang, Keke Tang, Min Cheng, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the Robot World Cup XIX Symposium (<b>RoboCup</b>)</i>,
+                        
+                        
+                        
+        Volume 9513, Page 60-71, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/CWWrobocup15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWWrobocup15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/CWWrobocup15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#CWWrobocup15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="CWWrobocup15-abs">
+                            <span class="close">&times;</span>
+                            <detail>In this paper, we present the system design and the key techniques of our mobile robot platform called KeJia-LC, who won the first place in the demo challenge on Benchmarkinng Service Robots in RoboCup 2015. Given the fact that KeJia-LC is a low-cost version of our KeJia robot without shoulder and arm, several new technical demands comparing to RoboCup@Home are highlighted for better understanding of our system. With the elaborate design of hardware and the reasonable selection of sensors, our robot platform has the features of low cost, wide generality and good extensibility. Moreover, we integrate several functional softwares (such as 2D&3D mapping, localization and navigation) following the competition rules, which are critical to the performance of our robot. The effectiveness and robustness of our robot system has been proven in the competition.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="CWWrobocup15-bib"><span class="close">&times;</span><code>@inproceedings{CWWrobocup15,
+         author = {Yingfeng Chen and Feng Wu and Ningyang Wang and Keke Tang and Min Cheng and Xiaoping Chen},
+         booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
+         pages = {60-71},
+         title = {KeJia-LC: A Low-Cost Mobile Robot Platform - Champion of Demo Challenge on Benchmarking Service Robots at RoboCup 2015.},
+         volume = {9513},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="RFIijcai15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/RFIijcai15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            A Study of Human-Agent Collaboration for Multi-UAV Task Allocation in Dynamic Environments
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Sarvapali D. Ramchurn, Joel E. Fischer, Yuki Ikuno, <u>Feng Wu</u>, Jack Flann, Antony Waldock
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 24th International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)</i>,
+                        
+                        
+                        
+        Page 1184-1192, Buenos Aires, Argentina, July, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/RFIijcai15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RFIijcai15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/RFIijcai15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RFIijcai15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="RFIijcai15-abs">
+                            <span class="close">&times;</span>
+                            <detail>We consider a setting where a team of humans oversee the coordination of multiple Unmanned Aerial Vehicles (UAVs) to perform a number of search tasks in dynamic environments that may cause the UAVs to drop out. Hence, we develop a set of multi-UAV supervisory control interfaces and a multi-agent coordination algorithm to support human decision making in this setting. To elucidate the resulting interactional issues, we compare manual and mixed-initiative task allocation in both static and dynamic environments in lab studies with 40 participants and observe that our mixed-initiative system results in lower workloads and better performance in re-planning tasks than one which only involves manual task allocation. Our analysis points to new insights into the way humans appropriate flexible autonomy.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="RFIijcai15-bib"><span class="close">&times;</span><code>@inproceedings{RFIijcai15,
+         address = {Buenos Aires, Argentina},
+         author = {Sarvapali D. Ramchurn and Joel E. Fischer and Yuki Ikuno and Feng Wu and Jack Flann and Antony Waldock},
+         booktitle = {Proceedings of the 24th International Joint Conference on Artificial Intelligence (IJCAI)},
+         month = {July},
+         pages = {1184-1192},
+         title = {A Study of Human-Agent Collaboration for Multi-UAV Task Allocation in Dynamic Environments},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="RHIaamas15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/RHIaamas15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            HAC-ER: A Disaster Response System based on Human-Agent Collectives
+                        </a>
+                        &mdash; <span class="note">Innovative Applications Track Best Paper (1/167)</span>
+                        <br/>
+        
+                        <span class="authors">
+                            Sarvapali D. Ramchurn, Trung Dong Huynh, Yuki Ikuno, Jack Flann, <u>Feng Wu</u>, Luc Moreau, Nicholas R. Jennings, Joel Fischer, Wenchao Jiang, Tom Rodden, Edwin Simpson, Steven Reece, Stephen Roberts
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 14th International Conference on Autonomous Agents and Multi-Agent Systems (<b>AAMAS</b>)</i>,
+                        
+                        
+                        
+        Page 533-541, Istanbul, Turkey, May, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/RHIaamas15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RHIaamas15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/RHIaamas15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RHIaamas15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="RHIaamas15-abs">
+                            <span class="close">&times;</span>
+                            <detail>This paper proposes a novel disaster management system called HAC-ER that addresses some of the challenges faced by emergency responders by enabling humans and agents, using state-of-the-art algorithms, to collaboratively plan and carry out tasks in teams referred to as human-agent collectives. In particular, HAC-ER utilises crowdsourcing combined with machine learning to extract situational awareness information from large streams of reports posted by members of the public and trusted organisations. We then show how this information can inform human-agent teams in coordinating multi-UAV deployments as well as task planning for responders on the ground. Finally, HAC-ER incorporates a tool for tracking and analysing the provenance of information shared across the entire system. In summary, this paper describes a prototype system, validated by real-world emergency responders, that combines several state-of-the-art techniques for integrating humans and agents, and illustrates, for the first time, how such an approach can enable more effective disaster response operations.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="RHIaamas15-bib"><span class="close">&times;</span><code>@inproceedings{RHIaamas15,
+         address = {Istanbul, Turkey},
+         author = {Sarvapali D. Ramchurn and Trung Dong Huynh and Yuki Ikuno and Jack Flann and Feng Wu and Luc Moreau and Nicholas R. Jennings and Joel Fischer and Wenchao Jiang and Tom Rodden and Edwin Simpson and Steven Reece and Stephen Roberts},
+         booktitle = {Proceedings of the 14th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
+         month = {May},
+         pages = {533-541},
+         title = {HAC-ER: A Disaster Response System based on Human-Agent Collectives},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="RWFjaamas15" class="paper article">
+                        <a class="title" href="/doc/pdf/RWFjaamas15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Human-Agent Collaboration for Disaster Response
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Sarvapali D. Ramchurn, <u>Feng Wu</u>, Joel E. Fischer, Steven Reece, Wenchao Jiang, Stephen Roberts, Tom Rodden, Chris Greenhalgh, Nicholas R. Jennings
+                        </span> <br/>
+        
+                        <i>Journal of Autonomous Agents and Multi-Agent Systems (<b>JAAMAS</b>)</i>,
+                        
+                        
+                        
+                        
+        Page 1-30, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/RWFjaamas15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RWFjaamas15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/RWFjaamas15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#RWFjaamas15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="RWFjaamas15-abs">
+                            <span class="close">&times;</span>
+                            <detail>In the aftermath of major disasters, first responders are typically overwhelmed with large numbers of, spatially distributed, search and rescue tasks, each with their own requirements. Moreover, responders have to operate in highly uncertain and dynamic environments where new tasks may appear and hazards may be spreading across the disaster space. Hence, rescue missions may need to be re-planned as new information comes in, tasks are completed, or new hazards are discovered. Finding an optimal allocation of resources to complete all the tasks is a major computational challenge. In this paper, we use decision theoretic techniques to solve the task allocation problem posed by emergency response planning and then deploy our solution as part of an agent-based planning tool in real-world field trials. By so doing, we are able to study the interactional issues that arise when humans are guided by an agent. Specifically, we develop an algorithm, based on a Multi-Agent Markov Decision Process representation of the task allocation problem and show that it outperforms standard baseline solutions. We then integrate the algorithm into a planning agent that responds to requests for tasks from participants in a mixed-reality location-based game, called AtomicOrchid, that simulates disaster response settings in the real-world. We then run a number of trials of our planning agent and compare it against a purely human driven system. Our analysis of these trials show that human commanders adapt to the planning agent by taking on a more supervisory role and that, by providing humans with the flexibility of requesting plans from the agent, allows them to perform more tasks more efficiently than using purely human interactions to allocate tasks. We also discuss how such flexibility could lead to poor performance if left unchecked.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="RWFjaamas15-bib"><span class="close">&times;</span><code>@article{RWFjaamas15,
+         author = {Sarvapali D. Ramchurn and Feng Wu and Joel E. Fischer and Steven Reece and Wenchao Jiang and Stephen Roberts and Tom Rodden and Chris Greenhalgh and Nicholas R. Jennings},
+         journal = {Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS)},
+         pages = {1-30},
+         title = {Human-Agent Collaboration for Disaster Response},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WRJijcai15" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WRJijcai15.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Agile Planning for Real-World Disaster Response
+                        </a>
+                        &mdash; <span class="note">Selected for Press Conference (4/575)</span>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Sarvapali D. Ramchurn, Wenchao Jiang, Jeol E. Fischer, Tom Rodden, Nicholas R. Jennings
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 24th International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)</i>,
+                        
+                        
+                        
+        Page 132-138, Buenos Aires, Argentina, July, 2015.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WRJijcai15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WRJijcai15-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WRJijcai15.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WRJijcai15-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WRJijcai15-abs">
+                            <span class="close">&times;</span>
+                            <detail>We consider a setting where an agent-based planner instructs teams of human emergency responders to perform tasks in the real world. Due to uncertainty in the environment and the inability of the planner to consider all human preferences and all attributes of the real-world, humans may reject plans computed by the agent. A naıve solution that replans given a rejection is inefficient and does not guarantee the new plan will be acceptable. Hence, we propose a new model re-planning problem using a Multi-agent Markov Decision Process that integrates potential rejections as part of the planning process and propose a novel algorithm to effi- ciently solve this new model. We empirically evaluate our algorithm and show that it outperforms current benchmarks. Our algorithm is also shown to perform better in pilot studies with real humans.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WRJijcai15-bib"><span class="close">&times;</span><code>@inproceedings{WRJijcai15,
+         address = {Buenos Aires, Argentina},
+         author = {Feng Wu and Sarvapali D. Ramchurn and Wenchao Jiang and Jeol E. Fischer and Tom Rodden and Nicholas R. Jennings},
+         booktitle = {Proceedings of the 24th International Joint Conference on Artificial Intelligence (IJCAI)},
+         month = {July},
+         pages = {132-138},
+         title = {Agile Planning for Real-World Disaster Response},
+         year = {2015}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2014" class="year">2014</h4>
+                <ul class="publication">
+                    <li id="BWZicaps14" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/BWZicaps14.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Thompson Sampling based Monte-Carlo Planning in POMDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Aijun Bai, <u>Feng Wu</u>, Zongzhang Zhang, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 24th International Conference on Automated Planning and Scheduling (<b>ICAPS</b>)</i>,
+                        
+                        
+                        
+        Page 29-37, Portsmouth, United States, 2014.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BWZicaps14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWZicaps14-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/BWZicaps14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWZicaps14-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="BWZicaps14-abs">
+                            <span class="close">&times;</span>
+                            <detail>Monte-Carlo tree search (MCTS) has been drawing great interest in recent years for planning under uncertainty. One of the key challenges is the trade-off between exploration and exploitation. To address this, we introduce a novel online planning algorithm for large POMDPs using Thompson sampling based MCTS that balances between cumulative and simple regrets. The proposed algorithm Dirichlet-Dirichlet-Normal Gamma based Partially Observable Monte-Carlo Planning (D2NG-POMCP) treats the accumulated reward of performing an action from a belief state in the MCTS search tree as a random variable following an unknown distribution with hidden parameters. Bayesian method is used to model and infer the posterior distribution of these parameters by choosing the conjugate prior in the form of a combination of two Dirichlet and one NormalGamma distributions. Thompson sampling is exploited to guide the action selection in the search tree. Experimental results confirmed that our algorithm outperforms the state-of-the-art approaches on several common benchmark problems.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="BWZicaps14-bib"><span class="close">&times;</span><code>@inproceedings{BWZicaps14,
+         address = {Portsmouth, United States},
+         author = {Aijun Bai and Feng Wu and Zongzhang Zhang and Xiaoping Chen},
+         booktitle = {Proceedings of the 24th International Conference on Automated Planning and Scheduling (ICAPS)},
+         pages = {29-37},
+         title = {Thompson Sampling based Monte-Carlo Planning in {POMDPs}},
+         year = {2014}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="JFGcts14" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/JFGcts14.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Social Implications of Agent-based Planning Support for Human Teams
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Wenchao Jiang, Joel E. Fischer, Chris Greenhalgh, Sarvapali D. Ramchurn, <u>Feng Wu</u>, Nicholas R. Jennings, Tom Rodden
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 2014 International Conference on Collaboration Technologies and Systems (<b>CTS</b>)</i>,
+                        
+                        
+                        
+        Page 310-317, Minneapolis, United States, May, 2014.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/JFGcts14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#JFGcts14-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/JFGcts14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#JFGcts14-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="JFGcts14-abs">
+                            <span class="close">&times;</span>
+                            <detail>We present a field trial of how instructions from an intelligent planning agent are dealt with by distributed human teams, in a time-critical task setting created through a mixed-reality game. We conduct interaction analysis to examine video recorded field observations and game log data. The findings highlight the social process by which players interpret and negotiate the agent guidance as well as how these are intertwined with social dynamics of the teams. The insights can be used to develop an understanding of interactional issues around automated team instructions and inform the design of human-centred planning support systems.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="JFGcts14-bib"><span class="close">&times;</span><code>@inproceedings{JFGcts14,
+         address = {Minneapolis, United States},
+         author = {Wenchao Jiang and Joel E. Fischer and Chris Greenhalgh and Sarvapali D. Ramchurn and Feng Wu and Nicholas R. Jennings and Tom Rodden},
+         booktitle = {Proceedings of the 2014 International Conference on Collaboration Technologies and Systems (CTS)},
+         month = {May},
+         pages = {310-317},
+         title = {Social Implications of Agent-based Planning Support for Human Teams},
+         year = {2014}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="SWJaamas14" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/SWJaamas14.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            AtomicOrchid: Human-Agent Collectives to the Rescue (Demostration)
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Sarvapali D. Ramchurn, <u>Feng Wu</u>, Wenchao Jiang, Joel E. Fischer, Steve Reece, Chris Greenhalgh, Tom Rodden, Nicholas R. Jennings, Stephen Roberts
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 13th International Conference on Autonomous Agents and Multi-Agent Systems (<b>AAMAS</b>)</i>,
+                        
+                        
+                        
+        Page 1693-1694, Paris, France, 2014.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/SWJaamas14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#SWJaamas14-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <pre class="well well-sm collapse bibtex" id="SWJaamas14-bib"><span class="close">&times;</span><code>@inproceedings{SWJaamas14,
+         address = {Paris, France},
+         author = {Sarvapali D. Ramchurn and Feng Wu and Wenchao Jiang and Joel E. Fischer and Steve Reece and Chris Greenhalgh and Tom Rodden and Nicholas R. Jennings and Stephen Roberts},
+         booktitle = {Proceedings of the 13th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
+         pages = {1693-1694},
+         title = {{AtomicOrchid}: Human-Agent Collectives to the Rescue (Demostration)},
+         year = {2014}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WJaaai14" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WJaaai14.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Regret-Based Multi-Agent Coordination with Uncertain Task Rewards
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Nicholas R. Jennings
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 28th AAAI Conference on Artificial Intelligence (<b>AAAI</b>)</i>,
+                        
+                        
+                        
+        Page 1492-1499, Quebec City, Canada, 2014.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WJaaai14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WJaaai14-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WJaaai14.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WJaaai14-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WJaaai14-abs">
+                            <span class="close">&times;</span>
+                            <detail>Many multi-agent coordination problems can be represented as DCOPs. Motivated by task allocation in disaster response, we extend standard DCOP models to consider uncertain task rewards where the outcome of completing a task depends onits current state, which is randomly drawn from unknown distributions. The goal of solving this problem is to find a solution for all agents that minimizes the overall worst-case loss. This is a challenging problem for centralized algorithms because the search space grows exponentially with the number of agents and is nontrivial for existing algorithms for standard DCOPs. To address this, we propose a novel decentralized algorithm that incorporates Max-Sum with iterative constraint generation to solve the problem by passing messages among agents. By so doing, our approach scales well and can solve instances of the task allocation problem with hundreds of agents and tasks.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WJaaai14-bib"><span class="close">&times;</span><code>@inproceedings{WJaaai14,
+         address = {Quebec City, Canada},
+         author = {Feng Wu and Nicholas R. Jennings},
+         booktitle = {Proceedings of the 28th AAAI Conference on Artificial Intelligence (AAAI)},
+         pages = {1492-1499},
+         title = {Regret-Based Multi-Agent Coordination with Uncertain Task Rewards},
+         year = {2014}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2013" class="year">2013</h4>
+                <ul class="publication">
+                    <li id="BWCnips13" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/BWCnips13.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Bayesian Mixture Modelling and Inference based Thompson Sampling in Monte-Carlo Tree Search
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Aijun Bai, <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the Advances in Neural Information Processing Systems (<b>NIPS</b>)</i>,
+                        
+                        
+                        
+        Page 1646-1654, Lake Tahoe, United States, 2013.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BWCnips13.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCnips13-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/BWCnips13.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCnips13-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="BWCnips13-abs">
+                            <span class="close">&times;</span>
+                            <detail>Monte-Carlo tree search (MCTS) has been drawing great interest in recent years for planning and learning under uncertainty. One of the key challenges is the trade-off between exploration and exploitation. To address this, we present a novel approach for MCTS using Bayesian mixture modeling and inference based Thompson sampling and apply it to the problem of online planning in MDPs. Our algorithm, named Dirichlet-NormalGamma MCTS (DNG-MCTS), models the uncertainty of the accumulated reward for actions in the search tree as a mixture of Normal distributions. We perform inferences on the mixture in Bayesian settings by choosing conjugate priors in the form of combinations of Dirichlet and NormalGamma distributions and select the best action at each decision node using Thompson sampling. Experimental results confirm that our algorithm advances the state-of-the-art UCT approach with better values on several benchmark problems.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="BWCnips13-bib"><span class="close">&times;</span><code>@inproceedings{BWCnips13,
+         address = {Lake Tahoe, United States},
+         author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+         booktitle = {Proceedings of the Advances in Neural Information Processing Systems (NIPS)},
+         pages = {1646-1654},
+         title = {Bayesian Mixture Modelling and Inference based Thompson Sampling in Monte-Carlo Tree Search},
+         year = {2013}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WZJijcai13" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZJijcai13.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Monte-Carlo Expectation Maximization for Decentralized POMDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Nicholas R. Jennings
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 23rd International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)</i>,
+                        
+                        
+                        
+        Page 397-403, Beijing, China, 2013.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZJijcai13.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZJijcai13-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZJijcai13.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZJijcai13-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZJijcai13-abs">
+                            <span class="close">&times;</span>
+                            <detail>We address two significant drawbacks of state-of-the-art solvers of decentralized POMDPs (DEC-POMDPs): the reliance on complete knowledge of the model and limited scalability as the complexity of the domain grows. We extend a recently proposed approach for solving DEC-POMDPs via a reduction to the maximum likelihood problem, which in turn can be solved using EM. We introduce a model-free version of this approach that employs Monte-Carlo EM (MCEM). While a na?ve implementation of MCEM is inadequate in multiagent settings, we introduce several improvements in sampling that produce high-quality results on a variety of DEC-POMDP benchmarks, including large problems with thousands of agents.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZJijcai13-bib"><span class="close">&times;</span><code>@inproceedings{WZJijcai13,
+         address = {Beijing, China},
+         author = {Feng Wu and Shlomo Zilberstein and Nicholas R. Jennings},
+         booktitle = {Proceedings of the 23rd International Joint Conference on Artificial Intelligence (IJCAI)},
+         pages = {397-403},
+         title = {Monte-Carlo Expectation Maximization for Decentralized {POMDPs}},
+         year = {2013}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2012" class="year">2012</h4>
+                <ul class="publication">
+                    <li id="BWCaamas12" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/BWCaamas12.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Online Planning for Large MDPs with MAXQ-like Decomposition (Extended Abstract)
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Aijun Bai, <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 8th International Conference on Autonomous Agents and Multiagent Systems (<b>AAMAS</b>)</i>,
+                        
+                        
+                        
+        Page 1215-1216, Valencia, Spain, 2012.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BWCaamas12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCaamas12-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/BWCaamas12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCaamas12-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="BWCaamas12-abs">
+                            <span class="close">&times;</span>
+                            <detail>Markov decision processes (MDPs) provide an expressive framework for planning in stochastic domains. However, exactly solving a large MDP is often intractable due to the curse of dimensionality. Online algorithms help overcome the high computational complexity by avoiding computing a policy for each possible state. Hierarchical decomposition is another promising way to help scale MDP algorithms up to large domains by exploiting their underlying structure. In this paper, we present an effort on combining the benefits of a general hierarchical structure based on MAXQ value function decomposition with the power of heuristic and approximate techniques for developing an online planning framework, called MAXQ-OP. The proposed framework provides a principled approach for programming autonomous agents in a large stochastic domain. We have been conducting a long-term case-study with the RoboCup soccer simulation 2D domain, which is extremely larger than domains usually studied in literature, as the major benchmark to this research. The case-study showed that the agents developed with this framework and the related techniques reached outstanding performances, showing its high scalability to very large domains.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="BWCaamas12-bib"><span class="close">&times;</span><code>@inproceedings{BWCaamas12,
+         address = {Valencia, Spain},
+         author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+         booktitle = {Proceedings of the 8th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+         pages = {1215-1216},
+         title = {Online Planning for Large {MDPs} with {MAXQ}-like Decomposition (Extended Abstract)},
+         year = {2012}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="BWCrobocup12" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/BWCrobocup12.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Towards a Principled Solution to Simulated Robot Soccer
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Aijun Bai, <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the Robot Soccer World Cup XVI Symposium (<b>RoboCup</b>)</i>,
+                        
+                        
+                        
+        Page 141-153, Mexico City, Mexico, 2012.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BWCrobocup12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCrobocup12-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/BWCrobocup12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BWCrobocup12-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="BWCrobocup12-abs">
+                            <span class="close">&times;</span>
+                            <detail>The RoboCup soccer simulation 2D domain is a very large testbed for the research of planning and machine learning. It has competed in the annual world championship tournaments in the past 15 years. However it is still unclear that whether more principled techniques such as decision-theoretic planning take an important role in the success for a RoboCup 2D team. In this paper, we present a novel approach based on MAXQ-OP to automated planning in the RoboCup 2D domain. It combines the bene ts of a general hierarchical structure based on MAXQ value function decomposition with the power of heuristic and approximate techniques. The proposed framework provides a principled solution to programming autonomous agents in large stochastic domains. The MAXQ-OP framework has been implemented in our RoboCup 2D team, WrightEagle. The empirical results indicated that the agents developed with this framework and related techniques reached outstanding performances, showing its potential of scalability to very large domains.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="BWCrobocup12-bib"><span class="close">&times;</span><code>@inproceedings{BWCrobocup12,
+         address = {Mexico City, Mexico},
+         author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+         booktitle = {Proceedings of the Robot Soccer World Cup XVI Symposium (RoboCup)},
+         pages = {141-153},
+         title = {Towards a Principled Solution to Simulated Robot Soccer},
+         year = {2012}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WJCecai12" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WJCecai12.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Sample-Based Policy Iteration for Constrained DEC-POMDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Nicholas R. Jennings, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 20th European Conference on Artificial Intelligence (<b>ECAI</b>)</i>,
+                        
+                        
+                        
+        Page 858-863, Montpellier, France, 2012.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WJCecai12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WJCecai12-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WJCecai12.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WJCecai12-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WJCecai12-abs">
+                            <span class="close">&times;</span>
+                            <detail>We introduce constrained DEC-POMDPsCan extension of the standard DEC-POMDPs including additional constraints to the optimality of the long-term reward. Constrained DEC-POMDPs present natural framework for modeling cooperative multi-agent problems with limited resources or multiple objectives. To solve constrained DEC-POMDPs, we propose a novel sample-based policy iteration algorithm. The algorithm builds up on multi-agent dynamic programming and benefits from several advantages of recentdeveloped DEC-POMDP algorithms. It improves the joint policy by solving a serial of standard nonlinear programs and thereby lends itself the power of existing NLP solvers. The experimental results confirm that the algorithm can efficiently solve constrained DECPOMDPs while the general DEC-POMDP algorithms fail. It outperforms the leading DEC-POMDP method with higher value and less chance of constraint violation.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WJCecai12-bib"><span class="close">&times;</span><code>@inproceedings{WJCecai12,
+         address = {Montpellier, France},
+         author = {Feng Wu and Nicholas R. Jennings and Xiaoping Chen},
+         booktitle = {Proceedings of the 20th European Conference on Artificial Intelligence (ECAI)},
+         pages = {858-863},
+         title = {Sample-Based Policy Iteration for Constrained {DEC-POMDPs}},
+         year = {2012}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2011" class="year">2011</h4>
+                <ul class="publication">
+                    <li id="Wustc11" class="paper phdthesis">
+                        <a class="title" href="javascript: void(0);" 
+                            data-toggle="tooltip" title="File Not Available">
+                            Decision-Theoretic Planning for Multi-Agent Systems
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>
+                        </span> <br/>
+        
+                        
+                        
+                        <i>University of Science and Technology of China (<b>USTC</b>)</i>,
+                        
+        PhD Thesis,                 
+        2011.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/Wustc11.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#Wustc11-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <pre class="well well-sm collapse bibtex" id="Wustc11-bib"><span class="close">&times;</span><code>@phdthesis{Wustc11,
+         author = {Feng Wu},
+         school = {University of Science and Technology of China (USTC)},
+         title = {Decision-Theoretic Planning for Multi-Agent Systems},
+         year = {2011}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WZCaij11" class="paper article">
+                        <a class="title" href="/doc/pdf/WZCaij11.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Online Planning for Multi-Agent Systems with Bounded Communication
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        <i>Artificial Intelligence (<b>AIJ</b>)</i>,
+                        
+                        
+                        
+                        
+        Volume 175, Number 2, Page 487-511, 2011.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCaij11.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaij11-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCaij11.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaij11-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCaij11-abs">
+                            <span class="close">&times;</span>
+                            <detail>We propose an online algorithm for planning under uncertainty in multi-agent settings modeled as DEC-POMDPs. The algorithm helps overcome the high computational complexity of solving such problems offline. The key challenges in decentralized operation are to maintain coordinated behavior with little or no communication and, when communication is allowed, to optimize value with minimal communication. The algorithm addresses these challenges by generating identical conditional plans based on common knowledge and communicating only when history inconsistency is detected, allowing communication to be postponed when necessary. To be suitable for online operation, the algorithm computes good local policies using a new and fast local search method implemented using linear programming. Moreover, it bounds the amount of memory used at each step and can be applied to problems with arbitrary horizons. The experimental results confirm that the algorithm can solve problems that are too large for the best existing offline planning algorithms and it outperforms the best online method, producing much higher value with much less communication in most cases. The algorithm also proves to be effective when the communication channel is imperfect (periodically unavailable). These results contribute to the scalability of decision-theoretic planning in multi-agent settings.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCaij11-bib"><span class="close">&times;</span><code>@article{WZCaij11,
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         journal = {Artificial Intelligence (AIJ)},
+         number = {2},
+         pages = {487-511},
+         title = {Online Planning for Multi-Agent Systems with Bounded Communication},
+         volume = {175},
+         year = {2011}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WZCijcai11" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZCijcai11.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Online Planning for Ad Hoc Autonomous Agent Teams
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 22nd International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)</i>,
+                        
+                        
+                        
+        Page 439-445, Barcelona, Spain, 2011.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCijcai11.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCijcai11-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCijcai11.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCijcai11-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCijcai11-abs">
+                            <span class="close">&times;</span>
+                            <detail>We propose a novel online planning algorithm for ad hoc team settings' challenging situations in which an agent must collaborate with unknown teammates without prior coordination. Our approach is based on constructing and solving a series of stage games, and then using biased adaptive play to choose actions. The utility function in each stage game is estimated via Monte-Carlo tree search using the UCT algorithm. We establish analytically the convergence of the algorithm and show that it performs well in a variety of ad hoc team domains.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCijcai11-bib"><span class="close">&times;</span><code>@inproceedings{WZCijcai11,
+         address = {Barcelona, Spain},
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         booktitle = {Proceedings of the 22nd International Joint Conference on Artificial Intelligence (IJCAI)},
+         pages = {439-445},
+         title = {Online Planning for Ad Hoc Autonomous Agent Teams},
+         year = {2011}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2010" class="year">2010</h4>
+                <ul class="publication">
+                    <li id="WZCaaai10" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZCaaai10.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Trial-Based Dynamic Programming for Multi-Agent Planning
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 24th AAAI Conference on Artificial Intelligence (<b>AAAI</b>)</i>,
+                        
+                        
+                        
+        Page 908-914, Atlanta, United States, 2010.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCaaai10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaaai10-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCaaai10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaaai10-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCaaai10-abs">
+                            <span class="close">&times;</span>
+                            <detail>Trial-based approaches offer an efficient way to solve singleagent MDPs and POMDPs. These approaches allow agents to focus their computations on regions of the environment they encounter during the trials, leading to significant computational savings. We present a novel trial-based dynamic programming (TBDP) algorithm for DEC-POMDPs that extends these benefits to multi-agent settings. The algorithm uses trial-based methods for both belief generation and policy evaluation. Policy improvement is implemented efficiently using linear programming and a sub-policy reuse technique that helps bound the amount of memory. The results show that TBDP can produce significant value improvements and is much faster than the best existing planning algorithms.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCaaai10-bib"><span class="close">&times;</span><code>@inproceedings{WZCaaai10,
+         address = {Atlanta, United States},
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence (AAAI)},
+         pages = {908-914},
+         title = {Trial-Based Dynamic Programming for Multi-Agent Planning},
+         year = {2010}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WZCaamas10" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZCaamas10.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Point-Based Policy Generation for Decentralized POMDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 9th International Conference on Autonomous Agents and Multi-Agent Systems (<b>AAMAS</b>)</i>,
+                        
+                        
+                        
+        Page 1307-1314, Toronto, Canada, 2010.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCaamas10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaamas10-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCaamas10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCaamas10-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCaamas10-abs">
+                            <span class="close">&times;</span>
+                            <detail>Memory-bounded techniques have shown great promise in solving complex multi-agent planning problems modeled as DEC-POMDPs. Much of the performance gains can be attributed to pruning techniques that alleviate the complexity of the exhaustive backup step of the original MBDP algorithm. Despite these improvements, state-of-the-art algorithms can still handle a relative small pool of candidate policies, which limits the quality of the solution in some benchmark problems. We present a new algorithm, Point- Based Policy Generation, which avoids altogether searching the entire joint policy space. The key observation is that the best joint policy for each reachable belief state can be constructed directly, instead of producing first a large set of candidates. We also provide an efficient approximate implementation of this operation. The experimental results show that our solution technique improves the performance significantly in terms of both runtime and solution quality.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCaamas10-bib"><span class="close">&times;</span><code>@inproceedings{WZCaamas10,
+         address = {Toronto, Canada},
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         booktitle = {Proceedings of the 9th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
+         pages = {1307-1314},
+         title = {Point-Based Policy Generation for Decentralized {POMDPs}},
+         year = {2010}
+        }
+        
+        </code></pre>
+                    </li>
+                    <li id="WZCuai10" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZCuai10.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Rollout Sampling Policy Iteration for Decentralized POMDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 26th Conference on Uncertainty in Artificial Intelligence (<b>UAI</b>)</i>,
+                        
+                        
+                        
+        Page 666-673, Catalina, United States, 2010.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCuai10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCuai10-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCuai10.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCuai10-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCuai10-abs">
+                            <span class="close">&times;</span>
+                            <detail>We present decentralized rollout sampling policy iteration (DecRSPI)Ca new algorithm for multiagent decision problems formalized as DECPOMDPs. DecRSPI is designed to improve scalability and tackle problems that lack an explicit model. The algorithm uses Monte-Carlo methods to generate a sample of reachable belief states. Then it computes a joint policy for each belief state based on the rollout estimations. A new policy representation allows us to represent solutions compactly. The key benefits of the algorithm are its linear time complexity over the number of agents, its bounded memory usage and good solution quality. It can solve larger problems that are intractable for existing planning algorithms. Experimental results confirm the effectiveness and scalability of the approach.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCuai10-bib"><span class="close">&times;</span><code>@inproceedings{WZCuai10,
+         address = {Catalina, United States},
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         booktitle = {Proceedings of the 26th Conference on Uncertainty in Artificial Intelligence (UAI)},
+         pages = {666-673},
+         title = {Rollout Sampling Policy Iteration for Decentralized {POMDPs}},
+         year = {2010}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2009" class="year">2009</h4>
+                <ul class="publication">
+                    <li id="WZCicaps09" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WZCicaps09.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Multi-Agent Online Planning with Communication
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Shlomo Zilberstein, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the 19th International Conference on Automated Planning and Scheduling (<b>ICAPS</b>)</i>,
+                        
+                        
+                        
+        Page 321-329, Thessaloniki, Greece, 2009.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WZCicaps09.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCicaps09-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WZCicaps09.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WZCicaps09-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WZCicaps09-abs">
+                            <span class="close">&times;</span>
+                            <detail>We propose an online algorithm for planning under uncertainty in multi-agent settings modeled as DEC-POMDPs. The algorithm helps overcome the high computational complexity of solving such problems off-line. The key challenge is to produce coordinated behavior using little or no communication. When communication is allowed but constrained, the challenge is to produce high value with minimal communication. The algorithm addresses these challenges by communicating only when history inconsistency is detected, allowing communication to be postponed if necessary. Moreover, it bounds the memory usage at each step and can be applied to problems with arbitrary horizons. The experimental results confirm that the algorithm can solve problems that are too large for the best existing off-line planning algorithms and it outperforms the best online method, producing higher value with much less communication in most cases.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WZCicaps09-bib"><span class="close">&times;</span><code>@inproceedings{WZCicaps09,
+         address = {Thessaloniki, Greece},
+         author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+         booktitle = {Proceedings of the 19th International Conference on Automated Planning and Scheduling (ICAPS)},
+         pages = {321-329},
+         title = {Multi-Agent Online Planning with Communication},
+         year = {2009}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2007" class="year">2007</h4>
+                <ul class="publication">
+                    <li id="WCrobocup07" class="paper inproceedings">
+                        <a class="title" href="/doc/pdf/WCrobocup07.pdf" 
+                            data-toggle="tooltip" title="Download PDF File">
+                            Solving Large-Scale and Sparse-Reward DEC-POMDPs with Correlation-MDPs
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of the Robot Soccer World Cup XI Symposium (<b>RoboCup</b>)</i>,
+                        
+                        
+                        
+        Page 208-219, Atlanta, United States, 2007.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/WCrobocup07.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WCrobocup07-abs').toggle();return false;">
+                            <span lang="en">ABSTRACT</span> <span lang="zh">摘要</span> 
+                        </a>
+                        <a href="/doc/htm/WCrobocup07.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#WCrobocup07-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <div class="well well-sm collapse abstract" id="WCrobocup07-abs">
+                            <span class="close">&times;</span>
+                            <detail>Within a group of cooperating agents the decision making of an individual agent depends on the actions of the other agents. A lot of effort has been made to solve this problem with additional assumptions on the communication abilities of agents. However, in some realworld applications, communication is limited and the assumptions are rarely satisfied. An alternative approach newly developed is to employ a correlation device to correlate the agents' behavior without exchanging information during execution. In this paper, we apply correlation device to large-scale and spare-reward domains. As a basis we use the framework of infinite-horizon DEC-POMDPs which represent policies as joint stochastic finite-state controllers. To solve any problem of this kind, a correlation device is firstly calculated by solving Correlation Markov Decision Processes (Correlation-MDPs) and then used to improve the local controller for each agent. By using this method, we are able to achieve a tradeoff between computational complexity and the quality of the approximation. In addition, we demonstrate that, adversarial problems can be solved by encoding the information of opponents'ddate behavior in the correlation device.We have successfully implemented the proposed method into our 2D simulated robot soccer team and the performance in RoboCup-2006 was encouraging.</detail>
+                        </div>
+                        <pre class="well well-sm collapse bibtex" id="WCrobocup07-bib"><span class="close">&times;</span><code>@inproceedings{WCrobocup07,
+         address = {Atlanta, United States},
+         author = {Feng Wu and Xiaoping Chen},
+         booktitle = {Proceedings of the Robot Soccer World Cup XI Symposium (RoboCup)},
+         pages = {208-219},
+         title = {Solving Large-Scale and Sparse-Reward {DEC-POMDPs} with Correlation-{MDPs}},
+         year = {2007}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <h4 id="2005" class="year">2005</h4>
+                <ul class="publication">
+                    <li id="BFWrobocup05" class="paper inproceedings">
+                        <a class="title" href="javascript: void(0);" 
+                            data-toggle="tooltip" title="File Not Available">
+                            WrightEagle 2D Simulation Team 2005
+                        </a>
+                        <br/>
+        
+                        <span class="authors">
+                            Peng Bai, Changjie Fan, <u>Feng Wu</u>, Xiaoping Chen
+                        </span> <br/>
+        
+                        
+                        <i>Proceedings of Robot Soccer World Cup IX Symposium (<b>RoboCup</b>)</i>,
+                        
+                        
+                        
+        2005.                 <br/>
+                        <span class="hidden-print">&raquo;</span>
+                        <a href="/doc/htm/BFWrobocup05.html" 
+                            role="button" class="btn btn-default toggle hidden-print" 
+                            onclick="$('#BFWrobocup05-bib').toggle();return false;">
+                            <span lang="en">BIBTEX</span> <span lang="zh">引用</span> 
+                        </a>
+                        <pre class="well well-sm collapse bibtex" id="BFWrobocup05-bib"><span class="close">&times;</span><code>@inproceedings{BFWrobocup05,
+         author = {Peng Bai and Changjie Fan and Feng Wu and Xiaoping Chen},
+         booktitle = {Proceedings of Robot Soccer World Cup IX Symposium (RoboCup)},
+         title = {WrightEagle 2D Simulation Team 2005},
+         year = {2005}
+        }
+        
+        </code></pre>
+                    </li>
+                </ul>
+                <div><span lang="en">Total</span> <span lang="zh">总数</span> : 28.</div><br/>
+                <div class="hidden-print">
+                    <form style="margin: auto; max-width: 300px;" role="search" action="/search.html" method="get">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q" id="tipue_search_input" autocomplete="off" required/>
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <footer style="margin-bottom: 20px;">
+            <div class="container hidden-print">
+                <br/>
+                <div class="text-center">
+                    <a href="#" target="_blank" id="s:gs">
+                        <span lang="en">Google Scholar</span> <span lang="zh">谷歌学术</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="#" target="_blank" id="s:gp">
+                        <span lang="en">Google+</span> <span lang="zh">谷歌+</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="#" target="_blank" id="s:fb">
+                        <span lang="en">Facebook</span> <span lang="zh">脸书</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="#" target="_blank" id="s:tt">
+                        <span lang="en">Twitter</span> <span lang="zh">推特</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="#" target="_blank" id="s:li">
+                        <span lang="en">LinkedIn</span> <span lang="zh">领英</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="/img/wechat.png" data-toggle="lightbox" data-title="WeChat">
+                        <span lang="en">WeChat</span> <span lang="zh">微信</span> 
+                    </a> &nbsp; &middot; &nbsp;
+                    <a href="http://weibo.com/wufeng02" target="_blank">
+                        <span lang="en">Sina Weibo</span> <span lang="zh">新浪微博</span> 
+                    </a>
+                    <script type="text/javascript">
+                        var social = {
+                            's:gs': 'https://scholar.go'+'og'+'le.com/citations?user=8CEHlu4AAAAJ',
+                            's:gp': 'https://plus.go'+'og'+'le.com/114336350312258670852',
+                            's:fb': 'https://www.fa'+'ceb'+'ook.com/fengw',
+                            's:tt': 'https://tw'+'it'+'ter.com/wufeng02',
+                            's:li': 'https://www.li'+'nke'+'din.com/pub/feng-wu/62/438/2a2'
+                        };
+                        for (var key in social) {
+                            var el = document.getElementById(key);
+                            if (el) el.href = social[key];
+                        }
+                    </script>
+                </div>
+            
+                <div class="pull-right text-muted" style="text-align: right;">
+                    <!-- <span lang="en">Last Updated</span> <span lang="zh">最后更新</span> : 10/11/2016 15:34:33 --> <br/>
+                    <a href="#" onclick="window.open('https://www.go'+'og'+'le.com/webmasters/tools/home?hl=en');return false;">
+                    <img src="/cgi-bin/Count.cgi?df=wufeng02.dat&amp;dd=E&amp;ft=0&amp;tr=N&amp;pad=N&amp;srgb=000000&amp;prgb=cccccc" alt="Visit Counter"/>
+                    </a>
+                </div>
+                
+                <div class="modal fade" tabindex="-1" role="dialog" id="lightbox">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 3px 10px;">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body" style="text-align: center;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="scrollup" style="position: fixed; bottom: 30px; right: 10px; z-index: 1000; display: none;">
+                    <a href="javascript: void(0);" class="well well-sm" 
+                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;" tabindex="0" role="button"
+                        data-toggle="popover" data-trigger="focus" data-placement="left" 
+                        data-content='<ul class="nav nav-pills nav-stacked"> <li class=""> <a href="/index.html"> <span lang="en">Home</span> <span lang="zh">首页</span> </a> </li> <li class=""> <a href="/cv.html"> <span lang="en">CV</span> <span lang="zh">简历</span> </a> </li> <li class="active"> <a href="/publication.html"> <span lang="en">Publication</span> <span lang="zh">论文</span> </a> </li> </ul>'><i class="glyphicon glyphicon-menu-hamburger"></i></a> 
+                    <br/> <br/>
+                    <a href="#top" class="well well-sm" role="button"
+                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;"
+                        onclick="$('html,body').animate({scrollTop:0}, 'fast'); return false;"><i class="glyphicon glyphicon-chevron-up"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="/lib/jquery/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="/lib/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+ 
+        <script type="text/javascript">
+            (function($) {
+                $.queries = {};
+                var params = window.location.search.substring(1).split('&');
+                for (var i = 0; i < params.length; ++i) {
+                    var pair = params[i].split('=');
+                    $.queries[decodeURIComponent(pair[0])] = 
+                        decodeURIComponent(pair[1] || '');
+                }
+
+                $.translate = function(l) {
+                    if (typeof window.localStorage !== 'undefined') {
+                        if (l) window.localStorage.language = l;
+                        else l = window.localStorage.language; 
+                    }
+                    if (l === 'zh') { $(':lang(zh)').show(); $(':lang(en)').hide(); } 
+                    else { $(':lang(zh)').hide(); $(':lang(en)').show(); }
+                };
+                $.translate($.queries['l'] || $.queries['lang']);
+                
+                $(window).scroll(function() {
+                    var st = $(this).scrollTop();
+                    if (st > 100) $('#scrollup').fadeIn(450);
+                    else $('#scrollup').fadeOut(450);
+                });
+                
+                $('[data-toggle="popover"]').popover({html: true});
+                $('#scrollup').on('inserted.bs.popover', function() {
+                    $.translate();
+                });
+                
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="lightbox"]').click(function(e) {
+                    e.preventDefault();
+                    var $lb = $('#lightbox'), src = $(this).attr('href');
+                    var $el = (/\.(gif|jpg|jpeg|tiff|png|bmp)$/i).test(src) ?
+                        $('<img style="max-width: 100%; max-height: 75vh;"/>') : 
+                        $('<iframe frameborder="0" style="width: 100%; height: 75vh;" allowfullscreen />');
+                    $el.attr('src', src);
+                    $lb.find('.modal-title').text($(this).attr('data-title'));
+                    $lb.find('.modal-body').empty().append($el);
+                    $lb.modal('show');
+                });
+                
+                $('span.close').css('padding', '10px').click(function(e) {
+                    $(e.target.parentNode).hide();
+                });
+                $('pre.bibtex').each(function() {
+                    var text = $(this).find('code').text().replace(/^\s+/gm, '\t')
+                        .replace(/\t}/gm, '}').replace(/([^,])\n\t/gm, '$1 ');
+                    $(this).find('code').text(text);
+                });
+            })(jQuery);
+        </script>
+        <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
+        
+            ga('create', 'UA-31597550-1', 'auto');
+            ga('send', 'pageview');
+        
+            $('a').not('[href^="javascript"]').click(function(e) {
+                ga('send', 'event', 'link', 'click', $(this).attr('href'));
+            });
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Feng Wu (吴锋)",
+          "url": "/publication.html",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+	</body>
+</html>

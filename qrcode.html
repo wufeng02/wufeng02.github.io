@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="robots" content="NOINDEX, NOFOLLOW"/>
+        <title>Feng Wu (吴锋) | QRCode</title>
+    </head>
+    <body>
+
+        <div style="text-align: center;">
+            <br/>
+            <div id="qrcode"></div>
+            <br/>
+            <textarea id="text" autofocus 
+                placeholder="Type your contents ..." 
+                style="width: 256px; height: 158px;"></textarea>
+            <div><span id="counter">0</span> characters</div>
+            <br/>
+            <a href="#" id="download" download="image.png">Download</a>
+            <!--a href="https://zxing.appspot.com/generator/">ZXing Generator</a-->
+        </div>
+
+        <script src="/lib/jquery/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="/lib/jquery/plugins/jquery.qrcode.min.js" type="text/javascript"></script>
+        <script src="/lib/jquery/plugins/utf8.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            (function($){
+                var oldVal = null;
+
+                $('#text').on('change keyup paste input', function(){
+                    var currentVal = $(this).val();
+                    if (currentVal == oldVal) {
+                        return;
+                    }
+                    oldVal = currentVal;
+
+                    $('#counter').html(currentVal.length);
+ 
+                    $('#qrcode').empty();
+                    $('#qrcode').qrcode({
+                        width: 256,
+                        height: 256,
+                        background: "#ffffff",
+                        foreground: "#000000",
+                        text: utf8.encode(currentVal)
+                    });
+                }).trigger('change');
+
+                $('#text').blur(function(){
+
+                });
+
+                $('#download').click(function(){
+                    var canvas = $('#qrcode canvas').get()[0];
+                    var imgData = canvas.toDataURL('image/png');
+                    $('#download').attr('href', imgData);
+                });
+            })(jQuery);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,671 @@
+% This file was created with JabRef 2.5.
+% Encoding: UTF8
+
+@ARTICLE{BWCtist15,
+  author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+  title = {Online Planning for Large Markov Decision Processes with Hierarchical
+	Decomposition},
+  journal = {ACM Transactions on Intelligent Systems and Technology (ACM TIST)},
+  year = {2015},
+  volume = {6(4)},
+  number = {45},
+  month = {August},
+  abstract = {Markov decision processes (MDPs) provide a rich framework for planning
+	under uncertainty. However, exactly solving a large MDP is usually
+	intractable due to the ''curse of dimensionality'' - the state space
+	grows exponentially with the number of state variables. Online algorithms
+	tackle this problem by avoiding computing a policy for the entire
+	state space. On the other hand, since online algorithm has to find
+	a near-optimal action online in almost real time, the computation
+	time is often very limited. In the context of reinforcement learning,
+	MAXQ is a value function decomposition method that exploits the underlying
+	structure of the original MDP and decomposes it into a combination
+	of smaller subproblems arranged over a task hierarchy. In this article,
+	we present MAXQ-OP—a novel online planning algorithm for large MDPs
+	that utilizes MAXQ hierarchical decomposition in online settings.
+	Compared to traditional online planning algorithms, MAXQ-OP is able
+	to reach much more deeper states in the search tree with relatively
+	less computation time by exploiting MAXQ hierarchical decomposition
+	online. We empirically evaluate our algorithm in the standard Taxi
+	domain—a common benchmark for MDPs—to show the effectiveness of our
+	approach. We have also conducted a long-term case study in a highly
+	complex simulated soccer domain and developed a team named WrightEagle
+	that has won five world champions and five runners-up in the recent
+	10 years of RoboCup Soccer Simulation 2D annual competitions. The
+	results in the RoboCup domain confirm the scalability of MAXQ-OP
+	to very large domains.}
+}
+
+@INPROCEEDINGS{CCTrobocup15,
+  author = {Min Cheng and Xiaoping Chen and Keke Tang and Feng Wu and Andras
+	Kupcsik and Luca Iocchi and Yingfeng Chen and David Hsu},
+  title = {Synthetical Benchmarking of Service Robots: A First Effort on Domestic
+	Mobile Platforms},
+  booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
+  year = {2015},
+  volume = {9513},
+  pages = {377-388},
+  abstract = {Most of existing benchmarking tools for service robots are basically
+	qualitative, in which a robot's performance on a task is evaluated
+	based on completion/incompletion of actions contained in the task.
+	In the effort reported in this paper, we tried to implement a synthetical
+	benchmarking system on domestic mobile platforms. Synthetical bench-
+	marking consists of both qualitative and quantitative aspects, such
+	as task completion, accuracy of task completions and efficiency of
+	task completions, about performance of a robot. The system includes
+	a set of algorithms for collecting, recording and analyzing measurement
+	data from a MoCap system. It was used as the evaluator in a competition
+	called the BSR challenge, in which 10 teams participated, at RoboCup
+	2015. The paper presents our motivations behind synthetical benchmarking,
+	the design considerations on the synthetical benchmarking system,
+	the realization of the competition as a comparative study on performance
+	evaluation of domestic mobile platforms, and an analysis of the teams'
+	performance.}
+}
+
+@INPROCEEDINGS{CWSicsr15,
+  author = {Yingfeng Chen and Feng Wu and Wei Shuai and Ningyang Wang and Rongya
+	Chen and Xiaoping Chen},
+  title = {KeJia Robot - an Attractive Shopping Mall Guider},
+  booktitle = {Proceedings of the 7th International Conference on Social Robotics
+	(ICSR)},
+  year = {2015},
+  pages = {145-154},
+  abstract = {This paper reports the project of a shopping mall guide robot, named
+	KeJia, which is designed for customer navigation, informa- tion providing
+	and entertainment in a real environment. Our introduction focuses
+	on the designs of robot's hardware and software, faced challenges
+	and the multimodal interaction methods including using a mobile phone
+	app. In order to adapt the current localization and navigation techniques
+	to such large and complex shopping mall environment, a series of
+	related improvements and new methods are proposed. The robot is deployed
+	in a large shopping mall for field test and stable operation for
+	a fairly long time. The result demonstrates the stability, validity
+	and feasibility of this robot system, and gives a positive reward
+	to our original design motivation.}
+}
+
+@ARTICLE{CWSieee15,
+  author = {Shaofei Chen and Feng Wu and Lincheng Shen and Jing Chen and Sarvapali
+	D Ramchurn},
+  title = {Decentralized Patrolling Under Constraints in Dynamic Environments},
+  journal = {IEEE Transactions on Cybernetics (IEEE SMC)},
+  year = {2015},
+  pages = {1-13},
+  abstract = {We investigate a decentralized patrolling problem for dynamic environments
+	where information is distributed alongside threats. In this problem,
+	agents obtain information at a location, but may suffer attacks from
+	the threat at that location. In a decentralized fashion, each agent
+	patrols in a designated area of the environment and interacts with
+	a limited number of agents. Therefore, the goal of these agents is
+	to coordinate to gather as much information as possible while limiting
+	the damage incurred. Hence, we model this class of problem as a transition-decoupled
+	partially observable Markov decision process with health con- straints.
+	Furthermore, we propose scalable decentralized online algorithms
+	based on Monte Carlo tree search and a factored belief vector. We
+	empirically evaluate our algorithms on decen- tralized patrolling
+	problems and benchmark them against the state-of-the-art online planning
+	solver. The results show that our approach outperforms the state-of-the-art
+	by more than 56% for six agents patrolling problems and can scale
+	up to 24 agents in reasonable time.}
+}
+
+@ARTICLE{CWSplosone15,
+  author = {Shaofei Chen and Feng Wu and Lincheng Shen and Jing Chen and Sarvapali
+	D. Ramchurn},
+  title = {Multi-Agent Patrolling under Uncertainty and Threats},
+  journal = {Public Library of Science (PLOS ONE)},
+  year = {2015},
+  volume = {10(6)},
+  pages = {e0130154},
+  abstract = {We investigate a multi-agent patrolling problem where information
+	is distributed alongside threats in environments with uncertainties.
+	Specifically, the information and threat at each location are independently
+	modelled as multi-state Markov chains, whose states are not observed
+	until the location is visited by an agent. While agents will obtain
+	information at a location, they may also suffer damage from the threat
+	at that location. Therefore, the goal of the agents is to gather
+	as much information as possible while mitigating the damage incurred.
+	To address this challenge, we formulate the single-agent patrolling
+	problem as a Partially Observable Markov Decision Process (POMDP)
+	and propose a computationally efficient algorithm to solve this model.
+	Building upon this, to compute patrols for multiple agents, the single-agent
+	algorithm is extended for each agent with the aim of maximising its
+	marginal contribution to the team. We empirically evaluate our algorithm
+	on problems of multi-agent patrolling and show that it outperforms
+	a baseline algorithm up to 44% for 10 agents and by 21% for 15 agents
+	in large domains.}
+}
+
+@INPROCEEDINGS{CWWrobocup15,
+  author = {Yingfeng Chen and Feng Wu and Ningyang Wang and Keke Tang and Min
+	Cheng and Xiaoping Chen},
+  title = {KeJia-LC: A Low-Cost Mobile Robot Platform - Champion of Demo Challenge
+	on Benchmarking Service Robots at RoboCup 2015.},
+  booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
+  year = {2015},
+  volume = {9513},
+  pages = {60-71},
+  abstract = {In this paper, we present the system design and the key techniques
+	of our mobile robot platform called KeJia-LC, who won the first place
+	in the demo challenge on Benchmarkinng Service Robots in RoboCup
+	2015. Given the fact that KeJia-LC is a low-cost version of our KeJia
+	robot without shoulder and arm, several new technical demands comparing
+	to RoboCup@Home are highlighted for better understanding of our system.
+	With the elaborate design of hardware and the reasonable selection
+	of sensors, our robot platform has the features of low cost, wide
+	generality and good extensibility. Moreover, we integrate several
+	functional softwares (such as 2D&3D mapping, localization and navigation)
+	following the competition rules, which are critical to the performance
+	of our robot. The effectiveness and robustness of our robot system
+	has been proven in the competition.}
+}
+
+@INPROCEEDINGS{RFIijcai15,
+  author = {Sarvapali D. Ramchurn and Joel E. Fischer and Yuki Ikuno and Feng
+	Wu and Jack Flann and Antony Waldock},
+  title = {A Study of Human-Agent Collaboration for Multi-UAV Task Allocation
+	in Dynamic Environments},
+  booktitle = {Proceedings of the 24th International Joint Conference on Artificial
+	Intelligence (IJCAI)},
+  year = {2015},
+  pages = {1184-1192},
+  address = {Buenos Aires, Argentina},
+  month = {July},
+  abstract = {We consider a setting where a team of humans oversee the coordination
+	of multiple Unmanned Aerial Vehicles (UAVs) to perform a number of
+	search tasks in dynamic environments that may cause the UAVs to drop
+	out. Hence, we develop a set of multi-UAV supervisory control interfaces
+	and a multi-agent coordination algorithm to support human decision
+	making in this setting. To elucidate the resulting interactional
+	issues, we compare manual and mixed-initiative task allocation in
+	both static and dynamic environments in lab studies with 40 participants
+	and observe that our mixed-initiative system results in lower workloads
+	and better performance in re-planning tasks than one which only involves
+	manual task allocation. Our analysis points to new insights into
+	the way humans appropriate flexible autonomy.}
+}
+
+@INPROCEEDINGS{RHIaamas15,
+  author = {Sarvapali D. Ramchurn and Trung Dong Huynh and Yuki Ikuno and Jack
+	Flann and Feng Wu and Luc Moreau and Nicholas R. Jennings and Joel
+	Fischer and Wenchao Jiang and Tom Rodden and Edwin Simpson and Steven
+	Reece and Stephen Roberts},
+  title = {HAC-ER: A Disaster Response System based on Human-Agent Collectives},
+  booktitle = {Proceedings of the 14th International Conference on Autonomous Agents
+	and Multi-Agent Systems (AAMAS)},
+  year = {2015},
+  pages = {533-541},
+  address = {Istanbul, Turkey},
+  month = {May},
+  note = {Innovative Applications Track Best Paper (1/167)},
+  abstract = {This paper proposes a novel disaster management system called HAC-ER
+	that addresses some of the challenges faced by emergency responders
+	by enabling humans and agents, using state-of-the-art algorithms,
+	to collaboratively plan and carry out tasks in teams referred to
+	as human-agent collectives. In particular, HAC-ER utilises crowdsourcing
+	combined with machine learning to extract situational awareness information
+	from large streams of reports posted by members of the public and
+	trusted organisations. We then show how this information can inform
+	human-agent teams in coordinating multi-UAV deployments as well as
+	task planning for responders on the ground. Finally, HAC-ER incorporates
+	a tool for tracking and analysing the provenance of information shared
+	across the entire system. In summary, this paper describes a prototype
+	system, validated by real-world emergency responders, that combines
+	several state-of-the-art techniques for integrating humans and agents,
+	and illustrates, for the first time, how such an approach can enable
+	more effective disaster response operations.}
+}
+
+@ARTICLE{RWFjaamas15,
+  author = {Sarvapali D. Ramchurn and Feng Wu and Joel E. Fischer and Steven
+	Reece and Wenchao Jiang and Stephen Roberts and Tom Rodden and Chris
+	Greenhalgh and Nicholas R. Jennings},
+  title = {Human-Agent Collaboration for Disaster Response},
+  journal = {Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS)},
+  year = {2015},
+  pages = {1-30},
+  abstract = {In the aftermath of major disasters, first responders are typically
+	overwhelmed with large numbers of, spatially distributed, search
+	and rescue tasks, each with their own requirements. Moreover, responders
+	have to operate in highly uncertain and dynamic environments where
+	new tasks may appear and hazards may be spreading across the disaster
+	space. Hence, rescue missions may need to be re-planned as new information
+	comes in, tasks are completed, or new hazards are discovered. Finding
+	an optimal allocation of resources to complete all the tasks is a
+	major computational challenge. In this paper, we use decision theoretic
+	techniques to solve the task allocation problem posed by emergency
+	response planning and then deploy our solution as part of an agent-based
+	planning tool in real-world field trials. By so doing, we are able
+	to study the interactional issues that arise when humans are guided
+	by an agent. Specifically, we develop an algorithm, based on a Multi-Agent
+	Markov Decision Process representation of the task allocation problem
+	and show that it outperforms standard baseline solutions. We then
+	integrate the algorithm into a planning agent that responds to requests
+	for tasks from participants in a mixed-reality location-based game,
+	called AtomicOrchid, that simulates disaster response settings in
+	the real-world. We then run a number of trials of our planning agent
+	and compare it against a purely human driven system. Our analysis
+	of these trials show that human commanders adapt to the planning
+	agent by taking on a more supervisory role and that, by providing
+	humans with the flexibility of requesting plans from the agent, allows
+	them to perform more tasks more efficiently than using purely human
+	interactions to allocate tasks. We also discuss how such flexibility
+	could lead to poor performance if left unchecked.}
+}
+
+@INPROCEEDINGS{WRJijcai15,
+  author = {Feng Wu and Sarvapali D. Ramchurn and Wenchao Jiang and Jeol E. Fischer
+	and Tom Rodden and Nicholas R. Jennings},
+  title = {Agile Planning for Real-World Disaster Response},
+  booktitle = {Proceedings of the 24th International Joint Conference on Artificial
+	Intelligence (IJCAI)},
+  year = {2015},
+  pages = {132-138},
+  address = {Buenos Aires, Argentina},
+  month = {July},
+  note = {Selected for Press Conference (4/575)},
+  abstract = {We consider a setting where an agent-based planner instructs teams
+	of human emergency responders to perform tasks in the real world.
+	Due to uncertainty in the environment and the inability of the planner
+	to consider all human preferences and all attributes of the real-world,
+	humans may reject plans computed by the agent. A naıve solution that
+	replans given a rejection is inefficient and does not guarantee the
+	new plan will be acceptable. Hence, we propose a new model re-planning
+	problem using a Multi-agent Markov Decision Process that integrates
+	potential rejections as part of the planning process and propose
+	a novel algorithm to effi- ciently solve this new model. We empirically
+	evaluate our algorithm and show that it outperforms current benchmarks.
+	Our algorithm is also shown to perform better in pilot studies with
+	real humans.}
+}
+
+@INPROCEEDINGS{BWZicaps14,
+  author = {Aijun Bai and Feng Wu and Zongzhang Zhang and Xiaoping Chen},
+  title = {Thompson Sampling based Monte-Carlo Planning in {POMDPs}},
+  booktitle = {Proceedings of the 24th International Conference on Automated Planning
+	and Scheduling (ICAPS)},
+  year = {2014},
+  pages = {29-37},
+  address = {Portsmouth, United States},
+  abstract = {Monte-Carlo tree search (MCTS) has been drawing great interest in
+	recent years for planning under uncertainty. One of the key challenges
+	is the trade-off between exploration and exploitation. To address
+	this, we introduce a novel online planning algorithm for large POMDPs
+	using Thompson sampling based MCTS that balances between cumulative
+	and simple regrets. The proposed algorithm Dirichlet-Dirichlet-Normal
+	Gamma based Partially Observable Monte-Carlo Planning (D2NG-POMCP)
+	treats the accumulated reward of performing an action from a belief
+	state in the MCTS search tree as a random variable following an unknown
+	distribution with hidden parameters. Bayesian method is used to model
+	and infer the posterior distribution of these parameters by choosing
+	the conjugate prior in the form of a combination of two Dirichlet
+	and one NormalGamma distributions. Thompson sampling is exploited
+	to guide the action selection in the search tree. Experimental results
+	confirmed that our algorithm outperforms the state-of-the-art approaches
+	on several common benchmark problems.}
+}
+
+@INPROCEEDINGS{JFGcts14,
+  author = {Wenchao Jiang and Joel E. Fischer and Chris Greenhalgh and Sarvapali
+	D. Ramchurn and Feng Wu and Nicholas R. Jennings and Tom Rodden},
+  title = {Social Implications of Agent-based Planning Support for Human Teams},
+  booktitle = {Proceedings of the 2014 International Conference on Collaboration
+	Technologies and Systems (CTS)},
+  year = {2014},
+  pages = {310-317},
+  address = {Minneapolis, United States},
+  month = {May},
+  abstract = {We present a field trial of how instructions from an intelligent planning
+	agent are dealt with by distributed human teams, in a time-critical
+	task setting created through a mixed-reality game. We conduct interaction
+	analysis to examine video recorded field observations and game log
+	data. The findings highlight the social process by which players
+	interpret and negotiate the agent guidance as well as how these are
+	intertwined with social dynamics of the teams. The insights can be
+	used to develop an understanding of interactional issues around automated
+	team instructions and inform the design of human-centred planning
+	support systems.}
+}
+
+@INPROCEEDINGS{SWJaamas14,
+  author = {Sarvapali D. Ramchurn and Feng Wu and Wenchao Jiang and Joel E. Fischer
+	and Steve Reece and Chris Greenhalgh and Tom Rodden and Nicholas
+	R. Jennings and Stephen Roberts},
+  title = {{AtomicOrchid}: Human-Agent Collectives to the Rescue (Demostration)},
+  booktitle = {Proceedings of the 13th International Conference on Autonomous Agents
+	and Multi-Agent Systems (AAMAS)},
+  year = {2014},
+  pages = {1693-1694},
+  address = {Paris, France}
+}
+
+@INPROCEEDINGS{WJaaai14,
+  author = {Feng Wu and Nicholas R. Jennings},
+  title = {Regret-Based Multi-Agent Coordination with Uncertain Task Rewards},
+  booktitle = {Proceedings of the 28th AAAI Conference on Artificial Intelligence
+	(AAAI)},
+  year = {2014},
+  pages = {1492-1499},
+  address = {Quebec City, Canada},
+  abstract = {Many multi-agent coordination problems can be represented as DCOPs.
+	Motivated by task allocation in disaster response, we extend standard
+	DCOP models to consider uncertain task rewards where the outcome
+	of completing a task depends onits current state, which is randomly
+	drawn from unknown distributions. The goal of solving this problem
+	is to find a solution for all agents that minimizes the overall worst-case
+	loss. This is a challenging problem for centralized algorithms because
+	the search space grows exponentially with the number of agents and
+	is nontrivial for existing algorithms for standard DCOPs. To address
+	this, we propose a novel decentralized algorithm that incorporates
+	Max-Sum with iterative constraint generation to solve the problem
+	by passing messages among agents. By so doing, our approach scales
+	well and can solve instances of the task allocation problem with
+	hundreds of agents and tasks.}
+}
+
+@INPROCEEDINGS{BWCnips13,
+  author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+  title = {Bayesian Mixture Modelling and Inference based Thompson Sampling
+	in Monte-Carlo Tree Search},
+  booktitle = {Proceedings of the Advances in Neural Information Processing Systems
+	(NIPS)},
+  year = {2013},
+  pages = {1646-1654},
+  address = {Lake Tahoe, United States},
+  abstract = {Monte-Carlo tree search (MCTS) has been drawing great interest in
+	recent years for planning and learning under uncertainty. One of
+	the key challenges is the trade-off between exploration and exploitation.
+	To address this, we present a novel approach for MCTS using Bayesian
+	mixture modeling and inference based Thompson sampling and apply
+	it to the problem of online planning in MDPs. Our algorithm, named
+	Dirichlet-NormalGamma MCTS (DNG-MCTS), models the uncertainty of
+	the accumulated reward for actions in the search tree as a mixture
+	of Normal distributions. We perform inferences on the mixture in
+	Bayesian settings by choosing conjugate priors in the form of combinations
+	of Dirichlet and NormalGamma distributions and select the best action
+	at each decision node using Thompson sampling. Experimental results
+	confirm that our algorithm advances the state-of-the-art UCT approach
+	with better values on several benchmark problems.}
+}
+
+@INPROCEEDINGS{WZJijcai13,
+  author = {Feng Wu and Shlomo Zilberstein and Nicholas R. Jennings},
+  title = {Monte-Carlo Expectation Maximization for Decentralized {POMDPs}},
+  booktitle = {Proceedings of the 23rd International Joint Conference on Artificial
+	Intelligence (IJCAI)},
+  year = {2013},
+  pages = {397-403},
+  address = {Beijing, China},
+  abstract = {We address two significant drawbacks of state-of-the-art solvers of
+	decentralized POMDPs (DEC-POMDPs): the reliance on complete knowledge
+	of the model and limited scalability as the complexity of the domain
+	grows. We extend a recently proposed approach for solving DEC-POMDPs
+	via a reduction to the maximum likelihood problem, which in turn
+	can be solved using EM. We introduce a model-free version of this
+	approach that employs Monte-Carlo EM (MCEM). While a na?ve implementation
+	of MCEM is inadequate in multiagent settings, we introduce several
+	improvements in sampling that produce high-quality results on a variety
+	of DEC-POMDP benchmarks, including large problems with thousands
+	of agents.}
+}
+
+@INPROCEEDINGS{BWCaamas12,
+  author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+  title = {Online Planning for Large {MDPs} with {MAXQ}-like Decomposition (Extended
+	Abstract)},
+  booktitle = {Proceedings of the 8th International Conference on Autonomous Agents
+	and Multiagent Systems (AAMAS)},
+  year = {2012},
+  pages = {1215-1216},
+  address = {Valencia, Spain},
+  abstract = {Markov decision processes (MDPs) provide an expressive framework for
+	planning in stochastic domains. However, exactly solving a large
+	MDP is often intractable due to the curse of dimensionality. Online
+	algorithms help overcome the high computational complexity by avoiding
+	computing a policy for each possible state. Hierarchical decomposition
+	is another promising way to help scale MDP algorithms up to large
+	domains by exploiting their underlying structure. In this paper,
+	we present an effort on combining the benefits of a general hierarchical
+	structure based on MAXQ value function decomposition with the power
+	of heuristic and approximate techniques for developing an online
+	planning framework, called MAXQ-OP. The proposed framework provides
+	a principled approach for programming autonomous agents in a large
+	stochastic domain. We have been conducting a long-term case-study
+	with the RoboCup soccer simulation 2D domain, which is extremely
+	larger than domains usually studied in literature, as the major benchmark
+	to this research. The case-study showed that the agents developed
+	with this framework and the related techniques reached outstanding
+	performances, showing its high scalability to very large domains.}
+}
+
+@INPROCEEDINGS{BWCrobocup12,
+  author = {Aijun Bai and Feng Wu and Xiaoping Chen},
+  title = {Towards a Principled Solution to Simulated Robot Soccer},
+  booktitle = {Proceedings of the Robot Soccer World Cup XVI Symposium (RoboCup)},
+  year = {2012},
+  pages = {141-153},
+  address = {Mexico City, Mexico},
+  abstract = {The RoboCup soccer simulation 2D domain is a very large testbed for
+	the research of planning and machine learning. It has competed in
+	the annual world championship tournaments in the past 15 years. However
+	it is still unclear that whether more principled techniques such
+	as decision-theoretic planning take an important role in the success
+	for a RoboCup 2D team. In this paper, we present a novel approach
+	based on MAXQ-OP to automated planning in the RoboCup 2D domain.
+	It combines the benets of a general hierarchical structure based
+	on MAXQ value function decomposition with the power of heuristic
+	and approximate techniques. The proposed framework provides a principled
+	solution to programming autonomous agents in large stochastic domains.
+	The MAXQ-OP framework has been implemented in our RoboCup 2D team,
+	WrightEagle. The empirical results indicated that the agents developed
+	with this framework and related techniques reached outstanding performances,
+	showing its potential of scalability to very large domains.}
+}
+
+@INPROCEEDINGS{WJCecai12,
+  author = {Feng Wu and Nicholas R. Jennings and Xiaoping Chen},
+  title = {Sample-Based Policy Iteration for Constrained {DEC-POMDPs}},
+  booktitle = {Proceedings of the 20th European Conference on Artificial Intelligence
+	(ECAI)},
+  year = {2012},
+  pages = {858-863},
+  address = {Montpellier, France},
+  abstract = {We introduce constrained DEC-POMDPsCan extension of the standard DEC-POMDPs
+	including additional constraints to the optimality of the long-term
+	reward. Constrained DEC-POMDPs present natural framework for modeling
+	cooperative multi-agent problems with limited resources or multiple
+	objectives. To solve constrained DEC-POMDPs, we propose a novel sample-based
+	policy iteration algorithm. The algorithm builds up on multi-agent
+	dynamic programming and benefits from several advantages of recentdeveloped
+	DEC-POMDP algorithms. It improves the joint policy by solving a serial
+	of standard nonlinear programs and thereby lends itself the power
+	of existing NLP solvers. The experimental results confirm that the
+	algorithm can efficiently solve constrained DECPOMDPs while the general
+	DEC-POMDP algorithms fail. It outperforms the leading DEC-POMDP method
+	with higher value and less chance of constraint violation.}
+}
+
+@PHDTHESIS{Wustc11,
+  author = {Feng Wu},
+  title = {Decision-Theoretic Planning for Multi-Agent Systems},
+  school = {University of Science and Technology of China (USTC)},
+  year = {2011}
+}
+
+@ARTICLE{WZCaij11,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Online Planning for Multi-Agent Systems with Bounded Communication},
+  journal = {Artificial Intelligence (AIJ)},
+  year = {2011},
+  volume = {175},
+  pages = {487-511},
+  number = {2},
+  abstract = {We propose an online algorithm for planning under uncertainty in multi-agent
+	settings modeled as DEC-POMDPs. The algorithm helps overcome the
+	high computational complexity of solving such problems offline. The
+	key challenges in decentralized operation are to maintain coordinated
+	behavior with little or no communication and, when communication
+	is allowed, to optimize value with minimal communication. The algorithm
+	addresses these challenges by generating identical conditional plans
+	based on common knowledge and communicating only when history inconsistency
+	is detected, allowing communication to be postponed when necessary.
+	To be suitable for online operation, the algorithm computes good
+	local policies using a new and fast local search method implemented
+	using linear programming. Moreover, it bounds the amount of memory
+	used at each step and can be applied to problems with arbitrary horizons.
+	The experimental results confirm that the algorithm can solve problems
+	that are too large for the best existing offline planning algorithms
+	and it outperforms the best online method, producing much higher
+	value with much less communication in most cases. The algorithm also
+	proves to be effective when the communication channel is imperfect
+	(periodically unavailable). These results contribute to the scalability
+	of decision-theoretic planning in multi-agent settings.}
+}
+
+@INPROCEEDINGS{WZCijcai11,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Online Planning for Ad Hoc Autonomous Agent Teams},
+  booktitle = {Proceedings of the 22nd International Joint Conference on Artificial
+	Intelligence (IJCAI)},
+  year = {2011},
+  pages = {439-445},
+  address = {Barcelona, Spain},
+  abstract = {We propose a novel online planning algorithm for ad hoc team settings'
+	challenging situations in which an agent must collaborate with unknown
+	teammates without prior coordination. Our approach is based on constructing
+	and solving a series of stage games, and then using biased adaptive
+	play to choose actions. The utility function in each stage game is
+	estimated via Monte-Carlo tree search using the UCT algorithm. We
+	establish analytically the convergence of the algorithm and show
+	that it performs well in a variety of ad hoc team domains.}
+}
+
+@INPROCEEDINGS{WZCaaai10,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Trial-Based Dynamic Programming for Multi-Agent Planning},
+  booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence
+	(AAAI)},
+  year = {2010},
+  pages = {908-914},
+  address = {Atlanta, United States},
+  abstract = {Trial-based approaches offer an efficient way to solve singleagent
+	MDPs and POMDPs. These approaches allow agents to focus their computations
+	on regions of the environment they encounter during the trials, leading
+	to significant computational savings. We present a novel trial-based
+	dynamic programming (TBDP) algorithm for DEC-POMDPs that extends
+	these benefits to multi-agent settings. The algorithm uses trial-based
+	methods for both belief generation and policy evaluation. Policy
+	improvement is implemented efficiently using linear programming and
+	a sub-policy reuse technique that helps bound the amount of memory.
+	The results show that TBDP can produce significant value improvements
+	and is much faster than the best existing planning algorithms.}
+}
+
+@INPROCEEDINGS{WZCaamas10,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Point-Based Policy Generation for Decentralized {POMDPs}},
+  booktitle = {Proceedings of the 9th International Conference on Autonomous Agents
+	and Multi-Agent Systems (AAMAS)},
+  year = {2010},
+  pages = {1307-1314},
+  address = {Toronto, Canada},
+  abstract = {Memory-bounded techniques have shown great promise in solving complex
+	multi-agent planning problems modeled as DEC-POMDPs. Much of the
+	performance gains can be attributed to pruning techniques that alleviate
+	the complexity of the exhaustive backup step of the original MBDP
+	algorithm. Despite these improvements, state-of-the-art algorithms
+	can still handle a relative small pool of candidate policies, which
+	limits the quality of the solution in some benchmark problems. We
+	present a new algorithm, Point- Based Policy Generation, which avoids
+	altogether searching the entire joint policy space. The key observation
+	is that the best joint policy for each reachable belief state can
+	be constructed directly, instead of producing first a large set of
+	candidates. We also provide an efficient approximate implementation
+	of this operation. The experimental results show that our solution
+	technique improves the performance significantly in terms of both
+	runtime and solution quality.}
+}
+
+@INPROCEEDINGS{WZCuai10,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Rollout Sampling Policy Iteration for Decentralized {POMDPs}},
+  booktitle = {Proceedings of the 26th Conference on Uncertainty in Artificial Intelligence
+	(UAI)},
+  year = {2010},
+  pages = {666-673},
+  address = {Catalina, United States},
+  abstract = {We present decentralized rollout sampling policy iteration (DecRSPI)Ca
+	new algorithm for multiagent decision problems formalized as DECPOMDPs.
+	DecRSPI is designed to improve scalability and tackle problems that
+	lack an explicit model. The algorithm uses Monte-Carlo methods to
+	generate a sample of reachable belief states. Then it computes a
+	joint policy for each belief state based on the rollout estimations.
+	A new policy representation allows us to represent solutions compactly.
+	The key benefits of the algorithm are its linear time complexity
+	over the number of agents, its bounded memory usage and good solution
+	quality. It can solve larger problems that are intractable for existing
+	planning algorithms. Experimental results confirm the effectiveness
+	and scalability of the approach.}
+}
+
+@INPROCEEDINGS{WZCicaps09,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Multi-Agent Online Planning with Communication},
+  booktitle = {Proceedings of the 19th International Conference on Automated Planning
+	and Scheduling (ICAPS)},
+  year = {2009},
+  pages = {321-329},
+  address = {Thessaloniki, Greece},
+  abstract = {We propose an online algorithm for planning under uncertainty in multi-agent
+	settings modeled as DEC-POMDPs. The algorithm helps overcome the
+	high computational complexity of solving such problems off-line.
+	The key challenge is to produce coordinated behavior using little
+	or no communication. When communication is allowed but constrained,
+	the challenge is to produce high value with minimal communication.
+	The algorithm addresses these challenges by communicating only when
+	history inconsistency is detected, allowing communication to be postponed
+	if necessary. Moreover, it bounds the memory usage at each step and
+	can be applied to problems with arbitrary horizons. The experimental
+	results confirm that the algorithm can solve problems that are too
+	large for the best existing off-line planning algorithms and it outperforms
+	the best online method, producing higher value with much less communication
+	in most cases.}
+}
+
+@INPROCEEDINGS{WCrobocup07,
+  author = {Feng Wu and Xiaoping Chen},
+  title = {Solving Large-Scale and Sparse-Reward {DEC-POMDPs} with Correlation-{MDPs}},
+  booktitle = {Proceedings of the Robot Soccer World Cup XI Symposium (RoboCup)},
+  year = {2007},
+  pages = {208-219},
+  address = {Atlanta, United States},
+  abstract = {Within a group of cooperating agents the decision making of an individual
+	agent depends on the actions of the other agents. A lot of effort
+	has been made to solve this problem with additional assumptions on
+	the communication abilities of agents. However, in some realworld
+	applications, communication is limited and the assumptions are rarely
+	satisfied. An alternative approach newly developed is to employ a
+	correlation device to correlate the agents' behavior without exchanging
+	information during execution. In this paper, we apply correlation
+	device to large-scale and spare-reward domains. As a basis we use
+	the framework of infinite-horizon DEC-POMDPs which represent policies
+	as joint stochastic finite-state controllers. To solve any problem
+	of this kind, a correlation device is firstly calculated by solving
+	Correlation Markov Decision Processes (Correlation-MDPs) and then
+	used to improve the local controller for each agent. By using this
+	method, we are able to achieve a tradeoff between computational complexity
+	and the quality of the approximation. In addition, we demonstrate
+	that, adversarial problems can be solved by encoding the information
+	of opponents'ddate behavior in the correlation device.We have successfully
+	implemented the proposed method into our 2D simulated robot soccer
+	team and the performance in RoboCup-2006 was encouraging.}
+}
+
+@INPROCEEDINGS{BFWrobocup05,
+  author = {Peng Bai and Changjie Fan and Feng Wu and Xiaoping Chen},
+  title = {WrightEagle 2D Simulation Team 2005},
+  booktitle = {Proceedings of Robot Soccer World Cup IX Symposium (RoboCup)},
+  year = {2005}
+}
+
