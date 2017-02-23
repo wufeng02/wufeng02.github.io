@@ -1,5 +1,85 @@
-% This file was created with JabRef 2.5.
-% Encoding: UTF8
+% Encoding: UTF-8
+
+@Article{FGJccpe16,
+  author =   {Joel E Fischer and Chris Greenhalgh and Wenchao Jiang and Sarvapali D Ramchurn and Feng Wu and Tom Rodden},
+  title =    {In-the-loop or on-the-loop? Interactional arrangements to support team coordination with a planning agent},
+  journal =  {Concurrency and Computation: Practice and Experience (CCPE)},
+  year =     {2016},
+  abstract = {In  this  paper  we  present  the  study  of  interactional  arrangements  that  support  the  collaboration  of
+headquarters (HQ), field responders and a computational planning agent in a time-critical task setting created
+by a mixed-reality game. Interactional arrangements define the extent to which control is distributed between
+the collaborative parties. We provide two field trials, one to study an “on-the-loop” arrangement in which HQ
+monitors and intervenes in agent instructions to field players on demand, and the other to study a version
+that places headquarters more tightly “in-the-loop”. The studies provide and understanding of the socio-
+technical collaboration between players and the agent in these interactional arrangements, by conducting
+interaction analysis of video recordings and game log data. The first field trial focuses on the collaboration
+of field responders with the planning agent. Findings highlight how players negotiate the agent guidance
+within the social interaction of the collocated teams. The second field trial focuses on the collaboration
+between the automated planning agent and the headquarters. We find that the human coordinator and the
+agent can successfully work together in most cases, with human coordinators inspecting and ‘correcting’
+the  agent-proposed  plans.  Through  this  field  trial-driven  development  process,  we  generalise  interaction
+design implications of automated planning agents around the themes of supporting common ground and
+mixed-initiative planning.}
+}
+
+@Article{RHWjair16,
+  author =   {Sarvapali D Ramchurn and Trung Dong Huynh and Feng Wu and Yukki Ikuno and Jack Flann and Luc Moreau and Joel E Fischer and Wenchao Jiang and Tom Rodden and Edwin Simpson and Steven Reece and Stephen Roberts and Nicholas R Jennings},
+  title =    {A Disaster Response System based on Human-Agent Collectives},
+  journal =  {Journal of Artificial Intelligence Research (JAIR)},
+  year =     {2016},
+  volume =   {57},
+  pages =    {661-708},
+  abstract = {Major natural or man-made disasters such as Hurricane Katrina or the 9/11 terror attacks pose sig-
+nificant challenges for emergency responders.  First, they have to develop an understanding of the
+unfolding event either using their own resources or through third-parties such as the local popula-
+tion and agencies.  Second, based on the information gathered, they need to deploy their teams in
+a flexible manner, ensuring that each team performs tasks in the most effective way.  Third, given
+the dynamic nature of a disaster space, and the uncertainties involved in performing rescue mis-
+sions, information about the disaster space and the actors within it needs to be managed to ensure
+that responders are always acting on up-to-date and trusted information. Against this background,
+this paper proposes a novel disaster response system called HAC-ER. Thus HAC-ER interweaves
+humans and agents, both robotic and software, in social relationships that augment their individual
+and collective capabilities.  To design HAC-ER, we involved end-users including both experts and
+volunteers in a several participatory design workshops, lab studies, and field trials of increasingly
+advanced prototypes of individual components of HAC-ER as well as the overall system. This pro-
+cess generated a number of new quantitative and qualitative results but also raised a number of new
+research questions. HAC-ER thus demonstrates how such Human-Agent Collectives (HACs) can
+address key challenges in disaster response.  Specifically, we show how HAC-ER utilises crowd-
+sourcing  combined  with  machine  learning  to  obtain  most  important  situational  awareness  from
+large streams of reports posted by members of the public and trusted organisations. We then show
+how this information can inform human-agent teams in coordinating multi-UAV deployments, as
+well as task planning for responders on the ground.  Finally, HAC-ER incorporates an infrastruc-
+ture and the associated intelligence for tracking and utilising the provenance of information shared
+across the entire system to ensure its accountability. We individually validate each of these elements
+of HAC-ER and show how they perform against standard (non-HAC) baselines and also elaborate
+on the evaluation of the overall system.}
+}
+
+@InProceedings{WRCijcai16,
+  author =    {Feng Wu and Sarvapali Ramchurn and Xiaoping Chen},
+  title =     {Coordinating Human-{UAV} Teams in Disaster Response},
+  booktitle = {Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI)},
+  year =      {2016},
+  pages =     {524-530},
+  abstract =  {We consider a disaster response scenario where
+emergency responders have to complete rescue
+tasks in dynamic and uncertain environment with
+the assistance of multiple UAVs to collect informa-
+tion about the disaster space. To capture the un-
+certainty and partial observability of the domain,
+we model this problem as a POMDP. However, the
+resulting model is computationally intractable and
+cannot be solved by most existing POMDP solvers
+due to the large state and action spaces. By exploit-
+ing the problem structure we propose a novel online
+planning algorithm to solve this model.  Specifi-
+cally, we generate plans for the responders based
+on Monte-Carlo simulations and compute actions
+for the UAVs according to the value of informa-
+tion. Our empirical results confirm that our algo-
+rithm significantly outperforms the state-of-the-art
+both in time and solution quality.}
+}
 
 @ARTICLE{BWCtist15,
   author = {Aijun Bai and Feng Wu and Xiaoping Chen},
@@ -34,55 +114,6 @@
 	10 years of RoboCup Soccer Simulation 2D annual competitions. The
 	results in the RoboCup domain confirm the scalability of MAXQ-OP
 	to very large domains.}
-}
-
-@INPROCEEDINGS{CCTrobocup15,
-  author = {Min Cheng and Xiaoping Chen and Keke Tang and Feng Wu and Andras
-	Kupcsik and Luca Iocchi and Yingfeng Chen and David Hsu},
-  title = {Synthetical Benchmarking of Service Robots: A First Effort on Domestic
-	Mobile Platforms},
-  booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
-  year = {2015},
-  volume = {9513},
-  pages = {377-388},
-  abstract = {Most of existing benchmarking tools for service robots are basically
-	qualitative, in which a robot's performance on a task is evaluated
-	based on completion/incompletion of actions contained in the task.
-	In the effort reported in this paper, we tried to implement a synthetical
-	benchmarking system on domestic mobile platforms. Synthetical bench-
-	marking consists of both qualitative and quantitative aspects, such
-	as task completion, accuracy of task completions and efficiency of
-	task completions, about performance of a robot. The system includes
-	a set of algorithms for collecting, recording and analyzing measurement
-	data from a MoCap system. It was used as the evaluator in a competition
-	called the BSR challenge, in which 10 teams participated, at RoboCup
-	2015. The paper presents our motivations behind synthetical benchmarking,
-	the design considerations on the synthetical benchmarking system,
-	the realization of the competition as a comparative study on performance
-	evaluation of domestic mobile platforms, and an analysis of the teams'
-	performance.}
-}
-
-@INPROCEEDINGS{CWSicsr15,
-  author = {Yingfeng Chen and Feng Wu and Wei Shuai and Ningyang Wang and Rongya
-	Chen and Xiaoping Chen},
-  title = {KeJia Robot - an Attractive Shopping Mall Guider},
-  booktitle = {Proceedings of the 7th International Conference on Social Robotics
-	(ICSR)},
-  year = {2015},
-  pages = {145-154},
-  abstract = {This paper reports the project of a shopping mall guide robot, named
-	KeJia, which is designed for customer navigation, informa- tion providing
-	and entertainment in a real environment. Our introduction focuses
-	on the designs of robot's hardware and software, faced challenges
-	and the multimodal interaction methods including using a mobile phone
-	app. In order to adapt the current localization and navigation techniques
-	to such large and complex shopping mall environment, a series of
-	related improvements and new methods are proposed. The robot is deployed
-	in a large shopping mall for field test and stable operation for
-	a fairly long time. The result demonstrates the stability, validity
-	and feasibility of this robot system, and gives a positive reward
-	to our original design motivation.}
 }
 
 @ARTICLE{CWSieee15,
@@ -137,6 +168,28 @@
 	in large domains.}
 }
 
+@INPROCEEDINGS{CWSicsr15,
+  author = {Yingfeng Chen and Feng Wu and Wei Shuai and Ningyang Wang and Rongya
+	Chen and Xiaoping Chen},
+  title = {KeJia Robot - an Attractive Shopping Mall Guider},
+  booktitle = {Proceedings of the 7th International Conference on Social Robotics
+	(ICSR)},
+  year = {2015},
+  pages = {145-154},
+  abstract = {This paper reports the project of a shopping mall guide robot, named
+	KeJia, which is designed for customer navigation, informa- tion providing
+	and entertainment in a real environment. Our introduction focuses
+	on the designs of robot's hardware and software, faced challenges
+	and the multimodal interaction methods including using a mobile phone
+	app. In order to adapt the current localization and navigation techniques
+	to such large and complex shopping mall environment, a series of
+	related improvements and new methods are proposed. The robot is deployed
+	in a large shopping mall for field test and stable operation for
+	a fairly long time. The result demonstrates the stability, validity
+	and feasibility of this robot system, and gives a positive reward
+	to our original design motivation.}
+}
+
 @INPROCEEDINGS{CWWrobocup15,
   author = {Yingfeng Chen and Feng Wu and Ningyang Wang and Keke Tang and Min
 	Cheng and Xiaoping Chen},
@@ -159,6 +212,33 @@
 	following the competition rules, which are critical to the performance
 	of our robot. The effectiveness and robustness of our robot system
 	has been proven in the competition.}
+}
+
+@INPROCEEDINGS{CCTrobocup15,
+  author = {Min Cheng and Xiaoping Chen and Keke Tang and Feng Wu and Andras
+	Kupcsik and Luca Iocchi and Yingfeng Chen and David Hsu},
+  title = {Synthetical Benchmarking of Service Robots: A First Effort on Domestic
+	Mobile Platforms},
+  booktitle = {Proceedings of the Robot World Cup XIX Symposium (RoboCup)},
+  year = {2015},
+  volume = {9513},
+  pages = {377-388},
+  abstract = {Most of existing benchmarking tools for service robots are basically
+	qualitative, in which a robot's performance on a task is evaluated
+	based on completion/incompletion of actions contained in the task.
+	In the effort reported in this paper, we tried to implement a synthetical
+	benchmarking system on domestic mobile platforms. Synthetical bench-
+	marking consists of both qualitative and quantitative aspects, such
+	as task completion, accuracy of task completions and efficiency of
+	task completions, about performance of a robot. The system includes
+	a set of algorithms for collecting, recording and analyzing measurement
+	data from a MoCap system. It was used as the evaluator in a competition
+	called the BSR challenge, in which 10 teams participated, at RoboCup
+	2015. The paper presents our motivations behind synthetical benchmarking,
+	the design considerations on the synthetical benchmarking system,
+	the realization of the competition as a comparative study on performance
+	evaluation of domestic mobile platforms, and an analysis of the teams'
+	performance.}
 }
 
 @INPROCEEDINGS{RFIijcai15,
@@ -493,6 +573,24 @@
   year = {2011}
 }
 
+@INPROCEEDINGS{WZCijcai11,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Online Planning for Ad Hoc Autonomous Agent Teams},
+  booktitle = {Proceedings of the 22nd International Joint Conference on Artificial
+	Intelligence (IJCAI)},
+  year = {2011},
+  pages = {439-445},
+  address = {Barcelona, Spain},
+  abstract = {We propose a novel online planning algorithm for ad hoc team settings'
+	challenging situations in which an agent must collaborate with unknown
+	teammates without prior coordination. Our approach is based on constructing
+	and solving a series of stage games, and then using biased adaptive
+	play to choose actions. The utility function in each stage game is
+	estimated via Monte-Carlo tree search using the UCT algorithm. We
+	establish analytically the convergence of the algorithm and show
+	that it performs well in a variety of ad hoc team domains.}
+}
+
 @ARTICLE{WZCaij11,
   author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
   title = {Online Planning for Multi-Agent Systems with Bounded Communication},
@@ -521,45 +619,6 @@
 	proves to be effective when the communication channel is imperfect
 	(periodically unavailable). These results contribute to the scalability
 	of decision-theoretic planning in multi-agent settings.}
-}
-
-@INPROCEEDINGS{WZCijcai11,
-  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
-  title = {Online Planning for Ad Hoc Autonomous Agent Teams},
-  booktitle = {Proceedings of the 22nd International Joint Conference on Artificial
-	Intelligence (IJCAI)},
-  year = {2011},
-  pages = {439-445},
-  address = {Barcelona, Spain},
-  abstract = {We propose a novel online planning algorithm for ad hoc team settings'
-	challenging situations in which an agent must collaborate with unknown
-	teammates without prior coordination. Our approach is based on constructing
-	and solving a series of stage games, and then using biased adaptive
-	play to choose actions. The utility function in each stage game is
-	estimated via Monte-Carlo tree search using the UCT algorithm. We
-	establish analytically the convergence of the algorithm and show
-	that it performs well in a variety of ad hoc team domains.}
-}
-
-@INPROCEEDINGS{WZCaaai10,
-  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
-  title = {Trial-Based Dynamic Programming for Multi-Agent Planning},
-  booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence
-	(AAAI)},
-  year = {2010},
-  pages = {908-914},
-  address = {Atlanta, United States},
-  abstract = {Trial-based approaches offer an efficient way to solve singleagent
-	MDPs and POMDPs. These approaches allow agents to focus their computations
-	on regions of the environment they encounter during the trials, leading
-	to significant computational savings. We present a novel trial-based
-	dynamic programming (TBDP) algorithm for DEC-POMDPs that extends
-	these benefits to multi-agent settings. The algorithm uses trial-based
-	methods for both belief generation and policy evaluation. Policy
-	improvement is implemented efficiently using linear programming and
-	a sub-policy reuse technique that helps bound the amount of memory.
-	The results show that TBDP can produce significant value improvements
-	and is much faster than the best existing planning algorithms.}
 }
 
 @INPROCEEDINGS{WZCaamas10,
@@ -607,6 +666,27 @@
 	quality. It can solve larger problems that are intractable for existing
 	planning algorithms. Experimental results confirm the effectiveness
 	and scalability of the approach.}
+}
+
+@INPROCEEDINGS{WZCaaai10,
+  author = {Feng Wu and Shlomo Zilberstein and Xiaoping Chen},
+  title = {Trial-Based Dynamic Programming for Multi-Agent Planning},
+  booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence
+	(AAAI)},
+  year = {2010},
+  pages = {908-914},
+  address = {Atlanta, United States},
+  abstract = {Trial-based approaches offer an efficient way to solve singleagent
+	MDPs and POMDPs. These approaches allow agents to focus their computations
+	on regions of the environment they encounter during the trials, leading
+	to significant computational savings. We present a novel trial-based
+	dynamic programming (TBDP) algorithm for DEC-POMDPs that extends
+	these benefits to multi-agent settings. The algorithm uses trial-based
+	methods for both belief generation and policy evaluation. Policy
+	improvement is implemented efficiently using linear programming and
+	a sub-policy reuse technique that helps bound the amount of memory.
+	The results show that TBDP can produce significant value improvements
+	and is much faster than the best existing planning algorithms.}
 }
 
 @INPROCEEDINGS{WZCicaps09,
