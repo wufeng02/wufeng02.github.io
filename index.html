@@ -4,16 +4,16 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-       
+
         <meta name="robots" content="NOODP"/>
         <meta name="msvalidate.01" content="7662302B2EE2DF855D33DA34FD827164"/>
         <meta name="google-site-verification" content="Nj_dp8eZCY7mCHa7wHJz4MXpILpTh7vii2xAujBW5Zg"/>
 
+        <title>Feng Wu (吴锋) </title>
+
         <meta name="author" content="Feng Wu (吴锋)"/>
         <meta name="keywords" content="Feng Wu, 吴锋, USTC, 中科大, CS, 计算机, Robots, 机器人, Agents, 智能体, MDP, POMDP, DEC-POMDP, DCOP"/>
         <meta name="description" content="Dr. Feng Wu is an Associate Researcher of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
-                
-        <title>Feng Wu (吴锋) </title>
 
         <link rel="canonical" href="//wufeng02.github.io/index.html"/>
         <link rel="alternate" hreflang="x-default" href="//wufeng02.github.io/index.html"/>
@@ -23,266 +23,301 @@
         <link rel="icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
 
-        <!-- Bootstrap core CSS -->
         <link href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <!-- Custom styles for this template -->
+
+        <script src="//wufeng02.github.io/static/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="//wufeng02.github.io/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
         <style type="text/css">
-            :lang(zh) { display: none; }
+            body { font: 16px/1.5 "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
+            .glyphicon-ul { list-style-type: none; margin-left: 1em; }
+            .glyphicon-li { left: -2em; margin-right: -1.2em; }
+            .clickable { cursor: pointer; }
         </style>
-        
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+<style type="text/css">
+    :lang(zh) { display: none; }
+    img { background: url(media/loading.gif) 50% no-repeat; }
+</style>
+
         <!--[if lt IE 9]>
       	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     	<![endif]-->
     </head>
     <body>
+<header style="margin-top: 20px;">
+<div class="container" itemscope itemtype="http://schema.org/Person">
+    <div class="pull-right hidden-print">
+        <button type="button" onclick="$.translate('en');" class="btn btn-default btn-raised" lang="zh">
+            <i class="glyphicon glyphicon-globe"></i> &nbsp; ENGLISH
+        </button>
+        <button type="button" onclick="$.translate('zh');" class="btn btn-default btn-raised" lang="en">
+            <i class="glyphicon glyphicon-globe"></i> &nbsp; &#20013;&#25991;&#29256;
+        </button>
+    </div> <br/> <br/>
 
-        <header style="margin-top: 20px;">
-            <div class="container">
-                <div class="pull-right hidden-print">
-                    <button type="button" onclick="$.translate('en');" class="btn btn-default btn-raised" lang="zh">ENGLISH</button> 
-                    <button type="button" onclick="$.translate('zh');" class="btn btn-default btn-raised" lang="en">&#20013;&#25991;&#29256;</button>
-                </div> <br/> <br/>
-            
-                <div class="carousel slide pull-right" style="margin-top: 20px; margin-bottom: 10px;">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="//wufeng02.github.io/media/fengwu.jpg" class="img-rounded img-responsive" 
-                                style="max-width: 320px; width: 95%; float: right;" alt="Photo of Feng Wu (吴锋)"/>
-                            <div class="carousel-caption hidden-print" style="top: 0px;"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <h2 class="text-left text-primary">
-                    <span onmouseover="new Audio('//wufeng02.github.io/media/fengwu.mp3').play();">
-                        <span lang="en">Feng Wu</span> <span lang="zh">吴锋</span> 
-                    </span>
-                </h2>
-                <address style="display: block;"> <br>
-                    <strong><span lang="en">Associate Researcher</span> <span lang="zh">副研究员</span> </strong> <br/>
-                    <a href="http://ai.ustc.edu.cn">
-                        <span lang="en">Multi-Agent Systems Laboratory</span> <span lang="zh">多智能体系统实验室</span> 
-                    </a> <br/>
-                    <a href="http://cs.ustc.edu.cn/">
-                        <span lang="en">School of Computer Science and Technology</span> <span lang="zh">计算机科学与技术学院</span> 
-                    </a> <br/>
-                    <a href="http://www.ustc.edu.cn/">
-                        <span lang="en">University of Science and Technology of China</span> <span lang="zh">中国科学技术大学</span> 
-                    </a>
-                </address>
-                <address style="display: block;"> 
-                    <b><span lang="en">Address</span> <span lang="zh">地址</span> : </b> <br/> 
-                    <span lang="en">443 Huangshan Road, USTC, <br/> Hefei, Anhui, 230027, China.</span> <span lang="zh">安徽省合肥市黄山路443号 <br/> 中国科学技术大学西校区</span> 
-                </address>
-                <address style="display: block;"> 
-                    <strong><span lang="en">Email</span> <span lang="zh">电子邮件</span> : </strong> <br/> 
-                    <script type="text/javascript">
-                        var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
-                        document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
-                    </script>
-                    <noscript>
-                        <img src="//wufeng02.github.io/media/email.png" alt="Email"/>
-                    </noscript>
-                </address>
-                <br/>
-                
-                <nav class="navbar hidden-print">
-                    <ul class="nav nav-tabs">
-                        <li class="active">
-                            <a href="//wufeng02.github.io/index.html"><span lang="en">Home</span> <span lang="zh">首页</span> </a>
-                        </li>
-                        <li class="">
-                            <a href="//wufeng02.github.io/cv.html"><span lang="en">CV</span> <span lang="zh">简历</span> </a>
-                        </li>
-                        <li class="">
-                            <a href="//wufeng02.github.io/publication.html"><span lang="en">Publication</span> <span lang="zh">论文</span> </a>
-                        </li>
-                    </ul>
-                </nav>
+    <div class="carousel slide pull-right" style="margin-top: 20px; margin-bottom: 10px;">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="//wufeng02.github.io/media/fengwu.jpg" class="img-rounded img-responsive"
+                    style="max-width: 320px; width: 95%; float: right;" alt="Photo of Feng Wu (吴锋)" itemprop="image"/>
+                <div class="carousel-caption hidden-print" style="top: 0px;"></div>
             </div>
-        </header>
-        
-        <div class="container">
-            <h4 class="text-left text-primary page-header">
-                <span lang="en">Short Bio</span> <span lang="zh">个人简介</span> 
-            </h4>
-            <p lang="en">Dr. Feng Wu is an Associate Researcher in the School of Computer Science and Technology at the University of Science and Technology of China (<abbr title="University of Science and Technology of China">USTC</abbr>). He received a B.E in Computer Science and Technology and a Ph.D. in Computer Application Technology (Co-advised by Prof. <a href="http://ai.ustc.edu.cn/en/people/xpchen.php">Xiaoping Chen</a> and Prof. <a href="http://rbr.cs.umass.edu/shlomo/">Shlomo Zilberstein</a>) both from <abbr title="University of Science and Technology of China">USTC</abbr> in 2006 and 2011 respectively. Before joining <abbr title="University of Science and Technology of China">USTC</abbr> in 2014, he is a Research Fellow at University of Southampton working with Prof. <a href="http://www.imperial.ac.uk/people/n.jennings">Nick Jennings</a> on the <a href="http://www.orchid.ac.uk">ORCHID</a> project. <br/><br/> His research focuses on the foundations and applications of agent-based techniques, which allow complex systems to make decisions while coping with uncertainty, incomplete information, and limited computational resources. His research interests include <a href="https://en.wikipedia.org/wiki/Markov_decision_process">planning under uncertainty</a>, <a href="https://en.wikipedia.org/wiki/Multi-agent_system">multi-agent systems</a>, <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a>, and <a href="https://en.wikipedia.org/wiki/Robotics">robotics</a>. He has published over 30 refereed papers on these topics in prestigious journals and conferences such as <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>, <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr>, <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr>, <abbr title="Annual Conference on Neural Information Processing Systems">NIPS</abbr>, <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr>, <abbr title="Conference on Uncertainty in Artificial Intelligence">UAI</abbr>, <abbr title="International Conference on Automated Planning and Scheduling">ICAPS</abbr>, <abbr title="European Conference on Artificial Intelligence">ECAI</abbr>. <br/><br/> He is a recipient of President's Special Award of <a href="http://www.cas.cn">Chinese Academy of Sciences</a> (<abbr title="Chinese Academy of Sciences">CAS</abbr>) in 2011, Outstanding Dissertation Award of <abbr title="Chinese Academy of Sciences">CAS</abbr> in 2012, and Best Innovative Application Paper Award of <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2015. He won the first place of Simulation 2D League in RoboCup 2006 and the second place in RoboCup 2005. He is the Reviewer of several <abbr title="Artificial Intelligence">AI</abbr> journals such as <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="Journal of Artificial Intelligence Research">JAIR</abbr>, and <abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>. He served in the Program Committee of several <abbr title="Artificial Intelligence">AI</abbr> conferences such as <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr> (2011, 2015, 2016), <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr> (2011, 2013, 2015, 2016, 2017), <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> (2013, 2014, 2016, 2017), and <abbr title="International Conference on Machine Learning">ICML</abbr> (2016) and as Associate Chair of RoboCup 2015.  He is currently a member of <a href="http://www.yicas.cn">Youth Innovation Promotion Association</a>, <abbr title="Chinese Academy of Sciences">CAS</abbr>.</p>
-        
-        <p lang="zh">吴锋，男，1984年生，博士，特任副研究员。2006年本科毕业于中国科学技术大学计算机系获计算机科学与技术学士学位，2011年于中国科学技术大学获计算机应用博士学位（导师：<a href="http://ai.ustc.edu.cn/en/people/xpchen.php">陈小平</a>教授）。曾在美国麻省大学阿莫斯特分校（University of Massachusetts Amherst）计算机学院访问（2008年至2010年），在 <a href="http://rbr.cs.umass.edu/shlomo/">Shlomo Zilberstein</a> 教授的指导下从事多智能体系统决策规划的相关研究。后赴英国南安普顿大学（University of Southampton）电子计算机学院从事博士后研究（2011年至2014年），任 Research Fellow，参与 <a href="http://www.imperial.ac.uk/people/n.jennings">Nick Jennings</a> 教授主持的 <a href="http://www.orchid.ac.uk">ORCHID</a> 项目。2014年7月起就职于中国科学技术大学计算机科学与技术学院多智能体系统实验室。<br/><br/>获得2011年度中国科学院院长奖特别奖，2012年度中国科学院优秀博士论文奖，以及第14届智能体与多智能体国际会议（<abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2015）最佳应用论文奖。曾作为中科大“蓝鹰”足球机器人团队的核心成员，多次参加 RoboCup 机器人学术竞赛，并获得三项世界冠军和一项世界亚军。目前主持国家自然科学基金（青年）项目一项，安徽省自然科学基金（青年）项目一项，并作为骨干成员参与了国家自然科学基金项目和国家863计划项目。2014年入选中国科学院<a href="http://www.yicas.cn">青年创新促进会</a>。应邀担任 <abbr title="Artificial Intelligence Journal">AIJ</abbr>、<abbr title="Journal of Artificial Intelligence Research">JAIR</abbr>、<abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>、ACM Trans 等国际人工智能学术期刊的审稿人，并任国际人工智能学术会议 <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr> 2011, 2013, 2015，2016，2017、<abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr> 2011, 2015，2016、<abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2013，2014，2016，2017 的程序委员会委员。近年来在 <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr>, <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr>, <abbr title="Annual Conference on Neural Information Processing Systems">NIPS</abbr>, <abbr title="Conference on Uncertainty in Artificial Intelligence">UAI</abbr>, <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr>, <abbr title="International Conference on Automated Planning and Scheduling">ICAPS</abbr>, <abbr title="European Conference on Artificial Intelligence">ECAI</abbr>等国际人工智能重要学术会议和期刊上发表论文三十余篇。<br/><br/>主要研究方向：多智能体系统、自动规划理论、智能机器人决策。</p>
-        
-        
-            <p class="hidden-print">&raquo; <a href="//wufeng02.github.io/media/cloud.png" data-toggle="lightbox" data-title="Word Cloud"><span lang="en">Word Cloud</span> <span lang="zh">文字云图</span> </a></p>
         </div>
-        
-        <footer style="margin-bottom: 20px;">
-            <div class="container hidden-print">
-                <br/>
-                <div class="text-center">
-                    <a href="#" target="_blank" id="s:gs">
-                        <span lang="en">Google Scholar</span> <span lang="zh">谷歌学术</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="#" target="_blank" id="s:gp">
-                        <span lang="en">Google+</span> <span lang="zh">谷歌+</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="#" target="_blank" id="s:fb">
-                        <span lang="en">Facebook</span> <span lang="zh">脸书</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="#" target="_blank" id="s:tt">
-                        <span lang="en">Twitter</span> <span lang="zh">推特</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="#" target="_blank" id="s:li">
-                        <span lang="en">LinkedIn</span> <span lang="zh">领英</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="//wufeng02.github.io/media/wechat.png" data-toggle="lightbox" data-title="WeChat">
-                        <span lang="en">WeChat</span> <span lang="zh">微信</span> 
-                    </a> &nbsp; &middot; &nbsp;
-                    <a href="http://weibo.com/wufeng02" target="_blank">
-                        <span lang="en">Sina Weibo</span> <span lang="zh">新浪微博</span> 
-                    </a>
-                    <script type="text/javascript">
-                        var social = {
-                            's:gs': 'https://scholar.go'+'og'+'le.com/citations?user=8CEHlu4AAAAJ',
-                            's:gp': 'https://plus.go'+'og'+'le.com/114336350312258670852',
-                            's:fb': 'https://www.fa'+'ceb'+'ook.com/fengw',
-                            's:tt': 'https://tw'+'it'+'ter.com/wufeng02',
-                            's:li': 'https://www.li'+'nke'+'din.com/pub/feng-wu/62/438/2a2'
-                        };
-                        for (var key in social) {
-                            var el = document.getElementById(key);
-                            if (el) el.href = social[key];
-                        }
-                    </script>
+
+        <div id="quotes" class="hidden-print" style="width: 320px; margin-left: 20px; margin-top: 20px; color: gray; text-align: center;">
+            <span><span lang="en">&ldquo; Unity of Knowing and Acting. &rdquo; <br/>&ndash; <a target="_blank" href="https://plato.stanford.edu/entries/wang-yangming/">Wang Yangming</a></span> <span lang="zh">&ldquo; 知行合一 &rdquo; &ndash; 王阳明</span>  (1472-1529)</span>
+        </div>
+    </div>
+
+    <h2 class="text-left text-primary">
+        <span onmouseover="new Audio('//wufeng02.github.io/media/fengwu.mp3').play();" style="cursor: progress;">
+            <span lang="en"><span itemprop="name">Feng Wu</span></span> <span lang="zh">吴锋</span> 
+        </span>
+        <a class="hidden-print" href="https://orcid.org/0000-0003-3989-0509" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
+            <img src="//wufeng02.github.io/media/orcid_16x16.png" style="width:0.5em;margin-top:-0.5em;" alt="ORCID: 0000-0003-3989-0509">
+        </a>
+    </h2>
+    <address style="display: block;"> <br>
+        <strong><span lang="en"><span itemprop="jobTitle">Associate Professor</span></span> <span lang="zh">副教授</span> </strong> <br/>
+        <span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="member" itemscope itemtype="http://schema.org/Organization">
+        <a href="http://ai.ustc.edu.cn" itemprop="url sameAs">
+            <span lang="en"><span itemprop="name legalName">Multi-Agent Systems Laboratory</span></span> <span lang="zh">多智能体系统实验室</span> 
+        </a> </span> <br/>
+        <span itemprop="department" itemscope itemtype="http://schema.org/Organization">
+        <a href="http://cs.ustc.edu.cn" itemprop="url sameAs">
+            <span lang="en"><span itemprop="name legalName">School of Computer Science and Technology</span></span> <span lang="zh">计算机科学与技术学院</span> 
+        </a> </span> <br/>
+        <a href="http://www.ustc.edu.cn" itemprop="url sameAs">
+            <span lang="en"><span itemprop="name legalName">University of Science and Technology of China</span></span> <span lang="zh">中国科学技术大学</span> 
+        </a>
+        </span>
+    </address>
+    <address style="display: block;">
+        <b><span lang="en">Address</span> <span lang="zh">地址</span> : </b> <br/>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span lang="en"><span itemprop="postOfficeBoxNumber">Science and Technology Experimental Building, West Campus, USTC</span>, <br/> <span itemprop="streetAddress">443 Huangshan Road</span>, <span itemprop="addressLocality">Hefei</span>, <span itemprop="addressRegion">Anhui</span>, <span itemprop="postalCode">230027</span>, <span itemprop="addressCountry">China</span>.</span> <span lang="zh">安徽省合肥市黄山路443号 <br/> 中国科学技术大学西校区科技实验楼</span> 
+        </span>
+        <a target="_blank" href="http://www.google.cn/maps/?hl=en-US&q=loc:31.841030,117.258290">
+            <i class="glyphicon glyphicon-map-marker"></i>
+        </a>
+    </address>
+    <address style="display: block;">
+        <strong><span lang="en">Email</span> <span lang="zh">电子邮件</span> : </strong> <br/>
+        <script type="text/javascript">
+            var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
+            document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
+        </script>
+        <noscript>
+            <img src="//wufeng02.github.io/media/email.png" alt="Email"/>
+        </noscript>
+    </address>
+    <br/>
+
+    <nav class="navbar hidden-print" role="navigation">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="//wufeng02.github.io/index.html"><span lang="en">Home</span> <span lang="zh">首页</span> </a>
+            </li>
+            <li class="">
+                <a href="//wufeng02.github.io/cv.html"><span lang="en">CV</span> <span lang="zh">简历</span> </a>
+            </li>
+            <li class="">
+                <a href="//wufeng02.github.io/publication.html"><span lang="en">Publication</span> <span lang="zh">论文</span> </a>
+            </li>
+        </ul>
+    </nav>
+</div></header>
+
+<div class="container">
+    <h4 class="text-left text-primary page-header clickable" data-toggle="collapse" data-target="#shortbio">
+        <span lang="en">Short Bio</span> <span lang="zh">个人简介</span> 
+    </h4>
+    <div id="shortbio" class="collapse in">
+    <p lang="en">Dr. Feng Wu is an Associate Professor in the School of Computer Science and Technology at the University of Science and Technology of China (<abbr title="University of Science and Technology of China">USTC</abbr>). He received a B.E in Computer Science and Technology and a Ph.D. in Computer Application Technology (Co-advised by Prof. <a href="http://ai.ustc.edu.cn/en/people/xpchen.php">Xiaoping Chen</a> and Prof. <a href="http://rbr.cs.umass.edu/shlomo/">Shlomo Zilberstein</a>) both from <abbr title="University of Science and Technology of China">USTC</abbr> in 2006 and 2011 respectively. Before joining <abbr title="University of Science and Technology of China">USTC</abbr> in 2014, he was a Research Fellow at University of Southampton working with Prof. <a href="http://www.imperial.ac.uk/people/n.jennings">Nick Jennings</a> on the <a href="http://www.orchid.ac.uk">ORCHID</a> project. <br/><br/> His research focuses on the foundations and applications of agent-based techniques, which allow complex systems to make decisions while coping with uncertainty, incomplete information, and limited computational resources. His research interests include <a href="https://en.wikipedia.org/wiki/Markov_decision_process">planning under uncertainty</a>, <a href="https://en.wikipedia.org/wiki/Multi-agent_system">multi-agent systems</a>, <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a>, and <a href="https://en.wikipedia.org/wiki/Robotics">robotics</a>. He has published over 30 refereed papers on these topics in prestigious journals and conferences such as <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>, <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr>, <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr>, <abbr title="Annual Conference on Neural Information Processing Systems">NIPS</abbr>, <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr>, <abbr title="Conference on Uncertainty in Artificial Intelligence">UAI</abbr>, <abbr title="International Conference on Automated Planning and Scheduling">ICAPS</abbr>, <abbr title="European Conference on Artificial Intelligence">ECAI</abbr>. <br/><br/> He is a recipient of President's Special Award of <a href="http://www.cas.cn">Chinese Academy of Sciences</a> (<abbr title="Chinese Academy of Sciences">CAS</abbr>) in 2011, Outstanding Dissertation Award of <abbr title="Chinese Academy of Sciences">CAS</abbr> in 2012, and Best Innovative Application Paper Award of <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2015. He won the first place of Simulation 2D League in RoboCup 2006 and the second place in RoboCup 2005. He is the Reviewer of several <abbr title="Artificial Intelligence">AI</abbr> journals such as <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="Journal of Artificial Intelligence Research">JAIR</abbr>, and <abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>. He served in the Program Committee of several <abbr title="Artificial Intelligence">AI</abbr> conferences such as <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr> (2011, 2015, 2016), <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr> (2011, 2013, 2015-2018), <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> (2013, 2014, 2016, 2017), and <abbr title="International Conference on Machine Learning">ICML</abbr> (2016) and as Associate Chair of RoboCup 2015.  He is currently a member of <a href="http://www.yicas.cn">Youth Innovation Promotion Association</a>, <abbr title="Chinese Academy of Sciences">CAS</abbr>.</p>
+
+<p lang="zh">吴锋，男，1984年生，博士，副教授。2006年本科毕业于中国科学技术大学计算机系获计算机科学与技术学士学位，2011年于中国科学技术大学获计算机应用博士学位（导师：<a href="http://ai.ustc.edu.cn/en/people/xpchen.php">陈小平</a>教授）。曾在美国麻省大学阿莫斯特分校（University of Massachusetts Amherst）计算机学院访问（2008年至2010年），在 <a href="http://rbr.cs.umass.edu/shlomo/">Shlomo Zilberstein</a> 教授的指导下从事多智能体系统决策规划的相关研究。后赴英国南安普顿大学（University of Southampton）电子计算机学院从事博士后研究（2011年至2014年），任 Research Fellow，参与 <a href="http://www.imperial.ac.uk/people/n.jennings">Nick Jennings</a> 教授主持的 <a href="http://www.orchid.ac.uk">ORCHID</a> 项目。2014年7月起就职于中国科学技术大学计算机科学与技术学院多智能体系统实验室。<br/><br/>获得2011年度中国科学院院长奖特别奖，2012年度中国科学院优秀博士论文奖，以及第14届智能体与多智能体国际会议（<abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2015）最佳应用论文奖。曾作为中科大“蓝鹰”足球机器人团队的核心成员，多次参加 RoboCup 机器人学术竞赛，并获得三项世界冠军和一项世界亚军。目前主持国家自然科学基金（青年）项目一项，安徽省自然科学基金（青年）项目一项，并作为骨干成员参与了国家自然科学基金项目和国家863计划项目。2014年入选中国科学院<a href="http://www.yicas.cn">青年创新促进会</a>。应邀担任 <abbr title="Artificial Intelligence Journal">AIJ</abbr>、<abbr title="Journal of Artificial Intelligence Research">JAIR</abbr>、<abbr title="Journal of Autonomous Agents and Multi-Agent Systems">JAAMAS</abbr>、ACM Trans 等国际人工智能学术期刊的审稿人，并任国际人工智能学术会议 <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr> 2011, 2013, 2015-2018、<abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr> 2011, 2015，2016、<abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr> 2013，2014，2016，2017 的程序委员会委员。近年来在 <abbr title="Artificial Intelligence Journal">AIJ</abbr>, <abbr title="International Joint Conference on Artificial Intelligence">IJCAI</abbr>, <abbr title="AAAI Conference on Artificial Intelligence">AAAI</abbr>, <abbr title="Annual Conference on Neural Information Processing Systems">NIPS</abbr>, <abbr title="Conference on Uncertainty in Artificial Intelligence">UAI</abbr>, <abbr title="International Conference on Autonomous Agents and Multi-Agent Systems">AAMAS</abbr>, <abbr title="International Conference on Automated Planning and Scheduling">ICAPS</abbr>, <abbr title="European Conference on Artificial Intelligence">ECAI</abbr>等国际人工智能重要学术会议和期刊上发表论文三十余篇。<br/><br/>主要研究方向：多智能体系统、自动规划理论、智能机器人决策。</p>
+
+
+    </div>
+    <p class="hidden-print">
+        <a href="//wufeng02.github.io/media/cloud.png" data-toggle="lightbox" data-title="Word Cloud" class="btn btn-default btn-sm">
+            <i class="glyphicon glyphicon-tags"></i> &nbsp; <span lang="en">Word Cloud</span> <span lang="zh">文字云图</span> 
+        </a>
+    </p>
+</div>
+
+<footer style="margin-bottom: 20px;">
+<div class="container hidden-print">
+    <br/>
+    <div class="text-center">
+        <a href="#" target="_blank" id="s:gs">
+            <span lang="en">Google Scholar</span> <span lang="zh">谷歌学术</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="#" target="_blank" id="s:gp">
+            <span lang="en">Google+</span> <span lang="zh">谷歌+</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="#" target="_blank" id="s:fb">
+            <span lang="en">Facebook</span> <span lang="zh">脸书</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="#" target="_blank" id="s:tt">
+            <span lang="en">Twitter</span> <span lang="zh">推特</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="#" target="_blank" id="s:li">
+            <span lang="en">LinkedIn</span> <span lang="zh">领英</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="//wufeng02.github.io/media/wechat.png" data-toggle="lightbox" data-title="WeChat">
+            <span lang="en">WeChat</span> <span lang="zh">微信</span> 
+        </a> &nbsp; &middot; &nbsp;
+        <a href="http://weibo.com/wufeng02" target="_blank">
+            <span lang="en">Sina Weibo</span> <span lang="zh">新浪微博</span> 
+        </a>
+        <script type="text/javascript">
+            var social = {
+                's:gs': 'https://scholar.go'+'og'+'le.com/citations?user=8CEHlu4AAAAJ',
+                's:gp': 'https://plus.go'+'og'+'le.com/114336350312258670852',
+                's:fb': 'https://www.fa'+'ceb'+'ook.com/fengw',
+                's:tt': 'https://tw'+'it'+'ter.com/wufeng02',
+                's:li': 'https://www.li'+'nke'+'din.com/pub/feng-wu/62/438/2a2'
+            };
+            for (var key in social) {
+                var el = document.getElementById(key);
+                if (el) el.href = social[key];
+            }
+        </script>
+    </div>
+
+    <div class="pull-right text-muted" style="text-align: right;">
+        <!-- <span lang="en">Last Updated</span> <span lang="zh">最后更新</span> : 04/20/2018 10:43:09 --> <br/>
+        <a href="#" onclick="window.open('https://www.go'+'og'+'le.com/webmasters/tools/home?hl=en');return false;">
+        <img src="/cgi-bin/Count.cgi?df=wufeng02.dat&amp;dd=E&amp;ft=0&amp;tr=N&amp;pad=N&amp;srgb=000000&amp;prgb=cccccc" alt="" />
+        </a>
+    </div>
+    
+    <div class="modal fade" tabindex="-1" role="dialog" id="lightbox">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 3px 10px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">&nbsp;</h4>
                 </div>
-            
-                <div class="pull-right text-muted" style="text-align: right;">
-                    <!-- <span lang="en">Last Updated</span> <span lang="zh">最后更新</span> : 02/27/2017 09:38:00 --> <br/>
-                    <a href="#" onclick="window.open('https://www.go'+'og'+'le.com/webmasters/tools/home?hl=en');return false;">
-                    <img src="/cgi-bin/Count.cgi?df=wufeng02.dat&amp;dd=E&amp;ft=0&amp;tr=N&amp;pad=N&amp;srgb=000000&amp;prgb=cccccc" alt="" />
-                    </a>
-                </div>
-                
-                <div class="modal fade" tabindex="-1" role="dialog" id="lightbox">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 3px 10px;">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title"></h4>
-                            </div>
-                            <div class="modal-body" style="text-align: center;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="scrollup" style="position: fixed; bottom: 30px; right: 10px; z-index: 1000; display: none;">
-                    <a href="javascript: void(0);" class="well well-sm" 
-                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;" tabindex="0" role="button"
-                        data-toggle="popover" data-trigger="click" data-placement="left" 
-                        data-content='<ul class="nav nav-pills nav-stacked"> <li class="active"> <a href="//wufeng02.github.io/index.html"> <span lang="en">Home</span> <span lang="zh">首页</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/cv.html"> <span lang="en">CV</span> <span lang="zh">简历</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/publication.html"> <span lang="en">Publication</span> <span lang="zh">论文</span> </a> </li> </ul>'><i class="glyphicon glyphicon-menu-hamburger"></i></a> 
-                    <br/> <br/>
-                    <a href="#top" class="well well-sm" role="button"
-                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;"
-                        onclick="$('html,body').animate({scrollTop:0}, 'fast'); return false;"><i class="glyphicon glyphicon-chevron-up"></i></a>
+                <div class="modal-body" style="text-align: center;">
                 </div>
             </div>
-        </footer>
-        
-        <script src="//wufeng02.github.io/static/jquery/jquery.min.js" type="text/javascript"></script>
-        <script src="//wufeng02.github.io/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
- 
-        <script type="text/javascript">
-            $(function() {
-                $.queries = {};
-                var params = window.location.search.substring(1).split('&');
-                for (var i = 0; i < params.length; ++i) {
-                    var pair = params[i].split('=');
-                    $.queries[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
-                }
+        </div>
+    </div>
+    
+    <div id="scrollup" style="position: fixed; bottom: 30px; right: 10px; z-index: 1000; display: none;">
+        <a href="javascript: void(0);" class="well well-sm" 
+            style="background-color: rgba(0, 0, 0, 0.4); color: #fff;" tabindex="0" role="button"
+            data-toggle="popover" data-trigger="click" data-placement="left" 
+            data-content='<ul class="nav nav-pills nav-stacked"> <li class="active"> <a href="//wufeng02.github.io/index.html"> <span lang="en">Home</span> <span lang="zh">首页</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/cv.html"> <span lang="en">CV</span> <span lang="zh">简历</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/publication.html"> <span lang="en">Publication</span> <span lang="zh">论文</span> </a> </li> </ul>'><i class="glyphicon glyphicon-menu-hamburger"></i></a> 
+        <br/> <br/>
+        <a href="#top" class="well well-sm" role="button"
+            style="background-color: rgba(0, 0, 0, 0.4); color: #fff;"
+            onclick="$('html,body').animate({scrollTop:0}, 'fast'); return false;"><i class="glyphicon glyphicon-chevron-up"></i></a>
+    </div>
+</div>
+</footer>
 
-                $.storage = (sessionStorage || localStorage);
-                
-                $.translate = function(lang) {
-                    if ($.storage !== undefined) {
-                        if (lang) { 
-                            $.storage.setItem('homepage.language', lang);
-                        } else { 
-                            lang = $.storage.getItem('homepage.language'); 
-                        }
-                    }
-                    if (lang === 'zh') { 
-                        $(':lang(zh)').show(); 
-                        $(':lang(en)').hide(); 
-                    } else { 
-                        $(':lang(zh)').hide(); 
-                        $(':lang(en)').show(); 
-                    }
-                };
-                $.translate($.queries['l'] || $.queries['lang']);
-                
-                $(window).scroll(function() {
-                    var st = $(this).scrollTop();
-                    if (st > 100) $('#scrollup').fadeIn(450);
-                    else $('#scrollup').fadeOut(450);
-                });
-                
-                $('[data-toggle="popover"]').popover({html: true});
-                
-                $('#scrollup').on('inserted.bs.popover', function() {
-                    $.translate();
-                });
-                
-                $('[data-toggle="lightbox"]').click(function(e) {
-                    e.preventDefault();
-                    var $lb = $('#lightbox'), src = $(this).attr('href');
-                    var $el = (/\.(gif|jpg|jpeg|tiff|png|bmp)$/i).test(src) ?
-                        $('<img style="max-width: 100%; max-height: 75vh; cursor: pointer;"/>').click(function(e) {
-                            window.open(src, '_blank');
-                        }):$('<iframe frameborder="0" style="width: 100%; height: 75vh;" allowfullscreen />');
-                    $el.attr('src', src);
-                    $lb.find('.modal-title').text($(this).attr('data-title'));
-                    $lb.find('.modal-body').empty().append($el);
-                    $lb.modal('show');
-                });
-                
-                $(document).scroll(function(e) {
-                    if ($.storage !== undefined) {
-                        $.storage.setItem('homepage.scroll', $(document).scrollTop());
-                    }
-                });
-                if ($.storage !== undefined && $.storage.getItem('homepage.scroll')) {
-                    $(document).scrollTop($.storage.getItem('homepage.scroll'));
-                }
-            });
-        </script>
-        <script type="text/javascript">
-            (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
-        
-            ga('create', 'UA-31597550-1', 'auto');
-            ga('send', 'pageview');
-        
-            $('a').not('[href^="javascript"]').click(function(e) {
-                ga('send', 'event', 'link', 'click', $(this).attr('href'));
-            });
-        </script>
-        <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "WebSite",
-          "name": "Feng Wu (吴锋)",
-          "url": "//wufeng02.github.io/index.html",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "//wufeng02.github.io/search.html?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+
+<script type="text/javascript">
+    $(function() {
+        $.storage = (sessionStorage || localStorage);
+
+        $.queries = {};
+        var params = window.location.search.substring(1).split('&');
+        for (var i = 0; i < params.length; ++i) {
+            var pair = params[i].split('=');
+            $.queries[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
         }
-        </script>
-	</body>
+
+        $.translate = function(lang) {
+            if ($.storage !== undefined) {
+                if (lang)
+                    $.storage.setItem('homepage.language', lang);
+                else
+                    lang = $.storage.getItem('homepage.language');
+            }
+            if (lang === 'zh') {
+                $(':lang(zh)').show(); $(':lang(en)').hide();
+            } else {
+                $(':lang(zh)').hide(); $(':lang(en)').show();
+            }
+        };
+        $.translate($.queries['l'] || $.queries['lang']);
+
+        $(window).scroll(function() {
+            var st = $(this).scrollTop();
+            if (st > 100) $('#scrollup').fadeIn(450);
+            else $('#scrollup').fadeOut(450);
+            return true;
+        });
+
+        $('[data-toggle="popover"]').popover({html: true});
+
+        $('#scrollup').on('inserted.bs.popover', function() {
+            $.translate();
+            return true;
+        });
+
+        $('[data-toggle="lightbox"]').click(function(e) {
+            e.preventDefault();
+            var $lb = $('#lightbox'), src = $(this).attr('href');
+            var $el = (/\.(gif|jpg|jpeg|tiff|png|bmp)$/i).test(src) ?
+                $('<img style="max-width: 100%; max-height: 75vh; cursor: pointer;"/>').click(function(e) {
+                    window.open(src, '_blank');
+                }):$('<iframe frameborder="0" style="width: 100%; height: 75vh;" allowfullscreen />');
+            $el.attr('src', src);
+            $lb.find('.modal-title').text($(this).attr('data-title'));
+            $lb.find('.modal-body').empty().append($el);
+            $lb.modal('show');
+            return false;
+        });
+
+        $(document).scroll(function(e) {
+            if ($.storage !== undefined) {
+                $.storage.setItem('homepage.scroll', $(document).scrollTop());
+            }
+            return true;
+        });
+        if ($.storage !== undefined && $.storage.getItem('homepage.scroll')) {
+            $(document).scrollTop($.storage.getItem('homepage.scroll'));
+        }
+    });
+</script>
+
+<script type="text/javascript" id="ga-js">
+    (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31597550-1', 'auto');
+    ga('send', 'pageview');
+
+    $('a').not('[href^="javascript"]').click(function(e) {
+        ga('send', 'event', 'link', 'click', $(this).attr('href'));
+    });
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "author": "Feng Wu (吴锋)",
+  "dateModified": "04/20/2018 10:43:09",
+  "name": "Feng Wu (吴锋)'s Homepage",
+  "url": "//wufeng02.github.io/index.html",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "//wufeng02.github.io/search.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+    </body>
 </html>
