@@ -13,7 +13,7 @@
 
         <meta name="author" content="Feng Wu (吴锋)"/>
         <meta name="keywords" content="Feng Wu, 吴锋, USTC, 中科大, CS, 计算机, Robots, 机器人, Agents, 智能体, MDP, POMDP, DEC-POMDP, DCOP"/>
-        <meta name="description" content="Dr. Feng Wu is an Associate Researcher of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
+        <meta name="description" content="Dr. Feng Wu is an Associate Professor of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
 
         <link rel="canonical" href="//wufeng02.github.io/edit.html"/>
         <link rel="alternate" hreflang="x-default" href="//wufeng02.github.io/edit.html"/>
@@ -23,16 +23,14 @@
         <link rel="icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
 
-        <link href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" type="text/css"/>
 
         <script src="//wufeng02.github.io/static/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="//wufeng02.github.io/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
         <style type="text/css">
             body { font: 16px/1.5 "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
-            .glyphicon-ul { list-style-type: none; margin-left: 1em; }
-            .glyphicon-li { left: -2em; margin-right: -1.2em; }
-            .clickable { cursor: pointer; }
+            @media print { body { font-size: 9px; } a[href]:after, abbr:after { content: none !important; } }
         </style>
 
 <style type="text/css">
@@ -86,16 +84,17 @@
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
+      showMathMenu: false,
       showProcessingMessages: false,
-      //skipStartupTypeset: true,
       tex2jax: {
         inlineMath: [['$','$'], ['\\(','\\)']],
         displayMath: [['$$','$$'], ["\\[","\\]"]],
-        processEscapes: true
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     });
 </script>
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <link href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
@@ -140,15 +139,34 @@
 				'\nAuthors: Feng Wu\nCategories: \nTags: \nSummary: \n\n' + text);
 		}
 
-		function removeMeta(text) {
-			var a = text.split('\n'), k = 0;
-			for (var i = 0; i < a.length; ++i) {
-				if (a[i].trim() === '') {
-					k = i; break;
+		function indexMeta(text) {
+			var prechar = null;
+			for (var i = 0; i < text.length; ++i) {
+				var curchar = text.charAt(i);
+				if (prechar === '\n' && curchar === '\n') {
+					return i;
+				}
+				if (curchar !== ' ' && curchar !== '\t')
+					prechar = curchar;
+			}
+			return 0;
+		}
+
+		function parseMeta(text) {
+			var meta = {};
+			var lines = text.substring(0, indexMeta(text)).split('\n');
+			for (var i = 0; i < lines.length; ++i) {
+				var line = lines[i].trim();
+				if (line && line !== '') {
+					var parts = line.split(':');
+					meta[parts[0].trim().toLowerCase()] = parts[1].trim();
 				}
 			}
-			a.splice(0, k);
-			return a.join('\n');
+			return meta;
+		}
+
+		function removeMeta(text) {
+			return text.substring(indexMeta(text));
 		};
 
 		function fileReadText(file) {
@@ -164,7 +182,7 @@
 		};
 
 		function callService(action, data, callback) {
-			var url = 'service.php?do=' + action;
+			var url = 'file.php?do=' + action;
 			$.post(url, data, function(res) {
 				callback(res);
 			});
@@ -191,6 +209,12 @@
 			className: 'fa fa-floppy-o',
 			action: function() {
 				var name, defaultName = filename || '';
+				if (defaultName === '' && (meta = parseMeta(simplemde.value()))) {
+					if (meta['slug'])
+						defaultName = meta['slug'] + '.md';
+					else if (meta['title'])
+						defaultName = meta['title'] + '.md';
+				}
 				if ((name = prompt('Do you want to save file:', defaultName)) && (name !== '')) {
 					filename = formatFile(name);
 					callService('save', {'fn': filename, 'src': simplemde.value()}, function(date) {
@@ -215,19 +239,24 @@
 			}
 		},
 
-		addmeta = {
-			name: 'meta',
-			title: 'Meta',
-			className: 'fa fa-paperclip',
+		adjust = {
+			name: 'adjust',
+			title: 'Adjust',
+			className: 'fa fa-adjust',
 			action: function() {
-				insertMeta(simplemde.value());
+				var editor = simplemde.codemirror;
+				var text = editor.getSelection();
+				if (text && text !== '') {
+					text = text.replace(/\n/g, ' ').replace(/\s/g, ' ');
+					editor.replaceSelection(text);
+				}
 			}
 		},
 
 		upload = {
 			name: 'upload',
 			title: 'Upload',
-			className: 'fa fa-folder-open',
+			className: 'fa fa-upload',
 			action: function() {
 				var input = document.createElement('input');
 				input.type = 'file';
@@ -295,7 +324,7 @@
 			toolbar: [ newfile , savefile, deletefile, '|',
 			'bold', 'italic', 'strikethrough', 'heading', '|',
 			'code', 'quote', 'unordered-list', 'ordered-list', 'clean-block', '|',
-			'link', 'image', 'table', 'horizontal-rule', addmeta, '|',
+			'link', 'image', 'table', 'horizontal-rule', adjust, '|',
 			'preview', 'side-by-side', 'fullscreen', '|',
 			upload, download, '|', 'guide'
 			],
@@ -337,33 +366,33 @@
 	});
 </script>
 
-<script type="text/javascript" id="ga-js">
-    (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-31597550-1', 'auto');
-    ga('send', 'pageview');
-
-    $('a').not('[href^="javascript"]').click(function(e) {
-        ga('send', 'event', 'link', 'click', $(this).attr('href'));
-    });
-</script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "author": "Feng Wu (吴锋)",
-  "dateModified": "04/20/2018 10:43:09",
-  "name": "Feng Wu (吴锋)'s Homepage",
-  "url": "//wufeng02.github.io/edit.html",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "//wufeng02.github.io/search.html?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
+        <script type="text/javascript" id="ga-js">
+            (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
+        
+            ga('create', 'UA-31597550-1', 'auto');
+            ga('send', 'pageview');
+        
+            $('a').not('[href^="javascript"]').click(function(e) {
+                ga('send', 'event', 'link', 'click', $(this).attr('href'));
+            });
+        </script>
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "author": "Feng Wu (吴锋)",
+            "dateModified": "03/22/2019 11:26:27",
+            "name": "Feng Wu (吴锋)'s Homepage",
+            "url": "//wufeng02.github.io/edit.html",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "//wufeng02.github.io/search.html?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        </script>
     </body>
 </html>

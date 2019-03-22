@@ -13,7 +13,7 @@
 
         <meta name="author" content="Feng Wu (吴锋)"/>
         <meta name="keywords" content="Feng Wu, 吴锋, USTC, 中科大, CS, 计算机, Robots, 机器人, Agents, 智能体, MDP, POMDP, DEC-POMDP, DCOP"/>
-        <meta name="description" content="Dr. Feng Wu is an Associate Researcher of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
+        <meta name="description" content="Dr. Feng Wu is an Associate Professor of USTC interested in Artificial Intelligence, Multi-Agent Systems, Planning, Robotics, MDP, POMDP, DEC-POMDP, etc."/>
 
         <link rel="canonical" href="//wufeng02.github.io/cv.html"/>
         <link rel="alternate" hreflang="x-default" href="//wufeng02.github.io/cv.html"/>
@@ -23,23 +23,26 @@
         <link rel="icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
 
-        <link href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="prev" href="//wufeng02.github.io/index.html" />
+        <link rel="next" href="//wufeng02.github.io/publication.html" />
+        
+        <link rel="stylesheet" href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" type="text/css"/>
 
         <script src="//wufeng02.github.io/static/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="//wufeng02.github.io/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
         <style type="text/css">
             body { font: 16px/1.5 "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
-            .glyphicon-ul { list-style-type: none; margin-left: 1em; }
-            .glyphicon-li { left: -2em; margin-right: -1.2em; }
-            .clickable { cursor: pointer; }
+            @media print { body { font-size: 9px; } a[href]:after, abbr:after { content: none !important; } }
         </style>
 
-<style type="text/css">
-    :lang(zh) { display: none; }
-    img { background: url(media/loading.gif) 50% no-repeat; }
-</style>
-
+        <link rel="stylesheet" href="//wufeng02.github.io/static/icomoon/style.css" type="text/css"/>
+        <style type="text/css">
+            :lang(zh) { display: none; }
+            .clickable { cursor: pointer; }
+            img { background: url(media/loading.gif) 50% no-repeat; }
+            abbr { text-decoration: none !important; border: none !important; }
+        </style>
 <style type="text/css">
     li { margin-bottom: 10px; }
 </style>
@@ -50,91 +53,127 @@
     	<![endif]-->
     </head>
     <body>
-<header style="margin-top: 20px;">
-<div class="container" itemscope itemtype="http://schema.org/Person">
-    <div class="pull-right hidden-print">
-        <button type="button" onclick="$.translate('en');" class="btn btn-default btn-raised" lang="zh">
-            <i class="glyphicon glyphicon-globe"></i> &nbsp; ENGLISH
-        </button>
-        <button type="button" onclick="$.translate('zh');" class="btn btn-default btn-raised" lang="en">
-            <i class="glyphicon glyphicon-globe"></i> &nbsp; &#20013;&#25991;&#29256;
-        </button>
-    </div> <br/> <br/>
-
-    <div class="carousel slide pull-right" style="margin-top: 20px; margin-bottom: 10px;">
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="//wufeng02.github.io/media/fengwu.jpg" class="img-rounded img-responsive"
-                    style="max-width: 320px; width: 95%; float: right;" alt="Photo of Feng Wu (吴锋)" itemprop="image"/>
-                <div class="carousel-caption hidden-print" style="top: 0px;"></div>
-            </div>
-        </div>
-
-        <div id="quotes" class="hidden-print" style="width: 320px; margin-left: 20px; margin-top: 20px; color: gray; text-align: center;">
-            <span><span lang="en">&ldquo; Unity of Knowing and Acting. &rdquo; <br/>&ndash; <a target="_blank" href="https://plato.stanford.edu/entries/wang-yangming/">Wang Yangming</a></span> <span lang="zh">&ldquo; 知行合一 &rdquo; &ndash; 王阳明</span>  (1472-1529)</span>
-        </div>
-    </div>
-
-    <h2 class="text-left text-primary">
-        <span onmouseover="new Audio('//wufeng02.github.io/media/fengwu.mp3').play();" style="cursor: progress;">
-            <span lang="en"><span itemprop="name">Feng Wu</span></span> <span lang="zh">吴锋</span> 
-        </span>
-        <a class="hidden-print" href="https://orcid.org/0000-0003-3989-0509" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
-            <img src="//wufeng02.github.io/media/orcid_16x16.png" style="width:0.5em;margin-top:-0.5em;" alt="ORCID: 0000-0003-3989-0509">
-        </a>
-    </h2>
-    <address style="display: block;"> <br>
-        <strong><span lang="en"><span itemprop="jobTitle">Associate Professor</span></span> <span lang="zh">副教授</span> </strong> <br/>
-        <span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
-        <span itemprop="member" itemscope itemtype="http://schema.org/Organization">
-        <a href="http://ai.ustc.edu.cn" itemprop="url sameAs">
-            <span lang="en"><span itemprop="name legalName">Multi-Agent Systems Laboratory</span></span> <span lang="zh">多智能体系统实验室</span> 
-        </a> </span> <br/>
-        <span itemprop="department" itemscope itemtype="http://schema.org/Organization">
-        <a href="http://cs.ustc.edu.cn" itemprop="url sameAs">
-            <span lang="en"><span itemprop="name legalName">School of Computer Science and Technology</span></span> <span lang="zh">计算机科学与技术学院</span> 
-        </a> </span> <br/>
-        <a href="http://www.ustc.edu.cn" itemprop="url sameAs">
-            <span lang="en"><span itemprop="name legalName">University of Science and Technology of China</span></span> <span lang="zh">中国科学技术大学</span> 
-        </a>
-        </span>
-    </address>
-    <address style="display: block;">
-        <b><span lang="en">Address</span> <span lang="zh">地址</span> : </b> <br/>
-        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span lang="en"><span itemprop="postOfficeBoxNumber">Science and Technology Experimental Building, West Campus, USTC</span>, <br/> <span itemprop="streetAddress">443 Huangshan Road</span>, <span itemprop="addressLocality">Hefei</span>, <span itemprop="addressRegion">Anhui</span>, <span itemprop="postalCode">230027</span>, <span itemprop="addressCountry">China</span>.</span> <span lang="zh">安徽省合肥市黄山路443号 <br/> 中国科学技术大学西校区科技实验楼</span> 
-        </span>
-        <a target="_blank" href="http://www.google.cn/maps/?hl=en-US&q=loc:31.841030,117.258290">
-            <i class="glyphicon glyphicon-map-marker"></i>
-        </a>
-    </address>
-    <address style="display: block;">
-        <strong><span lang="en">Email</span> <span lang="zh">电子邮件</span> : </strong> <br/>
-        <script type="text/javascript">
-            var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
-            document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
-        </script>
-        <noscript>
-            <img src="//wufeng02.github.io/media/email.png" alt="Email"/>
-        </noscript>
-    </address>
-    <br/>
-
-    <nav class="navbar hidden-print" role="navigation">
-        <ul class="nav nav-tabs">
-            <li class="">
-                <a href="//wufeng02.github.io/index.html"><span lang="en">Home</span> <span lang="zh">首页</span> </a>
-            </li>
-            <li class="active">
-                <a href="//wufeng02.github.io/cv.html"><span lang="en">CV</span> <span lang="zh">简历</span> </a>
-            </li>
-            <li class="">
-                <a href="//wufeng02.github.io/publication.html"><span lang="en">Publication</span> <span lang="zh">论文</span> </a>
-            </li>
-        </ul>
-    </nav>
-</div></header>
-
+        <header style="margin-top: 20px;">
+            <div class="container" itemscope itemtype="http://schema.org/Person">
+                <div class="pull-right hidden-print">
+                    <button type="button" onclick="$.translate('en');" class="btn btn-default btn-raised" lang="zh">
+                        <i class="glyphicon glyphicon-globe"></i> &nbsp; ENGLISH
+                    </button>
+                    <button type="button" onclick="$.translate('zh');" class="btn btn-default btn-raised" lang="en">
+                        <i class="glyphicon glyphicon-globe"></i> &nbsp; &#20013;&#25991;&#29256;
+                    </button>
+                </div> <br/> <br/>
+            
+                <div class="carousel slide pull-right" style="margin-top: 20px; margin-bottom: 10px;">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="//wufeng02.github.io/media/fengwu.jpg" class="img-rounded img-responsive"
+                                style="max-width: 320px; width: 95%; float: right;" alt="Photo of Feng Wu (吴锋)" itemprop="image"/>
+                            <div class="carousel-caption hidden-print" style="top: 0px;"></div>
+                        </div>
+                    </div>
+            
+                    <div class="hidden-print" style="margin-left: 20px; margin-top: 20px; text-align: center;">
+                        <style type="text/css">
+                            a.icomoon:hover { text-decoration: none; }
+                            a.icomoon > i { font-size: 12pt; padding: 15px; }
+                        </style>
+                        <a href="#" target="_blank" class="icomoon"><i class="icon-google"></i></a>
+                        <a href="#" target="_blank" class="icomoon"><i class="icon-facebook"></i></a>
+                        <a href="#" target="_blank" class="icomoon"><i class="icon-twitter"></i></a>
+                        <a href="#" target="_blank" class="icomoon"><i class="icon-linkedin"></i></a>
+                        <a href="//wufeng02.github.io/media/wechat.png" class="icomoon"
+                            data-toggle="lightbox" data-title='<span lang="en">WeChat</span> <span lang="zh">微信</span> '>
+                            <i class="icon-wechat"></i>
+                        </a>
+                        <a href="http://weibo.com/wufeng02" target="_blank" class="icomoon">
+                            <i class="icon-sinaweibo"></i>
+                        </a>
+                        <script type="text/javascript">
+                            (function() {
+                                $.each({
+                                    'google': 'https://scholar.go'+'og'+'le.com/citations?user=8CEHlu4AAAAJ',
+                                    'facebook': 'https://www.fa'+'ceb'+'ook.com/fengw',
+                                    'twitter': 'https://tw'+'it'+'ter.com/wufeng02',
+                                    'linkedin': 'https://www.li'+'nke'+'din.com/pub/feng-wu/62/438/2a2'
+                                }, function(key, val) {
+                                    $('.icon-'+key).parent().attr('href', val);
+                                });
+                            }());
+                        </script>
+                    </div>
+            
+                </div>
+            
+                <div id="vCard">
+                    <h2 class="text-left text-primary">
+                        <span onmouseover="$.play('//wufeng02.github.io/media/fengwu.mp3');" style="cursor: progress;">
+                            <span lang="en"><span itemprop="name">Feng Wu</span></span> <span lang="zh">吴锋</span> 
+                        </span>
+                        <a class="hidden-print" href="https://orcid.org/0000-0003-3989-0509" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
+                            <img src="//wufeng02.github.io/media/orcid_16x16.png" style="width:0.5em;margin-top:-0.5em;" alt="ORCID: 0000-0003-3989-0509">
+                        </a>
+                    </h2>
+                    <address style="display: block;"> <br>
+                        <strong><span lang="en"><span itemprop="jobTitle">Associate Professor</span></span> <span lang="zh">副教授</span> </strong> <br/>
+                        <span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+                        <span itemprop="member" itemscope itemtype="http://schema.org/Organization">
+                        <a href="http://ai.ustc.edu.cn" itemprop="url sameAs">
+                            <span lang="en"><span itemprop="name legalName">Multi-Agent Systems Laboratory</span></span> <span lang="zh">多智能体系统实验室</span> 
+                        </a> </span> <br/>
+                        <span itemprop="department" itemscope itemtype="http://schema.org/Organization">
+                        <a href="http://cs.ustc.edu.cn" itemprop="url sameAs">
+                            <span lang="en"><span itemprop="name legalName">School of Computer Science and Technology</span></span> <span lang="zh">计算机科学与技术学院</span> 
+                        </a> </span> <br/>
+                        <a href="http://www.ustc.edu.cn" itemprop="url sameAs">
+                            <span lang="en"><span itemprop="name legalName">University of Science and Technology of China</span></span> <span lang="zh">中国科学技术大学</span> 
+                        </a>
+                        </span>
+                    </address>
+                    <address style="display: block;">
+                        <b><span lang="en">Address</span> <span lang="zh">地址</span> : </b> <br/>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <span lang="en"><span itemprop="postOfficeBoxNumber">Science and Technology Experimental Building, West Campus, USTC</span>, <br/> <span itemprop="streetAddress">443 Huangshan Road</span>, <span itemprop="addressLocality">Hefei</span>, <span itemprop="addressRegion">Anhui</span>, <span itemprop="postalCode">230027</span>, <span itemprop="addressCountry">China</span>.</span> <span lang="zh">安徽省合肥市黄山路443号 <br/> 中国科学技术大学西校区科技实验楼</span> 
+                        </span>
+                        <a target="_blank" href="http://www.google.cn/maps/?hl=en-US&q=loc:31.841030,117.258290">
+                            <i class="glyphicon glyphicon-map-marker hidden-print"></i>
+                        </a>
+                    </address>
+                    <address style="display: block;">
+                        <strong><span lang="en">Email</span> <span lang="zh">电子邮件</span> : </strong> <br/>
+                        <script type="text/javascript">
+                            (function() {
+                                var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
+                                document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
+                            }());
+                        </script>
+                        <noscript>
+                            <img src="//wufeng02.github.io/media/email.png" alt="Email"/>
+                        </noscript>
+                        <a href="media/email.asc" data-toggle="lightbox" data-title='PGP <span lang="en">Public Key</span> <span lang="zh">公钥</span> '>
+                            <span class="label label-primary hidden-print" style="font-size:7pt; margin-left:5px;">
+                                PGP
+                            </span>
+                        </a>
+                    </address>
+                </div>
+            
+                <nav class="navbar hidden-print" role="navigation">
+                    <br/>
+                    <ul class="nav nav-tabs">
+                        <li class="">
+                            <a href="//wufeng02.github.io/index.html"><span lang="en">Home</span> <span lang="zh">首页</span> </a>
+                        </li>
+                        <li class="active">
+                            <a href="//wufeng02.github.io/cv.html"><span lang="en">CV</span> <span lang="zh">简历</span> </a>
+                        </li>
+                        <li class="">
+                            <a href="//wufeng02.github.io/publication.html"><span lang="en">Publication</span> <span lang="zh">论文</span> </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div></header>
+        
 
 
 <div class="container">
@@ -188,7 +227,7 @@
 
 <li lang="zh">冠军(队长)，服务机器人标准测试挑战赛，RoboCup机器人世界杯，中国合肥，2015年7月.</li>
 
-<li lang="en">Best Innovative Application Paper Award of The 14th International Conference on Autonomous Agents and Multi-Agent Systems (<a href="http://www.aamas2015.com">AAMAS 2015</a>).</li>
+<li lang="en">Best Innovative Application Paper Award of <a href="http://www.aamas2015.com">AAMAS 2015</a>.</li>
 
 <li lang="zh">第14届智能体和多智能体系统国际会议 (<a href="http://www.aamas2015.com">AAMAS 2015</a>) 最佳应用论文奖, 2015.</li>
 
@@ -240,181 +279,197 @@
         </li>
         <li>
             <span lang="en">Journal Reviewer</span> <span lang="zh">期刊审稿人</span> :
-            <a href="http://www.journals.elsevier.com/artificial-intelligence/">AIJ</a> 2012, 2013, 2015, 2016; <a href="http://www.jair.org">JAIR</a> 2010, 2014; <a href="http://link.springer.com/journal/10458">JAAMAS</a> 2014, 2016; <a href="acmtist">ACM TIST</a> 2017; <a href="http://jcst.ict.ac.cn">JCST</a> 2016; <a href="frontiers">Frontiers</a> 2016.
+            <a href="http://www.journals.elsevier.com/artificial-intelligence/">AIJ</a> 2012, 2013, 2015, 2016; <a href="http://www.jair.org">JAIR</a> 2010, 2014; <a href="http://link.springer.com/journal/10458">JAAMAS</a> 2014, 2016; <a href="http://tist.acm.org">ACM TIST</a> 2017; <a href="http://jcst.ict.ac.cn">JCST</a> 2016; <a href="http://www.frontiersin.org">Frontiers</a> 2016.
         </li>
     </ul>
     </div>
 </div>
 
-<footer style="margin-bottom: 20px;">
-<div class="container hidden-print">
-    <br/>
-    <div class="text-center">
-        <a href="#" target="_blank" id="s:gs">
-            <span lang="en">Google Scholar</span> <span lang="zh">谷歌学术</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="#" target="_blank" id="s:gp">
-            <span lang="en">Google+</span> <span lang="zh">谷歌+</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="#" target="_blank" id="s:fb">
-            <span lang="en">Facebook</span> <span lang="zh">脸书</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="#" target="_blank" id="s:tt">
-            <span lang="en">Twitter</span> <span lang="zh">推特</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="#" target="_blank" id="s:li">
-            <span lang="en">LinkedIn</span> <span lang="zh">领英</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="//wufeng02.github.io/media/wechat.png" data-toggle="lightbox" data-title="WeChat">
-            <span lang="en">WeChat</span> <span lang="zh">微信</span> 
-        </a> &nbsp; &middot; &nbsp;
-        <a href="http://weibo.com/wufeng02" target="_blank">
-            <span lang="en">Sina Weibo</span> <span lang="zh">新浪微博</span> 
-        </a>
-        <script type="text/javascript">
-            var social = {
-                's:gs': 'https://scholar.go'+'og'+'le.com/citations?user=8CEHlu4AAAAJ',
-                's:gp': 'https://plus.go'+'og'+'le.com/114336350312258670852',
-                's:fb': 'https://www.fa'+'ceb'+'ook.com/fengw',
-                's:tt': 'https://tw'+'it'+'ter.com/wufeng02',
-                's:li': 'https://www.li'+'nke'+'din.com/pub/feng-wu/62/438/2a2'
-            };
-            for (var key in social) {
-                var el = document.getElementById(key);
-                if (el) el.href = social[key];
-            }
-        </script>
-    </div>
-
-    <div class="pull-right text-muted" style="text-align: right;">
-        <!-- <span lang="en">Last Updated</span> <span lang="zh">最后更新</span> : 04/20/2018 10:43:09 --> <br/>
-        <a href="#" onclick="window.open('https://www.go'+'og'+'le.com/webmasters/tools/home?hl=en');return false;">
-        <img src="/cgi-bin/Count.cgi?df=wufeng02.dat&amp;dd=E&amp;ft=0&amp;tr=N&amp;pad=N&amp;srgb=000000&amp;prgb=cccccc" alt="" />
-        </a>
-    </div>
-    
-    <div class="modal fade" tabindex="-1" role="dialog" id="lightbox">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 3px 10px;">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title">&nbsp;</h4>
+        <footer style="margin-bottom: 20px;">
+            <div class="container hidden-print">
+                <br/>
+            
+                <div class="pull-right text-muted" style="text-align: right;">
+                    <!-- <span lang="en">Last Updated</span> <span lang="zh">最后更新</span> : 03/22/2019 11:26:27 --> <br/>
+                    <a href="#" onclick="window.open('https://www.go'+'og'+'le.com/webmasters/tools/home?hl=en');return false;">
+                    <img src="/cgi-bin/Count.cgi?df=wufeng02.dat&amp;dd=E&amp;ft=0&amp;tr=N&amp;pad=N&amp;srgb=000000&amp;prgb=cccccc" alt="" />
+                    </a>
                 </div>
-                <div class="modal-body" style="text-align: center;">
+            
+                <div class="modal fade" tabindex="-1" role="dialog" id="lightbox">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 3px 10px;">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title">&nbsp;</h4>
+                            </div>
+                            <div class="modal-body" style="text-align: center; resize: both; overflow: hidden;"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="scrollup" style="position: fixed; bottom: 30px; right: 10px; z-index: 1000; display: none;">
+                    <a href="javascript: void(0);" class="well well-sm"
+                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;" tabindex="0" role="button"
+                        data-toggle="popover" data-trigger="click" data-placement="left"
+                        data-content='<ul class="nav nav-pills nav-stacked"> <li class=""> <a href="//wufeng02.github.io/index.html"> <span lang="en">Home</span> <span lang="zh">首页</span> </a> </li> <li class="active"> <a href="//wufeng02.github.io/cv.html"> <span lang="en">CV</span> <span lang="zh">简历</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/publication.html"> <span lang="en">Publication</span> <span lang="zh">论文</span> </a> </li> </ul>'><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+                    <br/> <br/>
+                    <a href="#top" class="well well-sm" role="button"
+                        style="background-color: rgba(0, 0, 0, 0.4); color: #fff;"
+                        onclick="$('html,body').animate({scrollTop:0}, 'fast'); return false;"><i class="glyphicon glyphicon-chevron-up"></i></a>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    <div id="scrollup" style="position: fixed; bottom: 30px; right: 10px; z-index: 1000; display: none;">
-        <a href="javascript: void(0);" class="well well-sm" 
-            style="background-color: rgba(0, 0, 0, 0.4); color: #fff;" tabindex="0" role="button"
-            data-toggle="popover" data-trigger="click" data-placement="left" 
-            data-content='<ul class="nav nav-pills nav-stacked"> <li class=""> <a href="//wufeng02.github.io/index.html"> <span lang="en">Home</span> <span lang="zh">首页</span> </a> </li> <li class="active"> <a href="//wufeng02.github.io/cv.html"> <span lang="en">CV</span> <span lang="zh">简历</span> </a> </li> <li class=""> <a href="//wufeng02.github.io/publication.html"> <span lang="en">Publication</span> <span lang="zh">论文</span> </a> </li> </ul>'><i class="glyphicon glyphicon-menu-hamburger"></i></a> 
-        <br/> <br/>
-        <a href="#top" class="well well-sm" role="button"
-            style="background-color: rgba(0, 0, 0, 0.4); color: #fff;"
-            onclick="$('html,body').animate({scrollTop:0}, 'fast'); return false;"><i class="glyphicon glyphicon-chevron-up"></i></a>
-    </div>
-</div>
-</footer>
+            
+        </footer>
 
-
-<script type="text/javascript">
-    $(function() {
-        $.storage = (sessionStorage || localStorage);
-
-        $.queries = {};
-        var params = window.location.search.substring(1).split('&');
-        for (var i = 0; i < params.length; ++i) {
-            var pair = params[i].split('=');
-            $.queries[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
-        }
-
-        $.translate = function(lang) {
-            if ($.storage !== undefined) {
-                if (lang)
-                    $.storage.setItem('homepage.language', lang);
-                else
-                    lang = $.storage.getItem('homepage.language');
+        <script type="text/javascript">
+            $(function() {
+                'use strict';
+        
+                var storage = (sessionStorage || localStorage || {
+                    setItem: function(key, val) {},
+                    getItem: function(key) {}
+                }),
+        
+                parseQueryString = function(query) {
+                  var results = {};
+                  if (!query || (query = query.trim()) === '') {
+                    return results;
+                  }
+        
+                  var parts = query.split('&');
+                  for (var i = 0; i < parts.length; ++i) {
+                    var pair = parts[i].split('=');
+                    var key = pair[0].toLowerCase().trim();
+                    if (key === '') continue;
+                    var value = pair.length > 1 ? pair[1].trim() : '';
+                    results[decodeURIComponent(key)] = decodeURIComponent(value);
+                  }
+                  return results;
+                },
+        
+                translate = function(lang) {
+                    var key = 'homepage/language';
+                    if (lang) {
+                        storage.setItem(key, lang);
+                    } else {
+                        lang = storage.getItem(key);
+                    }
+                    if (lang === 'zh') {
+                        $(':lang(zh)').show();
+                        $(':lang(en)').hide();
+                    } else {
+                        $(':lang(zh)').hide();
+                        $(':lang(en)').show();
+                    }
+                },
+        
+                play = function(url) {
+                    new Audio(url).play().then(function(){}).catch(function(){});
+                },
+        
+                queries = parseQueryString(window.location.search.substring(1));
+        
+                translate(queries['l'] || queries['lang']);
+        
+                var key = 'homepage/scroll', scroll;
+                $(document).scroll(function(e) {
+                    storage.setItem(key, $(document).scrollTop());
+                });
+                if (scroll = storage.getItem(key)) {
+                    $(document).scrollTop(scroll);
+                }
+        
+                $(window).scroll(function() {
+                    var st = $(this).scrollTop();
+                    if (st > 100) $('#scrollup').fadeIn(450);
+                    else $('#scrollup').fadeOut(450);
+                    return true;
+                });
+                $('#scrollup').on('inserted.bs.popover', function() {
+                    translate();
+                });
+        
+                $('[data-toggle="popover"]').popover({html: true});
+        
+                $('[data-toggle="lightbox"]').click(function(e) {
+                    e.preventDefault();
+                    var $lb = $('#lightbox'), src = $(this).attr('href');
+        
+                    var $el = (/\.(gif|jpg|jpeg|tiff|png|bmp)$/i).test(src) ?
+                        $('<img style="max-width: 100%; max-height: 75vh; cursor: pointer;"/>').click(function(e) {
+                            window.open(src, '_blank');
+                        }):$('<iframe frameborder="0" style="width: 100%; height: 75vh;" allowfullscreen />');
+                    $el.attr('src', src);
+        
+                    $lb.find('.modal-dialog').attr('style', $(this).attr('data-style') || '');
+                    $lb.find('.modal-title').html($(this).attr('data-title'));
+                    $lb.find('.modal-body').empty().append($el);
+                    $lb.find('.close').show();
+        
+                    var $mc = $lb.find('.modal-content')
+                        .css('width','').css('top', '').css('left', '');
+        
+                    var $mb = $lb.find('.modal-body').css('width','').css('height','');
+                    $mb.mousedown(function() {
+                        $mb.on('mousemove.resize', function() {
+                            var ow = $mc.css('width'), nw = $mb.css('width');
+                            if (ow !== nw) { $mc.css('width', nw); }
+                        });
+                    });
+        
+                    var $mh = $lb.find('.modal-header');
+                    $mh.mousedown(function(e1) {
+                        var initX = e1.clientX - parseInt($mc.css('left'), 10);
+                        var initY = e1.clientY - parseInt($mc.css('top'), 10);
+                        $mh.on('mousemove.move', function(e2) {
+                            var currX = e2.clientX - initX;
+                            var currY = e2.clientY - initY;
+                            $mc.css({'left': currX + 'px', 'top': currY + 'px'});
+                        });
+                    });
+                    $('body').mouseup(function() {
+                        $mh.off('mousemove.move');
+                        $mb.off('mousemove.resize');
+                    });
+        
+                    $lb.modal('show').on('shown.bs.modal', function() { translate(); });
+        
+                    return false;
+                });
+        
+                $.translate = translate;
+            });
+        </script>
+        <script type="text/javascript" id="ga-js">
+            (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
+        
+            ga('create', 'UA-31597550-1', 'auto');
+            ga('send', 'pageview');
+        
+            $('a').not('[href^="javascript"]').click(function(e) {
+                ga('send', 'event', 'link', 'click', $(this).attr('href'));
+            });
+        </script>
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "author": "Feng Wu (吴锋)",
+            "dateModified": "03/22/2019 11:26:27",
+            "name": "Feng Wu (吴锋)'s Homepage",
+            "url": "//wufeng02.github.io/cv.html",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "//wufeng02.github.io/search.html?q={search_term_string}",
+              "query-input": "required name=search_term_string"
             }
-            if (lang === 'zh') {
-                $(':lang(zh)').show(); $(':lang(en)').hide();
-            } else {
-                $(':lang(zh)').hide(); $(':lang(en)').show();
-            }
-        };
-        $.translate($.queries['l'] || $.queries['lang']);
-
-        $(window).scroll(function() {
-            var st = $(this).scrollTop();
-            if (st > 100) $('#scrollup').fadeIn(450);
-            else $('#scrollup').fadeOut(450);
-            return true;
-        });
-
-        $('[data-toggle="popover"]').popover({html: true});
-
-        $('#scrollup').on('inserted.bs.popover', function() {
-            $.translate();
-            return true;
-        });
-
-        $('[data-toggle="lightbox"]').click(function(e) {
-            e.preventDefault();
-            var $lb = $('#lightbox'), src = $(this).attr('href');
-            var $el = (/\.(gif|jpg|jpeg|tiff|png|bmp)$/i).test(src) ?
-                $('<img style="max-width: 100%; max-height: 75vh; cursor: pointer;"/>').click(function(e) {
-                    window.open(src, '_blank');
-                }):$('<iframe frameborder="0" style="width: 100%; height: 75vh;" allowfullscreen />');
-            $el.attr('src', src);
-            $lb.find('.modal-title').text($(this).attr('data-title'));
-            $lb.find('.modal-body').empty().append($el);
-            $lb.modal('show');
-            return false;
-        });
-
-        $(document).scroll(function(e) {
-            if ($.storage !== undefined) {
-                $.storage.setItem('homepage.scroll', $(document).scrollTop());
-            }
-            return true;
-        });
-        if ($.storage !== undefined && $.storage.getItem('homepage.scroll')) {
-            $(document).scrollTop($.storage.getItem('homepage.scroll'));
-        }
-    });
-</script>
-
-<script type="text/javascript" id="ga-js">
-    (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-31597550-1', 'auto');
-    ga('send', 'pageview');
-
-    $('a').not('[href^="javascript"]').click(function(e) {
-        ga('send', 'event', 'link', 'click', $(this).attr('href'));
-    });
-</script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "author": "Feng Wu (吴锋)",
-  "dateModified": "04/20/2018 10:43:09",
-  "name": "Feng Wu (吴锋)'s Homepage",
-  "url": "//wufeng02.github.io/cv.html",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "//wufeng02.github.io/search.html?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
+          }
+        </script>
     </body>
 </html>

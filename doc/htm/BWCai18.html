@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <meta name="robots" content="NOODP"/>
+        <meta name="msvalidate.01" content="7662302B2EE2DF855D33DA34FD827164"/>
+        <meta name="google-site-verification" content="Nj_dp8eZCY7mCHa7wHJz4MXpILpTh7vii2xAujBW5Zg"/>
+
+        <title>Feng Wu (吴锋) | Posterior Sampling for Monte Carlo Planning under Uncertainty</title>
+
+<meta name="author" content="Aijun Bai, Feng Wu, Xiaoping Chen" />
+<meta name="description" content="Monte Carlo tree search (MCTS) has recently been drawing great interest in the domain of planning and learning under uncertainty. One of the fundamental challenges is the trade-off between exploration and exploitation. To address this problem, we propose to balance between exploration and exploitation via posterior sampling in the contexts of Markov decision process (MDP) and partially observable Markov decision process (POMDP). Specifically, we treat the cumulative reward returned by taking an action from a search node in the MCTS search tree as a random variable following an unknown distribution. We parametrize this distribution by introducing necessary hidden parameters, and infer the posterior distribution of the hidden parameters in a Bayesian way. We further expand a node in the search tree by using Thompson sampling to select an action based on its posterior probability of being optimal. Following this idea, we develop Dirichlet-NormalGamma based Monte Carlo tree search (DNG-MCTS) and Dirichlet-Dirichlet-NormalGamma based partially observable Monte Carlo planning (D2NG-POMCP) algorithms respectively for Monte Carlo planning in MDPs and POMDPs. Experimental results show that the proposed algorithms outperform the state-of-the-art with better values on several benchmark problems." />
+
+        <link rel="canonical" href="//wufeng02.github.io/"/>
+        <link rel="alternate" hreflang="x-default" href="//wufeng02.github.io/"/>
+        <link rel="alternate" hreflang="en" href="//wufeng02.github.io/?lang=en"/>
+        <link rel="alternate" hreflang="zh" href="//wufeng02.github.io/?lang=zh"/>
+
+        <link rel="icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="//wufeng02.github.io/media/favicon.ico" type="image/x-icon"/>
+
+        <link rel="stylesheet" href="//wufeng02.github.io/static/bootstrap/css/bootstrap.min.css" type="text/css"/>
+
+        <script src="//wufeng02.github.io/static/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="//wufeng02.github.io/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <style type="text/css">
+            body { font: 16px/1.5 "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
+            @media print { body { font-size: 9px; } a[href]:after, abbr:after { content: none !important; } }
+        </style>
+
+        <style type="text/css">
+            pre { white-space:pre-wrap;  }
+            .clickable, span[itemprop=author] { cursor: pointer; }
+        
+            .highlight .nc { font-weight: bold; }
+            .highlight .nl { color: #337ab7;}
+            .highlight .na { font-weight: bold; margin-left: 50px; display: inline-block; width: 70px; }
+            .highlight .p  { color: gray;   }
+        
+            #abstract { text-align: justify; }
+        </style>
+        <!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    	<![endif]-->
+    </head>
+    <body>
+<br/>
+<div class="container" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <ol class="breadcrumb">
+        <li style="width: auto;">
+            <a href="//wufeng02.github.io/publication.html"><span itemprop="about">Publication</span></a>
+        </li>
+        <li class="active" style="width: 90%;">
+            <span itemprop="isPartOf" itemscope itemtype="http://schema.org/Periodical">
+            <span itemprop="name">Applied Intelligence (Appl Intell)</span>,
+
+
+            </span>
+
+
+                <span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume">
+                    Volume <span itemprop="volumeNumber">48</span>,
+                </span>
+
+                <span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">
+                    Number <span itemprop="issueNumber">12</span>,
+                </span>
+
+            Page <span itemprop="pagination">4998–5018</span>,
+
+
+            <span itemprop="datePublished">2018</span>.
+        </li>
+    </ol>
+
+    <h3 class="text-center" itemprop="name headline">
+        Posterior Sampling for Monte Carlo Planning under Uncertainty
+    </h3>
+
+    <p class="text-center">
+        <span itemprop="author">
+            Aijun Bai</span>, <span itemprop="author">Feng Wu</span>, <span itemprop="author">Xiaoping Chen
+        </span>
+    </p>
+
+    <h4 class="page-header clickable" data-toggle="collapse" data-target="#abstract">Abstract</h4>
+    <p id="abstract" class="collapse in" itemprop="description">Monte Carlo tree search (MCTS) has recently been drawing great interest in the domain of planning and learning under uncertainty. One of the fundamental challenges is the trade-off between exploration and exploitation. To address this problem, we propose to balance between exploration and exploitation via posterior sampling in the contexts of Markov decision process (MDP) and partially observable Markov decision process (POMDP). Specifically, we treat the cumulative reward returned by taking an action from a search node in the MCTS search tree as a random variable following an unknown distribution. We parametrize this distribution by introducing necessary hidden parameters, and infer the posterior distribution of the hidden parameters in a Bayesian way. We further expand a node in the search tree by using Thompson sampling to select an action based on its posterior probability of being optimal. Following this idea, we develop Dirichlet-NormalGamma based Monte Carlo tree search (DNG-MCTS) and Dirichlet-Dirichlet-NormalGamma based partially observable Monte Carlo planning (D2NG-POMCP) algorithms respectively for Monte Carlo planning in MDPs and POMDPs. Experimental results show that the proposed algorithms outperform the state-of-the-art with better values on several benchmark problems.</p>
+
+    &raquo;
+
+    <a href="//wufeng02.github.io/doc/pdf/BWCai18.pdf" itemprop="sameAs image"
+        data-toggle="tooltip" data-placement="right" title="File Type: PDF, File Size: 2.5MB">
+        Read on
+    </a>
+
+    <h4 class="page-header clickable" data-toggle="collapse" data-target="#citation">Citation</h4>
+    <div id="citation" class="collapse in">
+        <div style="text-align: right; margin-bottom: 10px">
+            <button id="short" class="btn btn-default btn-sm">
+                <i class="glyphicon glyphicon-compressed"></i> Convert to short form
+            </button>
+        </div>
+        <span><span class="cite_a">Aijun Bai</span>, <span class="cite_a">Feng Wu</span>, <span class="cite_a">Xiaoping Chen</span>. <span class="cite_t">Posterior Sampling for Monte Carlo Planning under Uncertainty</span>. <span class="cite_p">Applied Intelligence (Appl Intell)</span>, <span class="cite_v">48</span>(<span class="cite_n">12</span>):<span class="cite_s">4998–5018</span>, <span class="cite_y">2018</span>.</span>
+    </div>
+
+    <h4 class="page-header clickable" data-toggle="collapse" data-target="#bibtex">BibTex</h4>
+    <div id="bibtex" class="collapse in">
+        <div style="text-align: right; margin-bottom: 10px">
+            <button id="copy" class="btn btn-default btn-sm">
+                <i class="glyphicon glyphicon-list-alt"></i> Copy to clipboard
+            </button>
+            <button id="download" class="btn btn-default btn-sm">
+                <i class="glyphicon glyphicon-download-alt"></i> Download as file
+            </button>
+        </div>
+        <div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">BWCai18</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Aijun Bai and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1007/s10489-018-1248-5<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Applied Intelligence (Appl Intell)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>12<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>4998–5018<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Posterior Sampling for Monte Carlo Planning under Uncertainty<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>48<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2018<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>
+     </div>
+
+    <h4 class="page-header clickable" data-toggle="collapse" data-target="#links">External Links</h4>
+    <div id="links" class="collapse in">
+
+        <a href="https://search.crossref.org/?q=Posterior+Sampling+for+Monte+Carlo+Planning+under+Uncertainty" target="_blank">Crossref</a>
+        (DOI: <a href="https://doi.org/10.1007/s10489-018-1248-5" target="_blank">10.1007/s10489-018-1248-5</a>)
+        &nbsp; &nbsp;
+
+        <a href="https://scholar.google.com/scholar?q=Posterior+Sampling+for+Monte+Carlo+Planning+under+Uncertainty" target="_blank">Google Scholar</a>
+
+        &nbsp;&nbsp;
+
+        <a href="https://www.engineeringvillage.com/search/quick.url" target="_blank">Engineering Village</a>
+        (AN: 20183405735209)
+
+        &nbsp;&nbsp;
+
+        <a href="http://www.webofknowledge.com/wos" target="_blank">Web of Science</a>
+        (AN: WOS:000450446800029)
+    </div>
+    <br/>
+</div>
+<footer class="text-center">
+    <script type="text/javascript">
+        (function(){
+            var e = 'wu'+'feng'+'02'+'@'+'ustc'+'.'+'edu'+'.'+'cn';
+            document.writeln('<a href="mail'+'to:'+e+'">'+e+'</a>');
+        }());
+    </script>
+    <noscript>
+        <img src="//wufeng02.github.io/img/email.png" alt="Email"/>
+    </noscript>
+</footer>
+<br/>
+
+
+        <script type="text/javascript">
+            $(function() {
+                $.fn.selectText = function (cls) {
+                    return $(this).each(function (index, el) {
+                        if (document.selection) {
+                            var range = document.body.createTextRange();
+                            range.moveToElementText(el);
+                            range.select().createTextRange();
+                            document.execCommand('Copy');
+                            if (cls)
+                                document.selection.empty();
+                        } else if (window.getSelection) {
+                            var range = document.createRange();
+                            range.selectNode(el);
+                            window.getSelection().removeAllRanges();
+                            window.getSelection().addRange(range);
+                            document.execCommand('Copy');
+                            if (cls)
+                                window.getSelection().removeAllRanges();
+                        }
+                    });
+                };
+        
+                $('#short').click(function() {
+                    var $el = $('#citation');
+                    $el.find('.cite_a').each(function() {
+                        var name = $(this).text().trim(), res = '';
+                        var items = name.split(' ');
+                        for (var i = 0; i < items.length; ++i) {
+                            if (i != items.length - 1)
+                                res += items[i][0]
+                            else
+                                res += ' ' + items[i]
+                        }
+                        $(this).text(res);
+                    });
+                    $el.find('.cite_p').each(function() {
+                        var proc = $(this).text().trim(), str = proc;
+                        $.each({'Proceedings': "Proc.",
+                         'International': "Int'l",
+                         'Conference': "Conf."
+                        }, function(k, v) { str = str.replace(k, v); });
+                        $(this).text(str);
+                    });
+                    $el.find('.cite_s').each(function() {
+                        var pages = $(this).text().trim(), str = pages;
+                        str = str.replace('pages', 'pp.');
+                        $(this).text(str);
+                    });
+                    $el.find('.cite_l').hide();
+                    $el.find('.cite_m').hide();
+                });
+        
+                $('#citation > span').dblclick(function() { $(this).selectText(); });
+        
+                $('#bibtex pre').each(function(){
+                  //var $code = $(this), html = $code.html();
+                  //$code.html(html.replace(/^\s+<span class="na">/gm, '\t<span class="na">'));
+        
+                }).dblclick(function(){ $(this).selectText(); });
+        
+                $('#copy').click(function(e) {
+                    $(this).parent().next().selectText();
+                });
+        
+                function save(filename, content) {
+                    var file = new Blob([content], {type: 'text/plain'});
+                    if (window.navigator.msSaveOrOpenBlob) {
+                        window.navigator.msSaveOrOpenBlob(file, filename);
+                    } else {
+                        var url = URL.createObjectURL(file);
+                        var a = document.createElement('a');
+                        a.href = url;
+                        a.download = filename;
+                        document.body.appendChild(a);
+                        a.click();
+                        setTimeout(function() {
+                            document.body.removeChild(a);
+                            window.URL.revokeObjectURL(url);
+                        });
+                    }
+                };
+        
+                $('#download').click(function(e) {
+                    save('BWCai18.bib', $(this).parent().next().text());
+                });
+        
+                $('span[itemprop=author]').click(function(e) {
+                    var query = $(this).text().trim();
+                    window.open('//wufeng02.github.io/search.html?q=' + query, '_blank');
+                });
+        
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        <script type="text/javascript" id="ga-js">
+            (function(i,s,o,g,r,a,m){i['Go'+'og'+'le'+'AnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementById('ga-js');a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.go'+'og'+'le'+'-analytics.com/analytics.js','ga');
+        
+            ga('create', 'UA-31597550-1', 'auto');
+            ga('send', 'pageview');
+        
+            $('a').not('[href^="javascript"]').click(function(e) {
+                ga('send', 'event', 'link', 'click', $(this).attr('href'));
+            });
+        </script>
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "author": "Feng Wu (吴锋)",
+            "dateModified": "03/22/2019 11:26:27",
+            "name": "Feng Wu (吴锋)'s Homepage",
+            "url": "//wufeng02.github.io/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "//wufeng02.github.io/search.html?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        </script>
+    </body>
+</html>
