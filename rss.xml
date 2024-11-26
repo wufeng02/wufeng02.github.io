@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Publication</title>
+<link>//wufeng02.github.io/publication.html</link>
+<description>List of publication</description>
+<language>en</language>
+<atom:link href="//wufeng02.github.io/rss.xml" rel="self" type="application/rss+xml" />
+<pubDate>Tue, 26 Nov 2024 13:12:16 +0800</pubDate>
+
+<item>
+<title>Effective Offline Robot Learning with Structured Task Graph</title>
+<link>//wufeng02.github.io/doc/htm/HMSWral24.html</link>
+<description>Offline reinforcement learning (RL) has shown great potential in many robotic tasks, where doing trial-and-error with the environment is risky, costly, or time-consuming. However, it is still hard to succeed in long-horizon tasks especially when given suboptimal and multimodal offline datasets. Nevertheless, existing RL methods rarely consider the structured information in offline datasets, which are commonly found in many robotic tasks. To address these challenges, we propose a novel offline RL approach that combines the techniques of dataset augmentation and subtask relabeling. Specifically, we first extract the subtasks and build the task graph based on the structured information in offline datasets. We then use the task graph to sample and generate an augmented dataset, which is more suitable for offline RL learning. After that, we relabel the dataset according to the task graph and finally learn a subtask-conditioned policy to complete the task. By doing so, we decompose the task of reaching a long-horizon goal state into a sequence of easier subtasks. This is not only useful for handling the long-horizon problem, but also reduces the error introduced by the offline dataset. We conducted extensive experiments in both the D4RL benchmark dataset and real-world robot with complex manipulation tasks. The experimental results show that our method significantly advances the state-of-the-art baselines in most tasks, particularly in longhorizon manipulation tasks with limited human demonstrations.</description>
+<pubDate>Sun, 04 Feb 2024 09:36:59 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/HMSWral24.html</guid>
+</item>
+
+<item>
+<title>ClickAdapter: Integrating Details into Interactive Segmentation Model with Adapter</title>
+<link>//wufeng02.github.io/doc/htm/LCXitcsvt24.html</link>
+<description>Click-based interactive segmentation is the most concise and widely used data labeling method. While existing interactive segmentation methods excel in handling simple targets, they encounter challenges in obtaining high-quality masks from some complex scenes, even with a large number of clicks. Also, the cost of retraining the model from scratch for special scenarios is unacceptably high. To address these issues, we propose ClickAdapter, a simple yet powerful interactive segmentation model adapter without the need for no pre-training. Through introducing a small number of additional parameters and computations, the adapter module effectively enhanced the ability of interactive segmentation models to obtain high-quality prediction with limited clicks. Specifically, we incorporate a detail extractor that aims to extract spatial correlations and local detail features of images. These fine-grained data are then integrated into a model with our adapter to generate segmentation masks with sharp and precise edges. During the training process, only the parameters of our adapter are learnable, thereby reducing the training cost. Features in special scenarios can also be infused more efficiently. To verify the efficiency and performance advantages of the proposed method, a series of experiments on a wide range of benchmarks were conducted, demonstrating that the proposed algorithm achieved cutting-edge performance compared to current state-of-the-art (SOTA) methods.</description>
+<pubDate>Tue, 19 Nov 2024 17:02:00 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/LCXitcsvt24.html</guid>
+</item>
+
+<item>
+<title>Improving Offline Reinforcement Learning with Inaccurate Simulators</title>
+<link>//wufeng02.github.io/doc/htm/HSMWicra24.html</link>
+<description>Offline reinforcement learning (RL) provides a promising approach to avoid costly online interaction with the real environment. However, the performance of offline RL highly depends on the quality of the datasets, which may cause extrapolation error in the learning process. In many robotic applications, an inaccurate simulator is often available. However, the data directly collected from the inaccurate simulator cannot be directly used in offline RL due to the well-known exploration-exploitation dilemma and the dynamic gap between inaccurate simulation and the real environment. To address these issues, we propose a novel approach to combine the offline dataset and the inaccurate simulation data in a better manner. Specifically, we pre-train a generative adversarial network (GAN) model to fit the state distribution of the offline dataset. Given this, we collect data from the inaccurate simulator starting from the distribution provided by the generator and reweight the simulated data using the discriminator. Our experimental results in the D4RL benchmark and a real-world manipulation task confirm that our method can benefit more from both inaccurate simulator and limited offline datasets to achieve better performance than the state-of-the-art methods.</description>
+<pubDate>Tue, 19 Nov 2024 17:02:36 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/HSMWicra24.html</guid>
+</item>
+
+<item>
+<title>Safety Constrained Multi-Agent Reinforcement Learning for Active Voltage Control</title>
+<link>//wufeng02.github.io/doc/htm/QMWijcai24.html</link>
+<description>Active voltage control presents a promising avenue for relieving power congestion and enhancing voltage quality, taking advantage of the distributed controllable generators in the power network, such as roof-top photovoltaics. While Multi-Agent Reinforcement Learning (MARL) has emerged as a compelling approach to address this challenge, existing MARL approaches tend to overlook the constrained optimization nature of this problem, failing in guaranteeing safety constraints. In this paper, we formalize the active voltage control problem as a constrained Markov game and propose a safety-constrained MARL algorithm. We expand the primal-dual optimization RL method to multi-agent settings, and augment it with a novel approach of double safety estimation to learn the policy and to update the Lagrange-multiplier. In addition, we proposed different cost functions and investigated their influences on the behavior of our constrained MARL method. We evaluate our approach in the power distribution network simulation environment with real-world scale scenarios. Experimental results demonstrate the effectiveness of the proposed method compared with the state-of-the-art MARL methods.</description>
+<pubDate>Tue, 19 Nov 2024 17:03:20 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/QMWijcai24.html</guid>
+</item>
+
+<item>
+<title>Offline Meta-Reinforcement Learning with Contrastive Prediction</title>
+<link>//wufeng02.github.io/doc/htm/HWjfcst23.html</link>
+<description>Traditional reinforcement learning algorithms require lots of online interaction with the environment for training and cannot effectively adapt to changes in the task environment, making them difficult to apply to real-world problems. Offline meta-reinforcement learning provides an effective way to quickly adapt to a new task by using replay datasets of multiple tasks for offline policy learning. Applying offline meta-reinforcement learning to complex tasks will face two challenges. Firstly, reinforcement learning algorithms overestimate the value of state-action pairs not contained in the dataset and thus select non-optimal actions, resulting in poor performance. Secondly, meta-reinforcement learning algorithms need not only to learn the policy but also to have robust and efficient task inference capabilities. To address the above problems, this paper proposes an offline meta-reinfor-cement learning algorithm based on contrastive prediction. To cope with the problem of overestimation of value functions, the proposed algorithm uses behavior cloning to encourage policy to prefer actions included in the dataset. To improve the task inference capability of meta-learning, the proposed algorithm uses recurrent neural networks for task inference on the contextual trajectories of the agents and uses contrastive learning and prediction networks to analyze and distinguish potential structures in different task trajectories. Experimental results show that the agents trained by the proposed algorithm can score more than 25 percentage points when faced with unseen tasks, and it has higher meta-training efficiency and better generalization performance compared with existing methods.</description>
+<pubDate>Sat, 30 Dec 2023 16:55:53 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/HWjfcst23.html</guid>
+</item>
+
+<item>
+<title>An effective hybrid search algorithm for the multiple traveling repairman problem with profits</title>
+<link>//wufeng02.github.io/doc/htm/RHWFejor23.html</link>
+<description>The multiple traveling repairman problem with profits consists of multiple repairmen serving a subset of all customers to maximize the revenues collected through the visited customers. To address this problem, an effective hybrid search algorithm based on the memetic framework is proposed. In the proposed method, three features are integrated: a dedicated arc-based crossover to generate high-quality offspring solutions, a fast evaluation technique to reduce the complexity of navigating classical neighborhoods as well as a correcting step to ensure accurate evaluation of neighboring solutions. The performance of the algorithm on 470 benchmark instances were compared with those of the leading reference algorithms. The results show that the proposed algorithm outperforms the state-of-the-art algorithms by setting new records for 137 instances and matching the best-known results for 330 instances. The importance of the key search components of the algorithm was investigated.</description>
+<pubDate>Sat, 30 Dec 2023 17:08:53 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RHWFejor23.html</guid>
+</item>
+
+<item>
+<title>Automatic Generation of Robot Facial Expressions with Preferences</title>
+<link>//wufeng02.github.io/doc/htm/TCCCHWicra23.html</link>
+<description>The capability of humanoid robots to generate facial expressions is crucial for enhancing interactivity and emotional resonance in human-robot interaction. However, humanoid robots vary in mechanics, manufacturing, and ap-pearance. The lack of consistent processing techniques and the complexity of generating facial expressions pose significant challenges in the field. To acquire solutions with high confidence, it is necessary to enable robots to explore the solution space automatically based on performance feedback. To this end, we designed a physical robot with a human-like appearance and developed a general framework for automatic expression generation using the MAP-Elites algorithm. The main advan-tage of our framework is that it does not only generate facial expressions automatically but can also be customized according to user preferences. The experimental results demonstrate that our framework can efficiently generate realistic facial expressions without hard coding or prior knowledge of the robot kinematics. Moreover, it can guide the solution-generation process in accordance with user preferences, which is desirable in many real-world applications.</description>
+<pubDate>Sat, 30 Dec 2023 17:12:30 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/TCCCHWicra23.html</guid>
+</item>
+
+<item>
+<title>Less Is More: Refining Datasets for Offline Reinforcement Learning with Reward Machines</title>
+<link>//wufeng02.github.io/doc/htm/SWaamas23.html</link>
+<description>Offline reinforcement learning (RL) aims to learn a policy from a fixed dataset, without further interactions with the environment. However, offline datasets are often very noisy, which consist of large quantities of sub-optimal or task-agnostic trajectories. Therefore, it is very challenging for offline RL to learn an optimal policy from such datasets. To address this, we use reward machines (RM) to encode human knowledge about the task and refine datasets for offline RL. Specifically, we define the event-ordered RM to label offline datasets with RM states. Then, we further use the labeled datasets to generate refined datasets, which is smaller but better for offline RL. By using the RM, we can decompose a long-horizon task into easier sub-tasks, inform the agent about their current stage along task completion, and guide the offline learning process. In addition, we generate counterfactual experiences by RM to guide agent to complete each sub-task. Experimental results in the D4RL benchmark confirm that our method achieves better performance in long-horizon manipulation tasks with sub-optimal datasets.</description>
+<pubDate>Sat, 30 Dec 2023 17:16:55 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/SWaamas23.html</guid>
+</item>
+
+<item>
+<title>Learning to Coordinate from Offline Datasets with Uncoordinated Behavior Policies</title>
+<link>//wufeng02.github.io/doc/htm/MWaamas23.html</link>
+<description>In offline multi-agent reinforcement learning (RL), multiple agents must learn to coordinate from previously collected datasets. Like the single-agent case, we must handle the distribution shift issue from the datasets. Most importantly, we also need to deal with possible miscoordination in the datasets, collected by some uncoordinated behavior policies. To address this, we propose a novel offline multi-agent RL method using counterfactual sample-average approximation with subteam masking. Specifically, we compute the best-response policy for each agent using sample-average approximation. For the miscoordination issue, we use counterfactual mechanism and subteam masking to reason about the agents' contributions to the team. Based on this, each agent learns to coordinate from the uncoordinated datasets. Empirically, we evaluate our method in two benchmark domains: a continuous multi-agent MuJoCo control domain, and a challenging cooperation environment Starcraft II domain. Our experimental results confirm that our approach can achieve significantly better performance than several state-of-the-art methods. The source code is available at: https://github. com/JinmingM/CAST-BCQ.</description>
+<pubDate>Sat, 30 Dec 2023 17:19:10 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/MWaamas23.html</guid>
+</item>
+
+<item>
+<title>Learning to Coordinate Traffic Signals With Adaptive Network Partition</title>
+<link>//wufeng02.github.io/doc/htm/MWitits23.html</link>
+<description>Multi-intersection traffic signal control (TSC) is an active research field in multi-agent systems, where traffic signals for each intersection, controlled by an agent, must coordinate to optimize traffic flow. To encourage global coordination, previous work partitions the traffic network into several regions and learns policies for agents in a feudal structure. However, static network partition fails to adapt to dynamic traffic flow, which changes frequently over time. To address this, we propose a novel multi-agent reinforcement learning approach with adaptive network partition. Specifically, we partition the network into several regions according to the dynamic traffic flow over time. To do this, we propose two approaches: one is directly to use graphic neural network (GNN) to generate the network partition, and the other is to use Monte-Carlo tree search (MCTS) to find the best partition with criteria computed by GNN. Then, we design a variant of Qmix using GNN to handle various dimensions of input, given by the dynamic network partition. Finally, we use a feudal hierarchy to manage agents in each partition and promote global cooperation. By doing so, agents are able to adapt to the traffic flow as required in practice. We empirically evaluate our method both in a synthetic traffic grid and real-world traffic networks of three cities, widely used in the literature. The experimental results confirm that our method achieved better performance both in a synthetic traffic grid and real-world traffic networks of three cities, in terms of average travel time and queue length, than several leading TSC baselines.</description>
+<pubDate>Sat, 30 Dec 2023 17:22:17 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/MWitits23.html</guid>
+</item>
+
+<item>
+<title>Effective Traffic Signal Control with Offline-to-Online Reinforcement Learning</title>
+<link>//wufeng02.github.io/doc/htm/MWiros23.html</link>
+<description>Reinforcement learning (RL) has emerged as a promising approach for optimizing traffic signal control (TSC) to ensure the efficient operation of transportation networks. However, the traditional trial-and-error technique in RL is usually impractical in real-world applications. Offline RL, which trains models using pre-collected datasets, is a more practical approach. However, this presents challenges such as suboptimal datasets and limited generalization of pre-trained models. To address this, we propose an offline-to-online RL framework for TSC that pre-trains a generalized model and quickly adapts to new traffic scenarios through online refinement. In the offline stage, we augment the pre-collected datasets to cover a diverse set of possible scenarios and use an offline RL method to pretrain a control model. To ensure generalization, we use FRAP-like network as our base model, which is designed to learn the basic logic for signal control. In the online stage, we introduce a discrepancy measure to tackle inconsistencies between offline pre-trained models and online scenarios and prioritize samples based on it. In the experiments, the proposed approach achieves competitive performance and reduces the training time needed for learning in new scenarios, compared to several baselines.</description>
+<pubDate>Sat, 30 Dec 2023 17:26:11 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/MWiros23.html</guid>
+</item>
+
+<item>
+<title>Multimodal Reinforcement Learning with Effective State Representation Learning</title>
+<link>//wufeng02.github.io/doc/htm/MCWJDaamas22.html</link>
+<description>Many real-world applications require an agent to make robust and deliberate decisions with multimodal information (eg, robots with multi-sensory inputs). However, it is very challenging to train the agent via reinforcement learning (RL) due to the heterogeneity and dynamic importance of different modalities. Specifically, we observe that these issues make conventional RL methods difficult to learn a useful state representation in the end-to-end training with multimodal information. To address this, we propose a novel multimodal RL approach that can do multimodal alignment and importance enhancement according to their similarity and importance in terms of RL tasks respectively. By doing so, we are able to learn an effective state representation and consequentially improve the RL training process. We test our approach on several multimodal RL domains, showing that it outperforms state-of-the-art methods in terms of learning speed and policy quality.</description>
+<pubDate>Sat, 30 Dec 2023 16:59:59 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/MCWJDaamas22.html</guid>
+</item>
+
+<item>
+<title>Intensification-driven local search for the traveling repairman problem with profits</title>
+<link>//wufeng02.github.io/doc/htm/RHWFesa22.html</link>
+<description>The Traveling Repairman Problem with Profits is to select a subset of nodes (customers) in a weighted graph to maximize the collected time-dependent revenues. We introduce an intensification-driven local search algorithm for solving this challenging problem. The key feature of the algorithm is an intensification mechanism that intensively investigates bounded areas around each very-high-quality local optimum encountered. As for its underlying local optimization, the algorithm employs an extended variable neighborhood search procedure which adopts for the first time an exchange sampling based neighborhood and a concise perturbation procedure to obtain high-quality solutions. Experimental results on 140 benchmark instances show a high performance of the algorithm by reporting 36 improved best-known results (new lower bounds) and equal best-known results for 95 instances. Additional experiments are conducted to investigate the usefulness of the key components of the algorithm.</description>
+<pubDate>Sat, 30 Dec 2023 17:05:20 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RHWFesa22.html</guid>
+</item>
+
+<item>
+<title>Laser-Based People Detection and Obstacle Avoidance for a Hospital Transport Robot</title>
+<link>//wufeng02.github.io/doc/htm/ZWCsensors21.html</link>
+<description>This paper describes the development of a laser-based people detection and obstacle avoidance algorithm for a differential-drive robot, which is used for transporting materials along a reference path in hospital domains. Detecting humans from laser data is an important functionality for the safety of navigation in the shared workspace with people. Nevertheless, traditional methods normally utilize machine learning techniques on hand-crafted geometrical features extracted from individual clusters. Moreover, the datasets used to train the models are usually small and need to manually label every laser scan, increasing the difficulty and cost of deploying people detection algorithms in new environments. To tackle these problems, (1) we propose a novel deep learningbased method, which uses the deep neural network in a sliding window fashion to effectively classify every single point of a laser scan. (2) To increase the speed of inference without losing performance, we use a jump distance clustering method to decrease the number of points needed to be evaluated. (3) To reduce the workload of labeling data, we also propose an approach to automatically annotate datasets collected in real scenarios. In general, the proposed approach runs in real-time and performs much better than traditional methods. Secondly, conventional pure reactive obstacle avoidance algorithms can produce inefficient and oscillatory behaviors in dynamic environments, making pedestrians confused and possibly leading to dangerous reactions. To improve the legibility and naturalness of obstacle avoidance in human crowded environments, we introduce a sampling-based local path planner, similar to the method used in autonomous driving cars. The key idea is to avoid obstacles by switching lanes. We also adopt a simple rule to decrease the number of unnecessary deviations from the reference path. Experiments carried out in real-world environments confirmed the effectiveness of the proposed algorithms.</description>
+<pubDate>Sat, 30 Dec 2023 16:41:51 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/ZWCsensors21.html</guid>
+</item>
+
+<item>
+<title>Man-made landmark based convenient indoor-robot global localization system</title>
+<link>//wufeng02.github.io/doc/htm/LWapprescom21.html</link>
+<description>Global localization algorithms for mobile robot still face many challenges when using in some indoor environments, where the layout changes frequently or there are many dynamic obstacles. Aiming at such scenarios, this paper proposed a new and convenient global localization system based on man-made landmark. The system localized based on multiple man-made landmarks attached on the unshaded ceiling, and could achieve stable pose estimation with only one camera. The whole system consisted of two main processes: map construction and global localization, according to their specific functions. During the map construction, it automatically estimated the pose of the man-made landmark in the global coordinate system, according to the camera's observation of the landmark and the pose estimation output by some laser SLAM algorithm. Given this, it then established the map of environment based on the pose of each landmark. During the global localization, it estimated the robot's pose in real time based on the camera's observation of the man-made landmarks in the map with known poses, combined with the pre-integrated information fused with the odometer and IMU. Sufficient experiments show that the localization error of the system is stable within 10 cm when running in the deployed environment, and the system can also ensure real-time pose output, which meets the application requirements of typical indoor mobile robot global localization.</description>
+<pubDate>Sat, 30 Dec 2023 16:51:53 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/LWapprescom21.html</guid>
+</item>
+
+<item>
+<title>Feudal Multi-Agent Deep Reinforcement Learning for Traffic Signal Control</title>
+<link>//wufeng02.github.io/doc/htm/MWaamas20.html</link>
+<description>Reinforcement learning (RL) is a promising technique for optimizing traffic signal controllers that dynamically respond to realtime traffic conditions. Recent efforts that applied Multi-Agent RL (MARL) to this problem have shown remarkable improvement over centralized RL, with the scalability to solve large problems by distributing the global control to local RL agents. Unfortunately, it is also easy to get stuck in local optima because each agent only has partial observability of the environment with limited communication. To tackle this, we borrow ideas from feudal RL and propose a novel MARL approach combining with the feudal hierarchy. Specifically, we split the traffic network into several regions, where each region is controlled by a manager agent and the agents who control the traffic signals are its workers. In our method, managers coordinate their high-level behaviors and set goals for their workers in the region, while each lower-level worker controls traffic signals to fulfill the managerial goals. By doing so, we are able to coordinate globally while retain scalability. We empirically evaluate our method both in a synthetic traffic grid and real-world traffic network using the SUMO simulator. Our experimental results show that our approach outperforms the state-of-the-art in almost all evaluation metrics commonly used for traffic signal control.</description>
+<pubDate>Tue, 31 Mar 2020 22:43:00 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/MWaamas20.html</guid>
+</item>
+
+<item>
+<title>Monte-Carlo Tree Search for Scalable Coalition Formation</title>
+<link>//wufeng02.github.io/doc/htm/WRijcai20.html</link>
+<description>We propose a novel algorithm based on Monte-Carlo tree search for the problem of coalition structure generation (CSG). Specifically, we find the optimal solution by sampling the coalition structure graph and incrementally expanding a search tree, which represents the partial space that has been searched. We prove that our algorithm is complete and converges to the optimal given sufficient number of iterations. Moreover, it is anytime and can scale to large CSG problems with many agents. Experimental results on six common CSG benchmark problems and a disaster response domain confirm the advantages of our approach comparing to the state-of-the-art methods.</description>
+<pubDate>Thu, 09 Jul 2020 22:49:18 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WRijcai20.html</guid>
+</item>
+
+<item>
+<title>Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping</title>
+<link>//wufeng02.github.io/doc/htm/HWJnips20.html</link>
+<description>Reward shaping is an effective technique for incorporating domain knowledge into reinforcement learning (RL). Existing approaches such as potential-based reward shaping normally make full use of a given shaping reward function. However, since the transformation of human knowledge into numeric reward values is often imperfect due to reasons such as human cognitive bias, completely utilizing the shaping reward function may fail to improve the performance of RL algorithms. In this paper, we consider the problem of adaptively utilizing a given shaping reward function. We formulate the utilization of shaping rewards as a bi-level optimization problem, where the lower level is to optimize policy using the shaping rewards and the upper level is to optimize a parameterized shaping weight function for true reward maximization. We formally derive the gradient of the expected true reward with respect to the shaping weight function parameters and accordingly propose three learning algorithms based on different assumptions. Experiments in sparse-reward cartpole and MuJoCo environments show that our algorithms can fully exploit beneficial shaping rewards, and meanwhile ignore unbeneficial shaping rewards or even transform them into beneficial ones.</description>
+<pubDate>Tue, 22 Dec 2020 17:36:09 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/HWJnips20.html</guid>
+</item>
+
+<item>
+<title>Policy Adaptive Multi-Agent Deep Deterministic Policy Gradient</title>
+<link>//wufeng02.github.io/doc/htm/WWprima20.html</link>
+<description>We propose a novel approach to address one aspect of the non-stationarity problem in multi-agent reinforcement learning (RL), where the other agents may alter their policies due to environment changes during execution. This violates the Markov assumption that governs most single-agent RL methods and is one of the key challenges in multi-agent RL. To tackle this, we propose to train multiple policies for each agent and postpone the selection of the best policy at execution time. Specifically, we model the environment non-stationarity with a finite set of scenarios and train policies fitting each scenario. In addition to multiple policies, each agent also learns a policy predictor to determine which policy is the best with its local information. By doing so, each agent is able to adapt its policy when the environment changes and consequentially the other agents alter their policies during execution.We empirically evaluated our method on a variety of common benchmark problems proposed for multi-agent deep RL in the literature. Our experimental results show that the agents trained by our algorithm have better adaptiveness in changing environments and outperform the state-of-the-art methods in all the tested environments.</description>
+<pubDate>Mon, 09 Nov 2020 10:43:13 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WWprima20.html</guid>
+</item>
+
+<item>
+<title>Multi-Agent Planning with High-Level Human Guidance</title>
+<link>//wufeng02.github.io/doc/htm/WZJprima20.html</link>
+<description>Planning and coordination of multiple agents in the presence of uncertainty and noisy sensors is extremely hard. A human operator who observes a multi-agent team can provide valuable guidance to the team based on her superior ability to interpret observations and assess the overall situation. We propose an extension of decentralized POMDPs that allows such human guidance to be factored into the planning and execution processes. Human guidance in our framework consists of intuitive high-level commands that the agents must translate into a suitable joint plan that is sensitive to what they know from local observations. The result is a framework that allows multi-agent systems to benefit from the complex strategic thinking of a human supervising them. We evaluate this approach on several common benchmark problems and show that it can lead to dramatic improvement in performance.</description>
+<pubDate>Mon, 09 Nov 2020 10:44:13 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZJprima20.html</guid>
+</item>
+
+<item>
+<title>Research Progress of Multi-Agent Path Planning</title>
+<link>//wufeng02.github.io/doc/htm/LWce20.html</link>
+<description>Multi-Agent Path Planning(MAPP) is the problem of finding an optimal path set for multiple agents from their starting position to the target position without any collisions.Research on this problem has abundant application scenarios in the fields of logistics,military and security.This paper systematically sorts out and classifies the recent research progress in MAPP both at home and abroad.According to the differences in the optimality of results,the MAPP algorithms are classified into optimal group and approximate group.The optimal MAPP algorithms are mainly divided into four categories,which are based on A* search,cost growth tree,conflict based search and protocol respectively.The approximate MAPP algorithms are mainly divided into two categories:the unbounded suboptimal algorithm and the bounded suboptimal algorithm.Based on the classification mentioned above,this paper analyzes the characteristics of each algorithm,introduces the representative researches in recent years and discusses the future research directions of MAPP problem.</description>
+<pubDate>Wed, 06 Jan 2021 10:02:35 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/LWce20.html</guid>
+</item>
+
+<item>
+<title>Accurate Intrinsic and Extrinsic Calibration of RGB-D Cameras with GP-based Depth Correction</title>
+<link>//wufeng02.github.io/doc/htm/CCJsensors19.html</link>
+<description>In recent years, more and more robots have been equipped with low-cost RGB-D sensors, such as Microsoft Kinect and Intel Realsense, for safe navigation and active interaction with objects and people. In order to obtain more accurate and reliable fused color and depth information (coloured point clouds), not only the intrinsic and extrinsic parameters of color and depth sensor should be precisely calibrated, but also the external corrections of depth measurements are required. In this paper, using motion capture system, we propose a reliable calibration framework that enables the precise estimation of the intrinsic and extrinsic parameters of RGB-D sensors and provide a model-free depth calibration method based on heteroscedastic Gaussian Processes. Compared with the existing depth correction techniques, our method can simultaneously estimate the mean and variance of the depth error at different measurement distances, i.e., the probability distribution of the depth error relative to the measured distance, which is essential in the state estimation problems. To verify the effectiveness of our approach, we conduct a thorough qualitative and quantitative analysis of the major steps of our calibration method, and compare our experimental results with other related work. Furthermore, we demonstrate an experiment about the overall improvement of visual SLAM with a Kinect device calibrated by our calibration technique.</description>
+<pubDate>Wed, 30 Jan 2019 16:44:05 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CCJsensors19.html</guid>
+</item>
+
+<item>
+<title>Stochastic Multi-Agent Planning with Partial State Models</title>
+<link>//wufeng02.github.io/doc/htm/WZJdai19.html</link>
+<description>People who observe a multi-agent team can often provide valuable information to the agents based on their superior cognitive abilities to interpret sequences of observations and assess the overall situation. The knowledge they possess is often difficult to be fully represent using a formal model such as DEC-POMDP. To deal with this, we propose an extension of the DEC-POMDP that allows states to be partially specified and benefit from expert knowledge, while preserving the partial observability and decentralized operation of the agents. In particular, we present an algorithm for computing policies based on history samples that include human labeled data in the form of reward reshaping. We also consider ways to minimize the burden on human experts during the labeling phase. The results offer the first approach to incorporating human knowledge in such complex multi-agent settings. We demonstrate the benefits of our approach using a disaster recovery scenario, comparing it to several baseline approaches.</description>
+<pubDate>Wed, 04 Dec 2019 11:46:52 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZJdai19.html</guid>
+</item>
+
+<item>
+<title>Privacy-Preserving Policy Iteration for Decentralized POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/WZCaaai18.html</link>
+<description>We propose the first privacy-preserving approach to address the privacy issues that arise in multi-agent planning problems modeled as a Dec-POMDP. Our solution is a distributed message-passing algorithm based on trials, where the agents' policies are optimized using the cross-entropy method. In our algorithm, the agents' private information is protected using a public-key homomorphic cryptosystem. We prove the correctness of our algorithm and analyze its complexity in terms of message passing and encryption/decryption operations. Furthermore, we analyze several privacy aspects of our algorithm and show that it can preserve the agent privacy of non-neighbors, model privacy, and decision privacy. Our experimental results on several common Dec-POMDP benchmark problems confirm the effectiveness of our approach.</description>
+<pubDate>Fri, 10 Aug 2018 09:22:52 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCaaai18.html</guid>
+</item>
+
+<item>
+<title>Posterior Sampling for Monte Carlo Planning under Uncertainty</title>
+<link>//wufeng02.github.io/doc/htm/BWCai18.html</link>
+<description>Monte Carlo tree search (MCTS) has recently been drawing great interest in the domain of planning and learning under uncertainty. One of the fundamental challenges is the trade-off between exploration and exploitation. To address this problem, we propose to balance between exploration and exploitation via posterior sampling in the contexts of Markov decision process (MDP) and partially observable Markov decision process (POMDP). Specifically, we treat the cumulative reward returned by taking an action from a search node in the MCTS search tree as a random variable following an unknown distribution. We parametrize this distribution by introducing necessary hidden parameters, and infer the posterior distribution of the hidden parameters in a Bayesian way. We further expand a node in the search tree by using Thompson sampling to select an action based on its posterior probability of being optimal. Following this idea, we develop Dirichlet-NormalGamma based Monte Carlo tree search (DNG-MCTS) and Dirichlet-Dirichlet-NormalGamma based partially observable Monte Carlo planning (D2NG-POMCP) algorithms respectively for Monte Carlo planning in MDPs and POMDPs. Experimental results show that the proposed algorithms outperform the state-of-the-art with better values on several benchmark problems.</description>
+<pubDate>Sat, 18 Aug 2018 15:13:01 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWCai18.html</guid>
+</item>
+
+<item>
+<title>Human-UAV Teaming in Dynamic and Uncertain Environments</title>
+<link>//wufeng02.github.io/doc/htm/ALSaamas18.html</link>
+<description>In this demonstrator we show how an algorithm developed for human-agent coordination can be used to coordinate human actors on the ground and unmanned aerial vehicles in a rescue mission. A video can be found here: http://goo.gl/QLQD7q.</description>
+<pubDate>Sat, 18 Aug 2018 15:18:37 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/ALSaamas18.html</guid>
+</item>
+
+<item>
+<title>Robots Serve Humans in Public Places - KeJia Robot as a Shopping Assistant</title>
+<link>//wufeng02.github.io/doc/htm/CWSijars17.html</link>
+<description>This paper reports the project of a shopping mall service robot, named KeJia, which is designed for customer guidance, providing information and entertainments in a real shopping mall environment. The background, motivations, and requirements of this project are analyzed and presented, which guide the development of the robot system. To develop the robot system, new techniques and improvements of existing methods for mapping, localization, and navigation are proposed to address the challenge of robot motion in a very large, complex, and crowded environment. Moreover, a novel multimodal interaction mechanism is designed by which customers can conveniently interact with the robot either in speech or via a mobile application. The KeJia robot was deployed in a large modern shopping mall with the size of 30,000 m2 and more than 160 shops; field trials were conducted for 40 days where about 530 customers were served. The results of both simulated experiments and field tests confirm the feasibility, stability, and safety of the robot system.</description>
+<pubDate>Wed, 15 Jan 2020 14:08:25 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CWSijars17.html</guid>
+</item>
+
+<item>
+<title>Integrating Answer Set Programming with Semantic Dictionaries for Robot Task Planning</title>
+<link>//wufeng02.github.io/doc/htm/LZWijcai17.html</link>
+<description>In this paper, we propose a novel integrated task planning system for service robots in domestic domains. Given open-ended high-level user instructions in natural language, robots need to generate a plan, i.e., a sequence of low-level executable actions, to complete the required tasks. To address this, we exploit the knowledge on semantic roles of common verbs defined in semantic dictionaries such as FrameNet and integrate it with Answer Set Programming --- a task planning framework with both representation language and solvers. In the experiments, we evaluated our approach using common benchmarks on service tasks and showed that it can successfully handle much more tasks than the state-of-the-art solution. Notably, we deployed the proposed planning system on our service robot for the annual RoboCup@Home competitions and achieved very encouraging results.</description>
+<pubDate>Fri, 15 Sep 2017 10:11:58 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/LZWijcai17.html</guid>
+</item>
+
+<item>
+<title>A Robust Algorithm: Find an Unknown Person via Referring Grounding</title>
+<link>//wufeng02.github.io/doc/htm/WWLrobocup17.html</link>
+<description>We propose a simple but robust method to recognize an unknown person described in natural language. In this case, a robot is given a verbal description about a person whom the robot is required to recognize. This task is challenging since humans and robots have significantly mismatched perceptual capabilities (e.g., recognizing the color of a coat). Without assuming that all linguistic descriptions and perceptual data are correct, we use a probabilistic model to ground the target person. In particular, the acceptability of color descriptions is modeled based on visual similarity and the confusion matrix of the color classifier which make the system more robust to illumination. Two groups of experiments were conducted. Our experimental results demonstrate that our system is robust to both perception and description errors.</description>
+<pubDate>Fri, 15 Sep 2017 10:40:06 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WWLrobocup17.html</guid>
+</item>
+
+<item>
+<title>Multi-Agent Planning with Baseline Regret Minimization</title>
+<link>//wufeng02.github.io/doc/htm/WZCijcai17.html</link>
+<description>We propose a novel baseline regret minimization algorithm for multi-agent planning problems modeled as finite-horizon decentralized POMDPs. It guarantees to produce a policy that is provably at least as good as a given baseline policy. We also propose an iterative belief generation algorithm to efficiently minimize the baseline regret, which only requires necessary iterations so as to converge to the policy with minimum baseline regret. Experimental results on common benchmark problems confirm the benefits of the algorithm compared with the state-of-the-art approaches.</description>
+<pubDate>Fri, 15 Sep 2017 10:06:17 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCijcai17.html</guid>
+</item>
+
+<item>
+<title>Toward Effective Soft Robot Control via Reinforcement Learning</title>
+<link>//wufeng02.github.io/doc/htm/ZCZicira17.html</link>
+<description>A soft robot is a kind of robot that is constructed with soft, deformable and elastic materials. Control of soft robots presents complex modeling and planning challenges. We introduce a new approach to accomplish that, making two key contributions: designing an abstract representation of the state of soft robots, and developing a reinforcement learning method to derive effective control policies. The reinforcement learning process can be trained quickly by ignoring the specific materials and structural properties of the soft robot. We apply the approach to the Honeycomb PneuNets Soft Robot and demonstrate the effectiveness of the training method and its ability to produce good control policies under different conditions.</description>
+<pubDate>Fri, 15 Sep 2017 10:23:37 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/ZCZicira17.html</guid>
+</item>
+
+<item>
+<title>Performance Metrics for Coverage of Cleaning Robots with MoCap System</title>
+<link>//wufeng02.github.io/doc/htm/ZCCicira17.html</link>
+<description>Nowadays there are a lot of kinds of cleaning robots which producted by different manufacturers come into people's lives. But it is still a problem that how to evaluate each robot's performance to check whether the quality is acceptable. In this paper, we make the first trial to evaluate the complete coverage path planning algorithm which is the core algorithm of a cleaning robot with Mocap system, and three simple metrics were proposed to evaluate overall performance of the algorithm. Lastly, the comparisons between different kinds of robots are presented.</description>
+<pubDate>Fri, 15 Sep 2017 10:26:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/ZCCicira17.html</guid>
+</item>
+
+<item>
+<title>A General Batch-Calibration Framework of Service Robots</title>
+<link>//wufeng02.github.io/doc/htm/ZCWicira17.html</link>
+<description>Calibration is important to service robot, but the process of calibration is time consuming and laborious. With the popularity of service robot, an automatic and universal calibration system is urgent to be developed, therefore we propose a general batch-calibration framework, Motion Capture System is adopt as an external measurement device in virtual of it can provide realtime, accurate movement data of measured objects. We will show that the system is effective and promising with a case study of odometry calibration.</description>
+<pubDate>Fri, 15 Sep 2017 10:29:03 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/ZCWicira17.html</guid>
+</item>
+
+<item>
+<title>In-the-loop or On-the-loop? Interactional Arrangements to Support Team Coordination with a Planning Agent</title>
+<link>//wufeng02.github.io/doc/htm/FGJccpe16.html</link>
+<description>In this paper we present the study of interactional arrangements that support the collaboration of headquarters (HQ), field responders and a computational planning agent in a time-critical task setting created by a mixed-reality game. Interactional arrangements define the extent to which control is distributed between the collaborative parties. We provide two field trials, one to study an "on-the-loop" arrangement in which HQ monitors and intervenes in agent instructions to field players on demand, and the other to study a version that places headquarters more tightly "in-the-loop". The studies provide and understanding of the sociotechnical collaboration between players and the agent in these interactional arrangements, by conducting interaction analysis of video recordings and game log data. The first field trial focuses on the collaboration of field responders with the planning agent. Findings highlight how players negotiate the agent guidance within the social interaction of the collocated teams. The second field trial focuses on the collaboration between the automated planning agent and the headquarters. We find that the human coordinator and the agent can successfully work together in most cases, with human coordinators inspecting and 'correcting' the agent-proposed plans. Through this field trial-driven development process, we generalise interaction design implications of automated planning agents around the themes of supporting common ground and mixed-initiative planning.</description>
+<pubDate>Thu, 23 Feb 2017 08:33:16 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/FGJccpe16.html</guid>
+</item>
+
+<item>
+<title>A Disaster Response System based on Human-Agent Collectives</title>
+<link>//wufeng02.github.io/doc/htm/RHWjair16.html</link>
+<description>Major natural or man-made disasters such as Hurricane Katrina or the 9/11 terror attacks pose significant challenges for emergency responders. First, they have to develop an understanding of the unfolding event either using their own resources or through third-parties such as the local population and agencies. Second, based on the information gathered, they need to deploy their teams in a flexible manner, ensuring that each team performs tasks in the most effective way. Third, given the dynamic nature of a disaster space, and the uncertainties involved in performing rescue missions, information about the disaster space and the actors within it needs to be managed to ensure that responders are always acting on up-to-date and trusted information. Against this background, this paper proposes a novel disaster response system called HAC-ER. Thus HAC-ER interweaves humans and agents, both robotic and software, in social relationships that augment their individual and collective capabilities. To design HAC-ER, we involved end-users including both experts and volunteers in a several participatory design workshops, lab studies, and field trials of increasingly advanced prototypes of individual components of HAC-ER as well as the overall system. This process generated a number of new quantitative and qualitative results but also raised a number of new research questions. HAC-ER thus demonstrates how such Human-Agent Collectives (HACs) can address key challenges in disaster response. Specifically, we show how HAC-ER utilises crowdsourcing combined with machine learning to obtain most important situational awareness from large streams of reports posted by members of the public and trusted organisations. We then show how this information can inform human-agent teams in coordinating multi-UAV deployments, as well as task planning for responders on the ground. Finally, HAC-ER incorporates an infrastructure and the associated intelligence for tracking and utilising the provenance of information shared across the entire system to ensure its accountability. We individually validate each of these elements of HAC-ER and show how they perform against standard (non-HAC) baselines and also elaborate on the evaluation of the overall system.</description>
+<pubDate>Mon, 02 Jan 2017 04:24:17 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RHWjair16.html</guid>
+</item>
+
+<item>
+<title>Coordinating Human-UAV Teams in Disaster Response</title>
+<link>//wufeng02.github.io/doc/htm/WRCijcai16.html</link>
+<description>We consider a disaster response scenario where emergency responders have to complete rescue tasks in dynamic and uncertain environment with the assistance of multiple UAVs to collect information about the disaster space. To capture the uncertainty and partial observability of the domain, we model this problem as a POMDP. However, the resulting model is computationally intractable and cannot be solved by most existing POMDP solvers due to the large state and action spaces. By exploiting the problem structure we propose a novel online planning algorithm to solve this model. Specifically, we generate plans for the responders based on Monte-Carlo simulations and compute actions for the UAVs according to the value of information. Our empirical results confirm that our algorithm significantly outperforms the state-of-the-art both in time and solution quality.</description>
+<pubDate>Wed, 29 Jun 2016 03:07:03 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WRCijcai16.html</guid>
+</item>
+
+<item>
+<title>Online Planning for Large Markov Decision Processes with Hierarchical Decomposition</title>
+<link>//wufeng02.github.io/doc/htm/BWCtist15.html</link>
+<description>Markov decision processes (MDPs) provide a rich framework for planning under uncertainty. However, exactly solving a large MDP is usually intractable due to the ''curse of dimensionality'' - the state space grows exponentially with the number of state variables. Online algorithms tackle this problem by avoiding computing a policy for the entire state space. On the other hand, since online algorithm has to find a near-optimal action online in almost real time, the computation time is often very limited. In the context of reinforcement learning, MAXQ is a value function decomposition method that exploits the underlying structure of the original MDP and decomposes it into a combination of smaller subproblems arranged over a task hierarchy. In this article, we present MAXQ-OP --- a novel online planning algorithm for large MDPs that utilizes MAXQ hierarchical decomposition in online settings. Compared to traditional online planning algorithms, MAXQ-OP is able to reach much more deeper states in the search tree with relatively less computation time by exploiting MAXQ hierarchical decomposition online. We empirically evaluate our algorithm in the standard Taxi domain --- a common benchmark for MDPs --- to show the effectiveness of our approach. We have also conducted a long-term case study in a highly complex simulated soccer domain and developed a team named WrightEagle that has won five world champions and five runners-up in the recent 10 years of RoboCup Soccer Simulation 2D annual competitions. The results in the RoboCup domain confirm the scalability of MAXQ-OP to very large domains.</description>
+<pubDate>Tue, 05 Apr 2016 11:23:50 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWCtist15.html</guid>
+</item>
+
+<item>
+<title>Decentralized Patrolling Under Constraints in Dynamic Environments</title>
+<link>//wufeng02.github.io/doc/htm/CWSieee15.html</link>
+<description>We investigate a decentralized patrolling problem for dynamic environments where information is distributed alongside threats. In this problem, agents obtain information at a location, but may suffer attacks from the threat at that location. In a decentralized fashion, each agent patrols in a designated area of the environment and interacts with a limited number of agents. Therefore, the goal of these agents is to coordinate to gather as much information as possible while limiting the damage incurred. Hence, we model this class of problem as a transition-decoupled partially observable Markov decision process with health constraints. Furthermore, we propose scalable decentralized online algorithms based on Monte Carlo tree search and a factored belief vector. We empirically evaluate our algorithms on decentralized patrolling problems and benchmark them against the state-of-the-art online planning solver. The results show that our approach outperforms the state-of-the-art by more than 56% for six agents patrolling problems and can scale up to 24 agents in reasonable time.</description>
+<pubDate>Tue, 05 Apr 2016 11:25:21 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CWSieee15.html</guid>
+</item>
+
+<item>
+<title>Multi-Agent Patrolling under Uncertainty and Threats</title>
+<link>//wufeng02.github.io/doc/htm/CWSplosone15.html</link>
+<description>We investigate a multi-agent patrolling problem where information is distributed alongside threats in environments with uncertainties. Specifically, the information and threat at each location are independently modelled as multi-state Markov chains, whose states are not observed until the location is visited by an agent. While agents will obtain information at a location, they may also suffer damage from the threat at that location. Therefore, the goal of the agents is to gather as much information as possible while mitigating the damage incurred. To address this challenge, we formulate the single-agent patrolling problem as a Partially Observable Markov Decision Process (POMDP) and propose a computationally efficient algorithm to solve this model. Building upon this, to compute patrols for multiple agents, the single-agent algorithm is extended for each agent with the aim of maximising its marginal contribution to the team. We empirically evaluate our algorithm on problems of multi-agent patrolling and show that it outperforms a baseline algorithm up to 44% for 10 agents and by 21% for 15 agents in large domains.</description>
+<pubDate>Tue, 05 Apr 2016 11:26:50 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CWSplosone15.html</guid>
+</item>
+
+<item>
+<title>KeJia Robot - an Attractive Shopping Mall Guider</title>
+<link>//wufeng02.github.io/doc/htm/CWSicsr15.html</link>
+<description>This paper reports the project of a shopping mall guide robot, named KeJia, which is designed for customer navigation, information providing and entertainment in a real environment. Our introduction focuses on the designs of robot's hardware and software, faced challenges and the multimodal interaction methods including using a mobile phone app. In order to adapt the current localization and navigation techniques to such large and complex shopping mall environment, a series of related improvements and new methods are proposed. The robot is deployed in a large shopping mall for field test and stable operation for a fairly long time. The result demonstrates the stability, validity and feasibility of this robot system, and gives a positive reward to our original design motivation.</description>
+<pubDate>Tue, 05 Apr 2016 11:30:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CWSicsr15.html</guid>
+</item>
+
+<item>
+<title>KeJia-LC: A Low-Cost Mobile Robot Platform - Champion of Demo Challenge on Benchmarking Service Robots at RoboCup 2015</title>
+<link>//wufeng02.github.io/doc/htm/CWWrobocup15.html</link>
+<description>In this paper, we present the system design and the key techniques of our mobile robot platform called KeJia-LC, who won the first place in the demo challenge on Benchmarkinng Service Robots in RoboCup 2015. Given the fact that KeJia-LC is a low-cost version of our KeJia robot without shoulder and arm, several new technical demands comparing to RoboCup@Home are highlighted for better understanding of our system. With the elaborate design of hardware and the reasonable selection of sensors, our robot platform has the features of low cost, wide generality and good extensibility. Moreover, we integrate several functional softwares (such as 2D&amp;3D mapping, localization and navigation) following the competition rules, which are critical to the performance of our robot. The effectiveness and robustness of our robot system has been proven in the competition.</description>
+<pubDate>Tue, 05 Apr 2016 11:29:40 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CWWrobocup15.html</guid>
+</item>
+
+<item>
+<title>Synthetical Benchmarking of Service Robots: A First Effort on Domestic Mobile Platforms</title>
+<link>//wufeng02.github.io/doc/htm/CCTrobocup15.html</link>
+<description>Most of existing benchmarking tools for service robots are basically qualitative, in which a robot's performance on a task is evaluated based on completion/incompletion of actions contained in the task. In the effort reported in this paper, we tried to implement a synthetical benchmarking system on domestic mobile platforms. Synthetical benchmarking consists of both qualitative and quantitative aspects, such as task completion, accuracy of task completions and efficiency of task completions, about performance of a robot. The system includes a set of algorithms for collecting, recording and analyzing measurement data from a MoCap system. It was used as the evaluator in a competition called the BSR challenge, in which 10 teams participated, at RoboCup 2015. The paper presents our motivations behind synthetical benchmarking, the design considerations on the synthetical benchmarking system, the realization of the competition as a comparative study on performance evaluation of domestic mobile platforms, and an analysis of the teams' performance.</description>
+<pubDate>Tue, 05 Apr 2016 11:29:08 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/CCTrobocup15.html</guid>
+</item>
+
+<item>
+<title>A Study of Human-Agent Collaboration for Multi-UAV Task Allocation in Dynamic Environments</title>
+<link>//wufeng02.github.io/doc/htm/RFIijcai15.html</link>
+<description>We consider a setting where a team of humans oversee the coordination of multiple Unmanned Aerial Vehicles (UAVs) to perform a number of search tasks in dynamic environments that may cause the UAVs to drop out. Hence, we develop a set of multi-UAV supervisory control interfaces and a multi-agent coordination algorithm to support human decision making in this setting. To elucidate the resulting interactional issues, we compare manual and mixed-initiative task allocation in both static and dynamic environments in lab studies with 40 participants and observe that our mixed-initiative system results in lower workloads and better performance in re-planning tasks than one which only involves manual task allocation. Our analysis points to new insights into the way humans appropriate flexible autonomy.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RFIijcai15.html</guid>
+</item>
+
+<item>
+<title>HAC-ER: A Disaster Response System based on Human-Agent Collectives</title>
+<link>//wufeng02.github.io/doc/htm/RHIaamas15.html</link>
+<description>This paper proposes a novel disaster management system called HAC-ER that addresses some of the challenges faced by emergency responders by enabling humans and agents, using state-of-the-art algorithms, to collaboratively plan and carry out tasks in teams referred to as human-agent collectives. In particular, HAC-ER utilises crowdsourcing combined with machine learning to extract situational awareness information from large streams of reports posted by members of the public and trusted organisations. We then show how this information can inform human-agent teams in coordinating multi-UAV deployments as well as task planning for responders on the ground. Finally, HAC-ER incorporates a tool for tracking and analysing the provenance of information shared across the entire system. In summary, this paper describes a prototype system, validated by real-world emergency responders, that combines several state-of-the-art techniques for integrating humans and agents, and illustrates, for the first time, how such an approach can enable more effective disaster response operations.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RHIaamas15.html</guid>
+</item>
+
+<item>
+<title>Human-Agent Collaboration for Disaster Response</title>
+<link>//wufeng02.github.io/doc/htm/RWFjaamas15.html</link>
+<description>In the aftermath of major disasters, first responders are typically overwhelmed with large numbers of, spatially distributed, search and rescue tasks, each with their own requirements. Moreover, responders have to operate in highly uncertain and dynamic environments where new tasks may appear and hazards may be spreading across the disaster space. Hence, rescue missions may need to be re-planned as new information comes in, tasks are completed, or new hazards are discovered. Finding an optimal allocation of resources to complete all the tasks is a major computational challenge. In this paper, we use decision theoretic techniques to solve the task allocation problem posed by emergency response planning and then deploy our solution as part of an agent-based planning tool in real-world field trials. By so doing, we are able to study the interactional issues that arise when humans are guided by an agent. Specifically, we develop an algorithm, based on a Multi-Agent Markov Decision Process representation of the task allocation problem and show that it outperforms standard baseline solutions. We then integrate the algorithm into a planning agent that responds to requests for tasks from participants in a mixed-reality location-based game, called AtomicOrchid, that simulates disaster response settings in the real-world. We then run a number of trials of our planning agent and compare it against a purely human driven system. Our analysis of these trials show that human commanders adapt to the planning agent by taking on a more supervisory role and that, by providing humans with the flexibility of requesting plans from the agent, allows them to perform more tasks more efficiently than using purely human interactions to allocate tasks. We also discuss how such flexibility could lead to poor performance if left unchecked.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/RWFjaamas15.html</guid>
+</item>
+
+<item>
+<title>Agile Planning for Real-World Disaster Response</title>
+<link>//wufeng02.github.io/doc/htm/WRJijcai15.html</link>
+<description>We consider a setting where an agent-based planner instructs teams of human emergency responders to perform tasks in the real world. Due to uncertainty in the environment and the inability of the planner to consider all human preferences and all attributes of the real-world, humans may reject plans computed by the agent. A naive solution that replans given a rejection is inefficient and does not guarantee the new plan will be acceptable. Hence, we propose a new model re-planning problem using a Multi-agent Markov Decision Process that integrates potential rejections as part of the planning process and propose a novel algorithm to efficiently solve this new model. We empirically evaluate our algorithm and show that it outperforms current benchmarks. Our algorithm is also shown to perform better in pilot studies with real humans.</description>
+<pubDate>Thu, 27 Jun 2019 02:03:34 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WRJijcai15.html</guid>
+</item>
+
+<item>
+<title>Thompson Sampling based Monte-Carlo Planning in POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/BWZicaps14.html</link>
+<description>Monte-Carlo tree search (MCTS) has been drawing great interest in recent years for planning under uncertainty. One of the key challenges is the trade-off between exploration and exploitation. To address this, we introduce a novel online planning algorithm for large POMDPs using Thompson sampling based MCTS that balances between cumulative and simple regrets. The proposed algorithm Dirichlet-Dirichlet-Normal Gamma based Partially Observable Monte-Carlo Planning (D2NG-POMCP) treats the accumulated reward of performing an action from a belief state in the MCTS search tree as a random variable following an unknown distribution with hidden parameters. Bayesian method is used to model and infer the posterior distribution of these parameters by choosing the conjugate prior in the form of a combination of two Dirichlet and one NormalGamma distributions. Thompson sampling is exploited to guide the action selection in the search tree. Experimental results confirmed that our algorithm outperforms the state-of-the-art approaches on several common benchmark problems.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWZicaps14.html</guid>
+</item>
+
+<item>
+<title>Social Implications of Agent-based Planning Support for Human Teams</title>
+<link>//wufeng02.github.io/doc/htm/JFGcts14.html</link>
+<description>We present a field trial of how instructions from an intelligent planning agent are dealt with by distributed human teams, in a time-critical task setting created through a mixed-reality game. We conduct interaction analysis to examine video recorded field observations and game log data. The findings highlight the social process by which players interpret and negotiate the agent guidance as well as how these are intertwined with social dynamics of the teams. The insights can be used to develop an understanding of interactional issues around automated team instructions and inform the design of human-centred planning support systems.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/JFGcts14.html</guid>
+</item>
+
+<item>
+<title>AtomicOrchid: Human-Agent Collectives to the Rescue</title>
+<link>//wufeng02.github.io/doc/htm/SWJaamas14.html</link>
+<description></description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/SWJaamas14.html</guid>
+</item>
+
+<item>
+<title>Regret-Based Multi-Agent Coordination with Uncertain Task Rewards</title>
+<link>//wufeng02.github.io/doc/htm/WJaaai14.html</link>
+<description>Many multi-agent coordination problems can be represented as DCOPs. Motivated by task allocation in disaster response, we extend standard DCOP models to consider uncertain task rewards where the outcome of completing a task depends onits current state, which is randomly drawn from unknown distributions. The goal of solving this problem is to find a solution for all agents that minimizes the overall worst-case loss. This is a challenging problem for centralized algorithms because the search space grows exponentially with the number of agents and is nontrivial for existing algorithms for standard DCOPs. To address this, we propose a novel decentralized algorithm that incorporates Max-Sum with iterative constraint generation to solve the problem by passing messages among agents. By so doing, our approach scales well and can solve instances of the task allocation problem with hundreds of agents and tasks.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WJaaai14.html</guid>
+</item>
+
+<item>
+<title>Bayesian Mixture Modelling and Inference based Thompson Sampling in Monte-Carlo Tree Search</title>
+<link>//wufeng02.github.io/doc/htm/BWCnips13.html</link>
+<description>Monte-Carlo tree search (MCTS) has been drawing great interest in recent years for planning and learning under uncertainty. One of the key challenges is the trade-off between exploration and exploitation. To address this, we present a novel approach for MCTS using Bayesian mixture modeling and inference based Thompson sampling and apply it to the problem of online planning in MDPs. Our algorithm, named Dirichlet-NormalGamma MCTS (DNG-MCTS), models the uncertainty of the accumulated reward for actions in the search tree as a mixture of Normal distributions. We perform inferences on the mixture in Bayesian settings by choosing conjugate priors in the form of combinations of Dirichlet and NormalGamma distributions and select the best action at each decision node using Thompson sampling. Experimental results confirm that our algorithm advances the state-of-the-art UCT approach with better values on several benchmark problems.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWCnips13.html</guid>
+</item>
+
+<item>
+<title>Monte-Carlo Expectation Maximization for Decentralized POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/WZJijcai13.html</link>
+<description>We address two significant drawbacks of state-of-the-art solvers of decentralized POMDPs (DEC-POMDPs): the reliance on complete knowledge of the model and limited scalability as the complexity of the domain grows. We extend a recently proposed approach for solving DEC-POMDPs via a reduction to the maximum likelihood problem, which in turn can be solved using EM. We introduce a model-free version of this approach that employs Monte-Carlo EM (MCEM). While a naive implementation of MCEM is inadequate in multiagent settings, we introduce several improvements in sampling that produce high-quality results on a variety of DEC-POMDP benchmarks, including large problems with thousands of agents.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZJijcai13.html</guid>
+</item>
+
+<item>
+<title>Online Planning for Large MDPs with MAXQ-like Decomposition</title>
+<link>//wufeng02.github.io/doc/htm/BWCaamas12.html</link>
+<description>Markov decision processes (MDPs) provide an expressive framework for planning in stochastic domains. However, exactly solving a large MDP is often intractable due to the curse of dimensionality. Online algorithms help overcome the high computational complexity by avoiding computing a policy for each possible state. Hierarchical decomposition is another promising way to help scale MDP algorithms up to large domains by exploiting their underlying structure. In this paper, we present an effort on combining the benefits of a general hierarchical structure based on MAXQ value function decomposition with the power of heuristic and approximate techniques for developing an online planning framework, called MAXQ-OP. The proposed framework provides a principled approach for programming autonomous agents in a large stochastic domain. We have been conducting a long-term case-study with the RoboCup soccer simulation 2D domain, which is extremely larger than domains usually studied in literature, as the major benchmark to this research. The case-study showed that the agents developed with this framework and the related techniques reached outstanding performances, showing its high scalability to very large domains.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWCaamas12.html</guid>
+</item>
+
+<item>
+<title>Towards a Principled Solution to Simulated Robot Soccer</title>
+<link>//wufeng02.github.io/doc/htm/BWCrobocup12.html</link>
+<description>The RoboCup soccer simulation 2D domain is a very large testbed for the research of planning and machine learning. It has competed in the annual world championship tournaments in the past 15 years. However it is still unclear that whether more principled techniques such as decision-theoretic planning take an important role in the success for a RoboCup 2D team. In this paper, we present a novel approach based on MAXQ-OP to automated planning in the RoboCup 2D domain. It combines the benefits of a general hierarchical structure based on MAXQ value function decomposition with the power of heuristic and approximate techniques. The proposed framework provides a principled solution to programming autonomous agents in large stochastic domains. The MAXQ-OP framework has been implemented in our RoboCup 2D team, WrightEagle. The empirical results indicated that the agents developed with this framework and related techniques reached outstanding performances, showing its potential of scalability to very large domains.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BWCrobocup12.html</guid>
+</item>
+
+<item>
+<title>Sample-Based Policy Iteration for Constrained DEC-POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/WJCecai12.html</link>
+<description>We introduce constrained DEC-POMDPsCan extension of the standard DEC-POMDPs including additional constraints to the optimality of the long-term reward. Constrained DEC-POMDPs present natural framework for modeling cooperative multi-agent problems with limited resources or multiple objectives. To solve constrained DEC-POMDPs, we propose a novel sample-based policy iteration algorithm. The algorithm builds up on multi-agent dynamic programming and benefits from several advantages of recentdeveloped DEC-POMDP algorithms. It improves the joint policy by solving a serial of standard nonlinear programs and thereby lends itself the power of existing NLP solvers. The experimental results confirm that the algorithm can efficiently solve constrained DECPOMDPs while the general DEC-POMDP algorithms fail. It outperforms the leading DEC-POMDP method with higher value and less chance of constraint violation.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WJCecai12.html</guid>
+</item>
+
+<item>
+<title>Decision-Theoretic Planning for Multi-Agent Systems</title>
+<link>//wufeng02.github.io/doc/htm/Wustc11.html</link>
+<description>Planning under uncertainty is one of the fundamental challenges in Artificial Intelligence. Decision theory offers a mathematical framework for optimizing decisions in these domains. In recent years, researchers have made rapid progresses for decision making in single-agent cases. This enables relatively large problems to be solved by state-of-the-art MDP or POMDP algorithms. However, the research of decentralized decision making is still in its infancy and existing solutions can only solve very small "toy" problems. As a nature extension of Markov decision theory to multi-agent systems, the DEC-POMDP model has very high computational complexity, namely NEXP-hard. This is not surprising given that agents in multi-agent settings not only have to keep tracking on the state transition of the environment but also the potential behaviors of the other agents. As a result, the joint policy space can be huge. Hence how to search over the large joint policy space and find the best one is a key challenge when solving a large DEC-POMDP. Due to the problem complexity, exact algorithms can solve merely tiny problems. Therefore, my thesis work focuses on developing effect algorithms for solving general DEC-POMDPs approximately. Generally, planning in multi-agent systems can work either in online or offline fashions. This thesis contributes to the literature by proposing both online and offline algorithms. Furthermore, a model-free algorithm is presented for planning when the exact model is not available.</description>
+<pubDate>Tue, 01 May 2012 15:39:18 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/Wustc11.html</guid>
+</item>
+
+<item>
+<title>Online Planning for Ad Hoc Autonomous Agent Teams</title>
+<link>//wufeng02.github.io/doc/htm/WZCijcai11.html</link>
+<description>We propose a novel online planning algorithm for ad hoc team settings' challenging situations in which an agent must collaborate with unknown teammates without prior coordination. Our approach is based on constructing and solving a series of stage games, and then using biased adaptive play to choose actions. The utility function in each stage game is estimated via Monte-Carlo tree search using the UCT algorithm. We establish analytically the convergence of the algorithm and show that it performs well in a variety of ad hoc team domains.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCijcai11.html</guid>
+</item>
+
+<item>
+<title>Online Planning for Multi-Agent Systems with Bounded Communication</title>
+<link>//wufeng02.github.io/doc/htm/WZCaij11.html</link>
+<description>We propose an online algorithm for planning under uncertainty in multi-agent settings modeled as DEC-POMDPs. The algorithm helps overcome the high computational complexity of solving such problems offline. The key challenges in decentralized operation are to maintain coordinated behavior with little or no communication and, when communication is allowed, to optimize value with minimal communication. The algorithm addresses these challenges by generating identical conditional plans based on common knowledge and communicating only when history inconsistency is detected, allowing communication to be postponed when necessary. To be suitable for online operation, the algorithm computes good local policies using a new and fast local search method implemented using linear programming. Moreover, it bounds the amount of memory used at each step and can be applied to problems with arbitrary horizons. The experimental results confirm that the algorithm can solve problems that are too large for the best existing offline planning algorithms and it outperforms the best online method, producing much higher value with much less communication in most cases. The algorithm also proves to be effective when the communication channel is imperfect (periodically unavailable). These results contribute to the scalability of decision-theoretic planning in multi-agent settings.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCaij11.html</guid>
+</item>
+
+<item>
+<title>Point-Based Policy Generation for Decentralized POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/WZCaamas10.html</link>
+<description>Memory-bounded techniques have shown great promise in solving complex multi-agent planning problems modeled as DEC-POMDPs. Much of the performance gains can be attributed to pruning techniques that alleviate the complexity of the exhaustive backup step of the original MBDP algorithm. Despite these improvements, state-of-the-art algorithms can still handle a relative small pool of candidate policies, which limits the quality of the solution in some benchmark problems. We present a new algorithm, Point-Based Policy Generation, which avoids altogether searching the entire joint policy space. The key observation is that the best joint policy for each reachable belief state can be constructed directly, instead of producing first a large set of candidates. We also provide an efficient approximate implementation of this operation. The experimental results show that our solution technique improves the performance significantly in terms of both runtime and solution quality.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCaamas10.html</guid>
+</item>
+
+<item>
+<title>Rollout Sampling Policy Iteration for Decentralized POMDPs</title>
+<link>//wufeng02.github.io/doc/htm/WZCuai10.html</link>
+<description>We present decentralized rollout sampling policy iteration (DecRSPI) -- a new algorithm for multiagent decision problems formalized as DECPOMDPs. DecRSPI is designed to improve scalability and tackle problems that lack an explicit model. The algorithm uses Monte-Carlo methods to generate a sample of reachable belief states. Then it computes a joint policy for each belief state based on the rollout estimations. A new policy representation allows us to represent solutions compactly. The key benefits of the algorithm are its linear time complexity over the number of agents, its bounded memory usage and good solution quality. It can solve larger problems that are intractable for existing planning algorithms. Experimental results confirm the effectiveness and scalability of the approach.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCuai10.html</guid>
+</item>
+
+<item>
+<title>Trial-Based Dynamic Programming for Multi-Agent Planning</title>
+<link>//wufeng02.github.io/doc/htm/WZCaaai10.html</link>
+<description>Trial-based approaches offer an efficient way to solve singleagent MDPs and POMDPs. These approaches allow agents to focus their computations on regions of the environment they encounter during the trials, leading to significant computational savings. We present a novel trial-based dynamic programming (TBDP) algorithm for DEC-POMDPs that extends these benefits to multi-agent settings. The algorithm uses trial-based methods for both belief generation and policy evaluation. Policy improvement is implemented efficiently using linear programming and a sub-policy reuse technique that helps bound the amount of memory. The results show that TBDP can produce significant value improvements and is much faster than the best existing planning algorithms.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCaaai10.html</guid>
+</item>
+
+<item>
+<title>Multi-Agent Online Planning with Communication</title>
+<link>//wufeng02.github.io/doc/htm/WZCicaps09.html</link>
+<description>We propose an online algorithm for planning under uncertainty in multi-agent settings modeled as DEC-POMDPs. The algorithm helps overcome the high computational complexity of solving such problems off-line. The key challenge is to produce coordinated behavior using little or no communication. When communication is allowed but constrained, the challenge is to produce high value with minimal communication. The algorithm addresses these challenges by communicating only when history inconsistency is detected, allowing communication to be postponed if necessary. Moreover, it bounds the memory usage at each step and can be applied to problems with arbitrary horizons. The experimental results confirm that the algorithm can solve problems that are too large for the best existing off-line planning algorithms and it outperforms the best online method, producing higher value with much less communication in most cases.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:23 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WZCicaps09.html</guid>
+</item>
+
+<item>
+<title>Solving Large-Scale and Sparse-Reward DEC-POMDPs with Correlation-MDPs</title>
+<link>//wufeng02.github.io/doc/htm/WCrobocup07.html</link>
+<description>Within a group of cooperating agents the decision making of an individual agent depends on the actions of the other agents. A lot of effort has been made to solve this problem with additional assumptions on the communication abilities of agents. However, in some realworld applications, communication is limited and the assumptions are rarely satisfied. An alternative approach newly developed is to employ a correlation device to correlate the agents' behavior without exchanging information during execution. In this paper, we apply correlation device to large-scale and spare-reward domains. As a basis we use the framework of infinite-horizon DEC-POMDPs which represent policies as joint stochastic finite-state controllers. To solve any problem of this kind, a correlation device is firstly calculated by solving Correlation Markov Decision Processes (Correlation-MDPs) and then used to improve the local controller for each agent. By using this method, we are able to achieve a tradeoff between computational complexity and the quality of the approximation. In addition, we demonstrate that, adversarial problems can be solved by encoding the information of opponents'ddate behavior in the correlation device.We have successfully implemented the proposed method into our 2D simulated robot soccer team and the performance in RoboCup-2006 was encouraging.</description>
+<pubDate>Mon, 28 Mar 2016 16:22:22 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/WCrobocup07.html</guid>
+</item>
+
+<item>
+<title>WrightEagle 2D Simulation Team 2005</title>
+<link>//wufeng02.github.io/doc/htm/BFWrobocup05.html</link>
+<description>This paper introduces the implementation of Wright Eagle 2-D Simulation team 2005. The team is implemented on the basis of WrightEagle 2004 and thus inherits the decision-making framework of its antecedent, which is a combination of a simplified model of MDP and PRS system. In WrightEagle2005, we re-build several key basic-action modules of the team in order to enhance the performance of the agent, such as the Unknown-player Matching algorithm, the new Fast-Dribble skill and the fixed Pass-Ball algorithm, and we also use a new decision-making structure which is based on POMDP method to implement the tactic behavior.</description>
+<pubDate>Fri, 04 Aug 2017 01:30:46 +0800</pubDate><guid>//wufeng02.github.io/doc/htm/BFWrobocup05.html</guid>
+</item>
+
+</channel>
+</rss>

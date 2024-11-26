@@ -1,0 +1,11 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">CCJsensors19</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Guangda Chen and Guowei Cui and Zhongxiao Jin and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1109/JSEN.2018.2889805<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>IEEE Sensors Journal (IEEE SENSJ)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>7<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2685-2694<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Accurate Intrinsic and Extrinsic Calibration of RGB-D Cameras with GP-based Depth Correction<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>19<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2019<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

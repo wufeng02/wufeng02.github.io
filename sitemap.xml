@@ -3,525 +3,795 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
+		<loc>//wufeng02.github.io/bookmark.html</loc>
+		<lastmod>2024-11-26T13:12:15+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
 		<loc>//wufeng02.github.io/cv.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:15+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/index.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:16+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/publication.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:16+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CWSijars17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/HMSWral24.html</loc>
+		<lastmod>2024-11-26T13:12:12+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/LZWijcai17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/LCXitcsvt24.html</loc>
+		<lastmod>2024-11-26T13:12:12+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/WWLrobocup17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/HSMWicra24.html</loc>
+		<lastmod>2024-11-26T13:12:12+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCijcai17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/QMWijcai24.html</loc>
+		<lastmod>2024-11-26T13:12:12+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/ZCZicira17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/HWjfcst23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/ZCCicira17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RHWFejor23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/ZCWicira17.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/TCCCHWicra23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/FGJccpe16.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/SWaamas23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/RHWjair16.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/MWaamas23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/WRCijcai16.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/MWitits23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/BWCtist15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/MWiros23.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CWSieee15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/MCWJDaamas22.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CWSplosone15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RHWFesa22.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CWSicsr15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/ZWCsensors21.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CWWrobocup15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/LWapprescom21.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CCTrobocup15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/MWaamas20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/RFIijcai15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WRijcai20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/RHIaamas15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/HWJnips20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/RWFjaamas15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WWprima20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/WRJijcai15.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZJprima20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/BWZicaps14.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/LWce20.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/JFGcts14.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CCJsensors19.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/SWJaamas14.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WJaaai14.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/BWCnips13.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZJijcai13.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/BWCaamas12.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/BWCrobocup12.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WJCecai12.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/Wustc11.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCijcai11.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCaij11.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCaamas10.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCuai10.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCaaai10.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WZCicaps09.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/WCrobocup07.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
-		<changefreq>always</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>//wufeng02.github.io/doc/htm/BFWrobocup05.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZJdai19.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/htm/WZCaaai18.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/htm/BWCai18.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/htm/ALSaamas18.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/htm/CCJsensors18.html</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CWSijars17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CWSijars17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/LZWijcai17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/LZWijcai17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WWLrobocup17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WWLrobocup17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCijcai17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCijcai17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/ZCZicira17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/ZCZicira17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/ZCCicira17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/ZCCicira17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/ZCWicira17.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/ZCWicira17.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/FGJccpe16.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/FGJccpe16.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RHWjair16.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/RHWjair16.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WRCijcai16.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WRCijcai16.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BWCtist15.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BWCtist15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CWSieee15.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CWSieee15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CWSplosone15.html</loc>
+		<lastmod>2024-11-26T13:12:13+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CWSplosone15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CWSicsr15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CWSicsr15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CWWrobocup15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CWWrobocup15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/CCTrobocup15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CCTrobocup15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RFIijcai15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/RFIijcai15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RHIaamas15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/RHIaamas15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/RWFjaamas15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/RWFjaamas15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WRJijcai15.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WRJijcai15.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BWZicaps14.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BWZicaps14.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/JFGcts14.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/JFGcts14.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/SWJaamas14.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/SWJaamas14.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WJaaai14.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WJaaai14.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BWCnips13.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BWCnips13.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZJijcai13.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZJijcai13.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BWCaamas12.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BWCaamas12.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BWCrobocup12.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BWCrobocup12.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WJCecai12.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WJCecai12.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/Wustc11.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/Wustc11.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCijcai11.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCijcai11.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCaij11.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCaij11.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCaamas10.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCaamas10.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCuai10.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCuai10.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCaaai10.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCaaai10.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WZCicaps09.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WZCicaps09.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/WCrobocup07.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/WCrobocup07.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/htm/BFWrobocup05.html</loc>
+		<lastmod>2024-11-26T13:12:14+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/BFWrobocup05.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/pdf/HMSWral24.pdf</loc>
+		<lastmod>2024-02-04T09:36:59+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/LCXitcsvt24.pdf</loc>
+		<lastmod>2024-11-19T17:02:00+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/HSMWicra24.pdf</loc>
+		<lastmod>2024-11-19T17:02:36+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/QMWijcai24.pdf</loc>
+		<lastmod>2024-11-19T17:03:20+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/HWjfcst23.pdf</loc>
+		<lastmod>2023-12-30T16:55:53+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RHWFejor23.pdf</loc>
+		<lastmod>2023-12-30T17:08:53+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/TCCCHWicra23.pdf</loc>
+		<lastmod>2023-12-30T17:12:30+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/SWaamas23.pdf</loc>
+		<lastmod>2023-12-30T17:16:55+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/MWaamas23.pdf</loc>
+		<lastmod>2023-12-30T17:19:10+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/MWitits23.pdf</loc>
+		<lastmod>2023-12-30T17:22:17+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/MWiros23.pdf</loc>
+		<lastmod>2023-12-30T17:26:11+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/MCWJDaamas22.pdf</loc>
+		<lastmod>2023-12-30T16:59:59+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RHWFesa22.pdf</loc>
+		<lastmod>2023-12-30T17:05:20+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/ZWCsensors21.pdf</loc>
+		<lastmod>2023-12-30T16:41:51+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/LWapprescom21.pdf</loc>
+		<lastmod>2023-12-30T16:51:53+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/MWaamas20.pdf</loc>
+		<lastmod>2020-03-31T22:43:00+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WRijcai20.pdf</loc>
+		<lastmod>2020-07-09T22:49:18+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/HWJnips20.pdf</loc>
+		<lastmod>2020-12-22T17:36:09+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WWprima20.pdf</loc>
+		<lastmod>2020-11-09T10:43:13+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZJprima20.pdf</loc>
+		<lastmod>2020-11-09T10:44:13+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/LWce20.pdf</loc>
+		<lastmod>2021-01-06T10:02:35+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CCJsensors19.pdf</loc>
+		<lastmod>2019-01-30T16:44:05+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZJdai19.pdf</loc>
+		<lastmod>2019-12-04T11:46:52+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/pdf/WZCaaai18.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2018-08-10T09:22:52+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/pdf/BWCai18.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2018-08-18T15:13:01+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>//wufeng02.github.io/doc/pdf/ALSaamas18.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<lastmod>2018-08-18T15:18:37+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>//wufeng02.github.io/doc/pdf/CCJsensors18.pdf</loc>
-		<lastmod>2019-03-22T11:26:30+08:00</lastmod>
+		<loc>//wufeng02.github.io/doc/pdf/CWSijars17.pdf</loc>
+		<lastmod>2020-01-15T14:08:25+08:00</lastmod>
 		<changefreq>always</changefreq>
-		<priority>0.5</priority>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/LZWijcai17.pdf</loc>
+		<lastmod>2017-09-15T10:11:58+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WWLrobocup17.pdf</loc>
+		<lastmod>2017-09-15T10:40:06+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCijcai17.pdf</loc>
+		<lastmod>2017-09-15T10:06:17+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/ZCZicira17.pdf</loc>
+		<lastmod>2017-09-15T10:23:37+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/ZCCicira17.pdf</loc>
+		<lastmod>2017-09-15T10:26:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/ZCWicira17.pdf</loc>
+		<lastmod>2017-09-15T10:29:03+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/FGJccpe16.pdf</loc>
+		<lastmod>2017-02-23T08:33:16+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RHWjair16.pdf</loc>
+		<lastmod>2017-01-02T04:24:17+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WRCijcai16.pdf</loc>
+		<lastmod>2016-06-29T03:07:03+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BWCtist15.pdf</loc>
+		<lastmod>2016-04-05T11:23:50+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CWSieee15.pdf</loc>
+		<lastmod>2016-04-05T11:25:21+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CWSplosone15.pdf</loc>
+		<lastmod>2016-04-05T11:26:50+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CWSicsr15.pdf</loc>
+		<lastmod>2016-04-05T11:30:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CWWrobocup15.pdf</loc>
+		<lastmod>2016-04-05T11:29:40+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/CCTrobocup15.pdf</loc>
+		<lastmod>2016-04-05T11:29:08+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RFIijcai15.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RHIaamas15.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/RWFjaamas15.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WRJijcai15.pdf</loc>
+		<lastmod>2019-06-27T02:03:34+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BWZicaps14.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/JFGcts14.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/SWJaamas14.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WJaaai14.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BWCnips13.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZJijcai13.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BWCaamas12.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BWCrobocup12.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WJCecai12.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/Wustc11.pdf</loc>
+		<lastmod>2012-05-01T15:39:18+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCijcai11.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCaij11.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCaamas10.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCuai10.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCaaai10.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WZCicaps09.pdf</loc>
+		<lastmod>2016-03-28T16:22:23+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/WCrobocup07.pdf</loc>
+		<lastmod>2016-03-28T16:22:22+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>//wufeng02.github.io/doc/pdf/BFWrobocup05.pdf</loc>
+		<lastmod>2017-08-04T01:30:46+08:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>0.6</priority>
 	</url>
 </urlset>

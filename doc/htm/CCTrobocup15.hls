@@ -1,0 +1,12 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">CCTrobocup15</span><span class="p">,</span>
+ <span class="na">address</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Hefei, China<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Min Cheng and Xiaoping Chen and Keke Tang and Feng Wu and Andras Kupcsik and Luca Iocchi and Yingfeng Chen and David Hsu<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the Robot World Cup XIX Symposium (RoboCup)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1007/978-3-319-29339-4_32<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>July<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>377-388<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Synthetical Benchmarking of Service Robots: A First Effort on Domestic Mobile Platforms<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>9513<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2015<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

@@ -1,0 +1,14 @@
+.citation_title, .citation_author { text-align: center; }
+.citation_title { font-size: 24px; }
+.citation_author { font-size: 16px; }
+
+pre { white-space:pre-wrap;  }
+.container { background-color: #fff; }
+.clickable, span[itemprop=author] { cursor: pointer; }
+
+.highlight .nc { font-weight: bold; }
+.highlight .nl { color: #337ab7;}
+.highlight .na { font-weight: bold; margin-left: 50px; display: inline-block; width: 70px; }
+.highlight .p  { color: gray;   }
+
+#abstract { text-align: justify; }

@@ -1,0 +1,7 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">LCXitcsvt24</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Shanghong Li and Yongquan Chen and Long Xu and Jun Luo and Rui Huang and Feng Wu and Yingliang Miao<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>ClickAdapter: Integrating Details into Interactive Segmentation Model with Adapter<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2024<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

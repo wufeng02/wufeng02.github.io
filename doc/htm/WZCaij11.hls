@@ -1,0 +1,12 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">WZCaij11</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Feng Wu and Shlomo Zilberstein and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1016/j.artint.2010.09.008<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Artificial Intelligence (AIJ)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>February<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>487-511<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Online Planning for Multi-Agent Systems with Bounded Communication<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>175<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2011<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

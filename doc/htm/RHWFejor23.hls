@@ -1,0 +1,11 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">RHWFejor23</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Jintong Ren and Jin-Kao Hao and Feng Wu and Zhang-Hua Fu<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1016/j.ejor.2022.04.007<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>European Journal of Operational Research (EJOR)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>381-394<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>An effective hybrid search algorithm for the multiple traveling repairman problem with profits<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>304<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2023<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

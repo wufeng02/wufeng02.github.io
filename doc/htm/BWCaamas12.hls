@@ -1,0 +1,10 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BWCaamas12</span><span class="p">,</span>
+ <span class="na">address</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Valencia, Spain<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Aijun Bai and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the 8th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>June<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>1215-1216<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Online Planning for Large MDPs with MAXQ-like Decomposition<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2012<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

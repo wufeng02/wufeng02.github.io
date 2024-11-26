@@ -1,0 +1,11 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">ZWCsensors21</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Kuisong Zheng and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.3390/s21030961<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Sensors (SENS)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>3<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>961-985<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Laser-Based People Detection and Obstacle Avoidance for a Hospital Transport Robot<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>21<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2021<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

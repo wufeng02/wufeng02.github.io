@@ -1,0 +1,8 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">QMWijcai24</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Yang Qu and Jinming Ma and Feng Wu<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence (IJCAI)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>184-192<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Safety Constrained Multi-Agent Reinforcement Learning for Active Voltage Control<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2024<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

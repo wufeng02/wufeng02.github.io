@@ -1,0 +1,11 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">BWCtist15</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Aijun Bai and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1145/2717316<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>ACM Transactions on Intelligent Systems and Technology (ACM TIST)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>August<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">number</span> <span class="p">=</span> <span class="s"><span class="p">{</span>45<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Online Planning for Large Markov Decision Processes with Hierarchical Decomposition<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">volume</span> <span class="p">=</span> <span class="s"><span class="p">{</span>6(4)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2015<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

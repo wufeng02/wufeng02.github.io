@@ -1,0 +1,9 @@
+<div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">FGJccpe16</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Joel E. Fischer and Chris Greenhalgh and Wenchao Jiang and Sarvapali D. Ramchurn and Feng Wu and Tom Rodden<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1002/cpe.4082<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">journal</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Concurrency and Computation: Practice and Experience (CCPE)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>e4082<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>In-the-loop or On-the-loop? Interactional Arrangements to Support Team Coordination with a Planning Agent<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2016<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

@@ -1,0 +1,11 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">WZJdai19</span><span class="p">,</span>
+ <span class="na">address</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Beijing, China<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Feng Wu and Shlomo Zilberstein and Nicholas R. Jennings<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the 1st International Conference on Distributed Artificial Intelligence (DAI)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.1145/3356464.3357699<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>October<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>1-8<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Stochastic Multi-Agent Planning with Partial State Models<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2019<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

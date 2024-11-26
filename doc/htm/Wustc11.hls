@@ -1,0 +1,10 @@
+<div class="highlight"><pre><span></span><span class="nc">@phdthesis</span><span class="p">{</span><span class="nl">Wustc11</span><span class="p">,</span>
+ <span class="na">address</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Hefei, China<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Feng Wu<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">doi</span> <span class="p">=</span> <span class="s"><span class="p">{</span>10.7666/d.d141397<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>July<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">school</span> <span class="p">=</span> <span class="s"><span class="p">{</span>University of Science and Technology of China (USTC)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Decision-Theoretic Planning for Multi-Agent Systems<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2011<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

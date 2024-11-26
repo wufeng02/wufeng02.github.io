@@ -1,0 +1,8 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">HWJnips20</span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Yujing Hu and Weixun Wang and Hangtian Jia and Yixiang Wang and Yingfeng Chen and Jianye Hao and Feng Wu and Changjie Fan<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the 34th Conference on Neural Information Processing Systems (NIPS)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>December<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Learning to Utilize Shaping Rewards: A New Approach of Reward Shaping<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2020<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

@@ -1,0 +1,10 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BWCnips13</span><span class="p">,</span>
+ <span class="na">address</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Lake Tahoe, United States<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">author</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Aijun Bai and Feng Wu and Xiaoping Chen<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">booktitle</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Proceedings of the Advances in Neural Information Processing Systems (NIPS)<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">month</span> <span class="p">=</span> <span class="s"><span class="p">{</span>December<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">pages</span> <span class="p">=</span> <span class="s"><span class="p">{</span>1646-1654<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">title</span> <span class="p">=</span> <span class="s"><span class="p">{</span>Bayesian Mixture Modelling and Inference based Thompson Sampling in Monte-Carlo Tree Search<span class="p">}</span></span><span class="p">,</span>
+ <span class="na">year</span> <span class="p">=</span> <span class="s"><span class="p">{</span>2013<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>
