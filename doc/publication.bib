@@ -747,20 +747,120 @@ naturalness of obstacle avoidance in human crowded environments, we introduce a 
 
 @InProceedings{HSMWicra24,
   author    = {Yiwen Hou and Haoyuan Sun and Jinming Ma and Feng Wu},
-  title     = {Improving Offline Reinforcement Learning with Inaccurate Simulators},
   booktitle = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  title     = {Improving Offline Reinforcement Learning with Inaccurate Simulators},
   year      = {2024},
+  address   = {Yokohama, Japan},
+  month     = {May},
   pages     = {5162-5168},
   abstract  = {Offline reinforcement learning (RL) provides a promising approach to avoid costly online interaction with the real environment. However, the performance of offline RL highly depends on the quality of the datasets, which may cause extrapolation error in the learning process. In many robotic applications, an inaccurate simulator is often available. However, the data directly collected from the inaccurate simulator cannot be directly used in offline RL due to the well-known exploration-exploitation dilemma and the dynamic gap between inaccurate simulation and the real environment. To address these issues, we propose a novel approach to combine the offline dataset and the inaccurate simulation data in a better manner. Specifically, we pre-train a generative adversarial network (GAN) model to fit the state distribution of the offline dataset. Given this, we collect data from the inaccurate simulator starting from the distribution provided by the generator and reweight the simulated data using the discriminator. Our experimental results in the D4RL benchmark and a real-world manipulation task confirm that our method can benefit more from both inaccurate simulator and limited offline datasets to achieve better performance than the state-of-the-art methods.},
 }
 
 @InProceedings{QMWijcai24,
   author    = {Yang Qu and Jinming Ma and Feng Wu},
-  title     = {Safety Constrained Multi-Agent Reinforcement Learning for Active Voltage Control},
   booktitle = {Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence (IJCAI)},
+  title     = {Safety Constrained Multi-Agent Reinforcement Learning for Active Voltage Control},
   year      = {2024},
+  address   = {Jeju, South Korea},
+  month     = {Augest},
   pages     = {184-192},
   abstract  = {Active voltage control presents a promising avenue for relieving power congestion and enhancing voltage quality, taking advantage of the distributed controllable generators in the power network, such as roof-top photovoltaics. While Multi-Agent Reinforcement Learning (MARL) has emerged as a compelling approach to address this challenge, existing MARL approaches tend to overlook the constrained optimization nature of this problem, failing in guaranteeing safety constraints. In this paper, we formalize the active voltage control problem as a constrained Markov game and propose a safety-constrained MARL algorithm. We expand the primal-dual optimization RL method to multi-agent settings, and augment it with a novel approach of double safety estimation to learn the policy and to update the Lagrange-multiplier. In addition, we proposed different cost functions and investigated their influences on the behavior of our constrained MARL method. We evaluate our approach in the power distribution network simulation environment with real-world scale scenarios. Experimental results demonstrate the effectiveness of the proposed method compared with the state-of-the-art MARL methods.},
+}
+
+@InProceedings{ZZLiclr25,
+  author    = {Sijia Zhang and Shuli Zeng and Shaoang Li and Feng Wu and Xiang-Yang Li},
+  booktitle = {Proceedings of the 13th International Conference on Learning Representations (ICLR)},
+  title     = {Learning to Select Nodes in Branch and Bound with Sufficient Tree Representation},
+  year      = {2025},
+  address   = {Singapore},
+  month     = {April},
+  abstract  = {Branch-and-bound methods are pivotal in solving mixed integer linear programming (MILP), where the challenge of node selection arises, necessitating the prioritization of different regions of the space for subsequent exploration. While machine learning techniques have been proposed to address this, two crucial problems concerning (P1) how to sufficiently extract features from the branch-and-bound tree, and (P2) how to assess the node quality comprehensively based on the features remain open. To tackle these challenges, we propose to tackle the node selection problem employing a novel tripartite graph representation and reinforcement learning with a graph neural network model (TRGNN). The tripartite graph is theoretically proved to encompass sufficient information for tree representation in information theory. We learn node selection via reinforcement learning for learning delay rewards and give more comprehensive node metrics. Experiments show that TRGNN significantly improves the efficiency of solving MILPs compared to human-designed and learning-based node selection methods on both synthetic and large-scale real-world MILPs. Moreover, experiments demonstrate that TRGNN well generalizes to MILPs that are significantly larger than those seen during training.},
+}
+
+@InProceedings{ZZLicml25,
+  author    = {Sijia Zhang and Shuli Zeng and Shaoang Li and Feng Wu and Shaojie Tang and Xiang-Yang Li},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  title     = {Don't Restart, Just Reuse: Reoptimizing MILPs with Dynamic Parameters},
+  year      = {2025},
+  address   = {Vancouver, Canada},
+  month     = {July},
+  abstract  = {Many real-world applications, such as logistics, routing, scheduling, and production planning, involve dynamic systems that require continuous updates to solutions for new mixed integer linear programming (MILP) problems. these systems often require rapid updates to their solutions to accommodate slight modifications in constraints or objectives introduced by evolving conditions. While reoptimization techniques have been explored for linear programming (LP) and certain specific milp problems, their effectiveness in addressing general MILP is limited. In this work, we propose a two-stage reoptimization framework for efficiently identifying high-quality feasible solutions. Specifically, we first utilize the historical solving process information to predict a high confidence solution space for modified MILP, which is likely to contain high-quality solutions. Building on the prediction results, we fix a part of variables within the predicted intervals and apply the thompson sampling algorithm to determine which variables to fix. This is done by updating the beta distributions based on the solutions obtained from the solver. Extensive experiments across nine reoptimization datasets show that our VP-OR outperforms the state-of-the-art methods, achieving higher-quality solutions under strict time limits.},
+}
+
+@InProceedings{HWLaaai25,
+  author    = {Yi-Xiang Hu and Feng Wu and Shaoang Li and Yifang Zhao and Xiang-Yang Li},
+  booktitle = {Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI)},
+  title     = {FFCG: Effective and Fast Family Column Generationfor Solving Large-Scale Linear Program},
+  year      = {2025},
+  address   = {Pennsylvania, USA},
+  month     = {February},
+  abstract  = {Column generation (CG) is an effective and iterative algorithm to solve large-scale linear programs (LP). During each CG iteration, new columns are added to improve the solution of the LP. Typically, CG greedily selects one column with the most negative reduced cost, which can be improved by adding more columns at once. However, selecting all columns with negative reduced costs would lead to the addition of redundant columns that do not improve the objective value. Therefore, selecting the appropriate columns to add is still an open problem and previous machine-learning-based approaches for CG only add a constant quantity of columns per iteration due to the state-space explosion problem. To address this, we propose fast family column generation (FFCG) -- a novel reinforcement-learning-based CG that selects a variable number of columns as needed in an iteration. Specifically, we formulate the column selection problem in cg as an MDP and design a reward metric that balances both the convergence speed and the number of redundant columns. In our experiments, FFCG converges faster on the common benchmarks and reduces the number of CG iterations by 77.1% for cutting stock problem (CSP) and 84.8% for vehicle routing problem with time windows (VRPTW), and a 71.4% reduction in computing time for csp and 84.0% for vrptw on average compared to several state-of-the-art baselines.},
+}
+
+@InProceedings{PFWijcai25,
+  author    = {Xiaotian Pan and Junhao Fang and Feng Wu and Sijia Zhang and Yi-Xiang Hu and Shaoang Li and Xiang-Yang Li},
+  booktitle = {Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)},
+  title     = {Guiding Large Language Models in Modeling Optimization Problems via Question Partitioning},
+  year      = {2025},
+  address   = {Montreal, Canada},
+  month     = {August},
+  abstract  = {Optimization problems are ubiquitous across various domains, such as resource scheduling, production planning, and sales management. Traditionally, they are modeled manually, leading to inefficiencies due to difficulties in communication and collaboration between modeling and domain experts. The emergence of large language models (LLMs) has made automated modeling possible. However, real-world applications are often large-scale and have numerous variables and constraints, limiting the applicability of existing methods. To address this, we propose PAMOP, a novel modeling framework based on LLMs, to model optimization problems automatically, given only natural language descriptions. Specifically, we extract and partition the problems using a tree structure, guiding the LLMs to model each set of constraints with self-augmented prompts, thus reducing the demands on the LLM's capabilities of large contents. The mathematical model is then iteratively corrected and validated through our correction procedures. The experiments demonstrate that our method improves performance on the common benchmark dataset NLP4LP, achieving an accuracy of 62.3% and a code executability rate of 86.8% when tested on GPT-4. Additionally, we demonstrate the effectiveness of our pamop in handling large real-world problems.},
+}
+
+@InProceedings{HTZicccn25,
+  author    = {Yi-Xiang Hu and Han Tian and Yifang Zhao and Feng Wu and Xiang-Yang Li},
+  booktitle = {Proceedings of the 34th International Conference on Computer Communications and Networks (ICCCN)},
+  title     = {TOPO-X: Co-optimize Flow Scheduling Topology and ML Training Parallelism},
+  year      = {2025},
+  address   = {Tokyo, Japan},
+  month     = {August},
+  abstract  = {The rapid advancement of large-scale deep neural networks and large language models has intensified the demand for highly efficient GPU clusters. However, existing distributed training frameworks, like Fat-tree and TopoOpt, struggle with inefficient resource utilization and network bottlenecks. They often optimize communication, parallelism, and network topology independently, failing to leverage their interdependencies. To address this gap, we propose TOPO-X, a novel reconfigurable network framework that co-optimizes flow scheduling, training parallelism, and optical network topology. By formulating this integrated optimization challenge as a Resource-Constrained Project Scheduling Problem, TOPO-X dynamically adapts to changing workloads and network conditions using optical network reconfiguration capabilities. Our experimental results show that TOPO-X outperforms the state-of-the-art solution, TopoOpt, achieving a 2.22x speedup in training iteration times on average. These findings highlight TOPO-X as a promising approach for scalable, adaptive, and high-performance GPU clusters designed to meet the increasing demands of large-scale AI training workloads.},
+  doi       = {10.1109/ICCCN65249.2025.11133974},
+}
+
+@Article{WHZWtmm26,
+  author   = {Yueyang Wen and Yiwen Hou and Shuheng Zhang and Feng Wu},
+  journal  = {IEEE Transactions on Multimedia (IEEE TMM)},
+  title    = {ClickEnhance: Efficient 3D Interactive Segmentation with Click-Specific Encoder and Contrastive Learning},
+  year     = {2026},
+  month    = {January},
+  pages    = {1-12},
+  abstract = {In interactive point cloud segmentation, users can achieve higher accuracy object masks than in instance segmentation by performing limited positive and/or negative clicks on the objects of interest in the scene. Existing methods often employ sparse click representations, leading the model to focus more on local detail features around the click points and failing to fully exploit the guidance information provided by each click, thus impacting the click effectiveness. We utilize a dense representation that reflects spatial distance relationships, known as the distance map, as the click channel to tackle the sparsity problem of click representation in current approaches. Based on the distance map, we introduce ClickEnhance, which is designed to maximize the guiding impact of each click. The proposed method encompasses the design of a click-specific encoder and the utilization of contrastive learning. The Click-Specific Encoder ensures that the network can adequately consider the influence of individual clicks during the feature encoding phase. Contrastive learning, on the other hand, reduces the feature distance between the click points and the target object, thus simplifying the subsequent segmentation process. Experimental results demonstrate that the ClickEnhance method markedly improves segmentation performance across multiple datasets, exhibiting superior generalization capabilities on challenging datasets compared to the state-of-the-art methods. This allows for the generation of high-precision object-level masks with fewer interactions, indicating great potential for practical applications.},
+  doi      = {10.1109/TMM.2026.3651127},
+}
+
+@InProceedings{XHXWLnips25,
+  author    = {Wantong Xie, Yi-Xiang Hu, Jieyang Xu, Feng Wu, Xiangyang Li},
+  booktitle = {Proceedings of the 39th Annual Conference on Neural Information Processing Systems (NIPS)},
+  title     = {MURKA: Multi-Reward Reinforcement Learning with Knowledge Alignment for Optimization Tasks},
+  year      = {2025},
+  address   = {San Diego, USA},
+  month     = {December},
+  pages     = {1-28},
+  abstract  = {Optimization plays a central role in Operations Research (OR) and numerous industrial applications, yet automating the end-to-end process of translating natural language descriptions into executable optimization programs remains a formidable challenge. While recent efforts have applied Large Language Models (LLMs) to this task, existing approaches are hindered by high inference costs, limited robustness across domains, and weak verification mechanisms. In this work, we propose MURKA, a reinforcement learning and knowledge distillationbased framework that enhances LLM-driven optimization modeling via collaborative agent alignment. MURKA orchestrates three specialized agents---Extractor, Solver, and Checker---to achieve accurate problem understanding, robust formulation, and verifiable execution. The Extractor is trained using group relative policy optimization with a composite reward function that incorporates semantic correctness and execution fidelity. The Solver benefits from knowledge distillation from a powerful teacher model, yielding structurally valid and executable formulations in AMPL. The Checker iteratively verifies solution correctness via solver feedback. We validate MURKA's generalizability through extensive experiments across diverse OR benchmarks, demonstrating its robustness and scalability. Experimental results on eight diverse OR benchmarks, including NLP4LP, ComplexOR, and NL4Opt, demonstrate that MURKA, built on the LLaMa3-8B backbone, achieves a 5.9% absolute improvement in solution accuracy and a 5.1% increase in execution success rate compared to leading baselines. These results establish MURKA as an effective and scalable paradigm for LLM-driven optimization, with strong potential for deployment in real-world OR applications.},
+}
+
+@InProceedings{HHWLicpads25,
+  author    = {Zi-Rui Huang and Yi-Xiang Hu and Feng Wu and Xiang-Yang Li},
+  booktitle = {2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)},
+  title     = {GCP-LP: A GPU-CPU Collaborative Framework for Accelerating Large-Scale Sparse Linear Programming},
+  year      = {2025},
+  address   = {Hefei, China},
+  month     = {December},
+  pages     = {1-8},
+  abstract  = {Large-scale sparse linear programming (LP) underpins critical applications in logistics, manufacturing, and scientific computing. However, conventional CPU-only solvers often fail to meet real-time performance demands as problem sizes reach millions of variables and constraints. This paper presents GCP-LP, a GPU-CPU collaborative framework that accelerates the COIN-OR Linear Programming solver by offloading key computational bottlenecks-including sparse matrixvector multiplication (SpMV), pivot selection, and Cholesky factorization-to GPUs while retaining sequential control flow on the CPU. By combining asynchronous data transfer, GPUoptimized memory layouts, and adaptive load balancing, GCPLP achieves up to 10% module-level and 5% overall runtime reductions on NETLIB and Mittelmann benchmarks.},
+  doi       = {10.1109/ICPADS67057.2025.11323132},
+}
+
+@InProceedings{ZZWTLaaai26,
+  author    = {Shuli Zeng and Sijia Zhang and Feng Wu and Shaojie Tang and Xiangyang Li},
+  booktitle = {Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence (AAAI)},
+  title     = {Scalable Mixed-Integer Optimization with Neural Constraintsvia Dual Decomposition},
+  year      = {2026},
+  address   = {Singapore},
+  month     = {January},
+  pages     = {1-9},
+  abstract  = {Embedding deep neural networks (NNs) into mixed-integer programs (MIPs) is attractive for decision making with learned constraints, yet state-of-the-art "monolithic" linearisations blow up in size and quickly become intractable. In this paper, we introduce a novel dual-decomposition framework that relaxes the single coupling equality u = x with an augmented lagrange multiplier and splits the problem into a vanilla MIP and a constrained NN block. Each part is tackled by the solver that suits it best---branch & cut for the MIP subproblem, first-order optimisation for the NN subproblem---so the model remains modular, the number of integer variables never grows with network depth, and the per-iteration cost scales only linearly with the NN size. On the public SURROGATELIB benchmark, our method proves scalable, modular, and adaptable: it runs 120x faster than an exact Big-M formulation on the largest test case; the NN sub-solver can be swapped from a log-barrier interior step to a projectedgradient routine with no code changes; and swapping the MLP for an LSTM backbone still completes the full optimisation in 47s without any bespoke adaptation.},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

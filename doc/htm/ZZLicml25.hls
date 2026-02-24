@@ -1,0 +1,9 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ZZLicml25</span><span class="p">,</span>
+<span class="w"> </span><span class="na">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Vancouver, Canada<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Sijia Zhang and Shuli Zeng and Shaoang Li and Feng Wu and Shaojie Tang and Xiang-Yang Li<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Proceedings of the 42nd International Conference on Machine Learning (ICML)<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>July<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Don&#39;t Restart, Just Reuse: Reoptimizing MILPs with Dynamic Parameters<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>2025<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>

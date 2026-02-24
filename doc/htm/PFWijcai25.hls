@@ -1,0 +1,9 @@
+<div class="highlight"><pre><span></span><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">PFWijcai25</span><span class="p">,</span>
+<span class="w"> </span><span class="na">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Montreal, Canada<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Xiaotian Pan and Junhao Fang and Feng Wu and Sijia Zhang and Yi-Xiang Hu and Shaoang Li and Xiang-Yang Li<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">booktitle</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">month</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>August<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>Guiding Large Language Models in Modeling Optimization Problems via Question Partitioning<span class="p">}</span></span><span class="p">,</span>
+<span class="w"> </span><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><span class="p">{</span>2025<span class="p">}</span></span>
+<span class="p">}</span>
+</pre></div>
